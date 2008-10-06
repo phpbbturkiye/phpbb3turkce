@@ -1,0 +1,20 @@
+Subject: "{SITENAME}" forumlarına hoşgeldiniz
+
+{WELCOME_MSG}
+
+Lütfen bu e-postayı saklayın. Kullanıcı bilgileriniz aşağıda bulunmaktadır:
+
+----------------------------
+Kullanıcı adı: {USERNAME}
+Şifre: {PASSWORD}
+
+Mesaj panosu URL adresi: {U_BOARD}
+----------------------------
+
+Kullanıcı hesabınız şu anda aktif değil. Mesaj panosu yöneticisi hesabınızı aktif hale getirdikten sonra bir e-posta daha alacaksınız.
+
+Lütfen kullanıcı bilgilerinizi unutmayın. Şifreniz veritabanımızda şifrelenmiş bir halde saklanmaktadır. Şifrenizi geri getirmek ve mesaj panosu yöneticileri tarafından görülmesi mümkün değildir. Şifrenizi unuttuğunuz zaman e-posta adresinize yeni bir tane isteyebilirsiniz ve bu hesabı aynı yolla aktif etmelisiniz.
+
+Üye olduğunuz için teşekkürler.
+
+{EMAIL_SIG}
