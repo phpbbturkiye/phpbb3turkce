@@ -267,7 +267,7 @@ $lang = array_merge($lang, array(
 	'IMAGE'						=> 'Resim',
 	'IMAGE_FILETYPE_INVALID'	=> 'Mimetype %s için %d resim dosya tipi desteklenmiyor.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Resim dosya tipi uyumsuz: tahmin edilen uzantı %1$s fakat %2$s uzantısı verildi.',
-	'IN'						=> 'içinde',
+	'IN'						=> 'forum',
 	'INDEX'					=> 'Ana sayfa',
 	'INFORMATION'			=> 'Bilgi',
 	'INTERESTS'				=> 'İlgi alanları',
@@ -278,7 +278,7 @@ $lang = array_merge($lang, array(
 
 	'JABBER'				=> 'Jabber',
 	'JOINED'				=> 'Kayıt',
-	'JUMP_PAGE'				=> 'Gitmek istediğiniz sayfa numarasını girin.',
+	'JUMP_PAGE'				=> 'Geçiş yapmak istediğiniz sayfa numarasını girin.',
 	'JUMP_TO'				=> 'Geçiş yap',
 	'JUMP_TO_PAGE'			=> 'Sayfaya geçiş yapmak için tıklayın…',
 
