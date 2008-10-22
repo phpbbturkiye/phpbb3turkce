@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_ACTIVE_TOPICS_EXPLAIN'		=> 'Eğer evet olarak ayarlanırsa, seçilen alt forumlar içindeki aktif başlıklar bu kategori altında gösterilecektir.',
 
 	'EDIT_FORUM'				=> 'Forumu düzenle',
-	'ENABLE_INDEXING'			=> 'Arama indekslemesini aç.',
+	'ENABLE_INDEXING'			=> 'Arama indekslemesini aç',
 	'ENABLE_INDEXING_EXPLAIN'	=> 'Evet olarak seçildiğinde, forumdaki mesajlaşmalar arama için indekslenecektir.',
 	'ENABLE_POST_REVIEW'			=> 'Mesaj incelemesini aç',
 	'ENABLE_POST_REVIEW_EXPLAIN'	=> 'Eğer evet olarak ayarlarsanız, kullanıcılar başlığa yeni mesajlar oluşturduğu zaman yazılarını önizleyebileceklerdir. Bu, sohbet forumları için kapalı olmalıdır.',
@@ -67,8 +67,8 @@ $lang = array_merge($lang, array(
 	'ENABLE_TOPIC_ICONS'		=> 'Başlık ikonlarını aç',
 
 	'FORUM_ADMIN'						=> 'Forum Yönetimi',
-	'FORUM_ADMIN_EXPLAIN'				=> 'phpBB3\'te artık kategoriler yoktur, her şey forum temellidir. Her forum, sınırsız sayıda alt-forumlardan oluşabilir ve her mesajın gönderilip gönderilemeyeceğini belirleyebilirsiniz (ör. eski bir kategori gibi rol yapıp yapmayacağına). Buradan forumları ekleyebilir, düzenleyebilir, silebilir, kilitleyebilir, kilidini kaldırabilir ve bunun gibi bazı ek kontrolleri ayarlayabilirsiniz. Ayrıca, eğer başlıklarınızın ve mesajlarınızın senkronizasyon ayarları bozulduysa, bir forumu yeniden senkronize edebilirsiniz. <strong>Yeni oluşturulan forumların görüntülenmesi için uygun izinleri kopyalamalı ya da ayarlamalısınız.</strong>',
-	'FORUM_AUTO_PRUNE'					=> 'Otomatik Budamayı Aç',
+	'FORUM_ADMIN_EXPLAIN'				=> 'phpBB3’te artık kategoriler yoktur, her şey forum temellidir. Her forum, sınırsız sayıda alt-forumlardan oluşabilir ve her mesajın gönderilip gönderilemeyeceğini belirleyebilirsiniz (ör. eski bir kategori gibi rol yapıp yapmayacağına). Buradan forumları ekleyebilir, düzenleyebilir, silebilir, kilitleyebilir, kilidini kaldırabilir ve bunun gibi bazı ek kontrolleri ayarlayabilirsiniz. Ayrıca, eğer başlıklarınızın ve mesajlarınızın senkronizasyon ayarları bozulduysa, bir forumu yeniden senkronize edebilirsiniz. <strong>Yeni oluşturulan forumların görüntülenmesi için uygun izinleri kopyalamalı ya da ayarlamalısınız.</strong>',
+	'FORUM_AUTO_PRUNE'					=> 'Otomatik budamayı aç',
 	'FORUM_AUTO_PRUNE_EXPLAIN'			=> 'Başlıklar forumunu otomatik temizlenme, frekans/devir parametrelerini aşağıda ayarlayınız.',
 	'FORUM_CREATED'						=> 'Forum başarıyla oluşturuldu.',
 	'FORUM_DATA_NEGATIVE'				=> 'Budama parametreleri negatif olamaz.',
