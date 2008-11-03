@@ -120,7 +120,7 @@ $help = array(
 	),
 	array(
 		0 => 'Mesajıma bir imza nasıl eklerim?',
-		1 => 'Herhangi bir mesaja imzanızı ekleyebilmek için önce bir imza oluşturmanız gerekmektedir. Bu, Kullanıcı Kontrol Paneliniz yoluyla yapılır. Daha sonra mesaj gönderme formunun alt kısmındaki <em>İmzamı ekle</em> seçeneğini seçip mesajınıza imzanızı ekleyebilirsiniz. Gönderdiğiniz bütün mesajlara genel bir ayar olarak imzanızın eklenmesini istiyorsanız, profilinizdeki seçeneği tıklayın. Buna rağmen dilediğiniz her mesaj için imzanızın eklenmesini önleyebilirsiniz (mesaj gönderme formunda imza ekleme seçeneğinin işaretini kaldırmanız yeterlidir).'
+		1 => 'Herhangi bir mesaja imzanızı ekleyebilmek için önce bir imza oluşturmanız gerekmektedir. Bu, Kullanıcı Kontrol Paneliniz yoluyla yapılır. Daha sonra mesaj gönderme formunun alt kısmındaki <em>Bir imza ekle</em> seçeneğini seçip mesajınıza imzanızı ekleyebilirsiniz. Gönderdiğiniz bütün mesajlara genel bir ayar olarak imzanızın eklenmesini istiyorsanız, profilinizdeki seçeneği tıklayın. Buna rağmen dilediğiniz her mesaj için imzanızın eklenmesini önleyebilirsiniz, bunu yapmak için mesaj gönderme formunda imza ekleme seçeneğinin işaretini kaldırmanız yeterlidir.'
 	),
 	array(
 		0 => 'Nasıl bir anket oluştururum?',

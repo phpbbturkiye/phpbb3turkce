@@ -113,6 +113,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_FORWARD_PM'			=> 'Özel Mesajların yanıtlanmasına izin ver',
 	'ALLOW_IMG_PM'				=> '<code>IMG</code> BBCode kullanımına izin ver',
 	'ALLOW_MASS_PM'				=> 'Toptan(çoklu) özel mesajlaşmaya izin ver',
+	'ALLOW_MASS_PM_EXPLAIN'      => 'Grup ayarları sayfasından gruplara gönderim her gruba ayarlanmış olabilir.',
 	'ALLOW_PRINT_PM'			=> 'Özel mesajlarda yazdırma izlemesine izin ver',
 	'ALLOW_QUOTE_PM'			=> 'Özel mesajlarda alıntı yapmaya izin ver',
 	'ALLOW_SIG_PM'				=> 'Özel mesajlarda imzaya izin ver',
@@ -127,6 +128,8 @@ $lang = array_merge($lang, array(
 	'HOLD_NEW_MESSAGES'			=> 'Yeni mesajları tut',
 	'PM_EDIT_TIME'				=> 'Mesajı düzenleme limiti',
 	'PM_EDIT_TIME_EXPLAIN'		=> 'Özel mesajlarda mesaj henüz alıcıya ulaşmadıysa, mesajı tekrar düzenlemek için izin verilen zaman limitini ayarlar. Bu eylemi kapatmak için değeri 0 olarak ayarlayın.',
+	'PM_MAX_RECIPIENTS'         => 'İzin verilen en fazla alıcı sayısı',
+  'PM_MAX_RECIPIENTS_EXPLAIN'   => 'Bir özel mesajda izin verilen en fazla alıcı sayısı. Eğer 0 sayısı girilirse, izin verilen sayı sınırsız olur. Bu ayar grup ayarları sayfasından her grup için ayarlanmış olabilir.',
 ));
 
 // Post Settings
@@ -136,6 +139,10 @@ $lang = array_merge($lang, array(
 	'ALLOW_POST_LINKS_EXPLAIN'			=> 'Eğer <code>[URL]</code> BBCode etiketine izin verilmediyse ve otomatik/sihirli URL\'ler kapatıldıysa.',
   'ALLOW_POST_FLASH'               => 'Mesajlarda <code>[FLASH]</code> BBCode etiketi kullanımına izin ver',
   'ALLOW_POST_FLASH_EXPLAIN'         => 'Eğer mesajlarda <code>[FLASH]</code> BBCode etiketine izin verilmezse, bunun dışında izin sistemi kontrollerindeki kullanıcılar <code>[FLASH]</code> BBCode etiketi kullanabilir.',
+  'ENABLE_QUEUE_TRIGGER'         => 'Sırada bekleyen mesajları aç',
+  'ENABLE_QUEUE_TRIGGER_EXPLAIN'   => 'Eğer kayıtlı kullanıcıların mesaj sayacı aşağıda belirlenen değerden düşük ise mesaj onayı için kayıtlı kullanıcılar mesajlarını ekleme yeteneğine sahip olurlar. Bu ayar mesaj/başlık onayı için izin ayarında etki göstermez.',
+  'QUEUE_TRIGGER_POSTS'         => 'Sırada bekleyen mesajlar için en yüksek mesaj sayacı',
+  'QUEUE_TRIGGER_POSTS_EXPLAIN'   => 'Eğer sırada bekleyen mesajlar açıksa, bu mesaj sayacı kullanıcının mesaj onayı olmadan sırayla mesaj gönderebilmesi için erişmesi gereken sayıdır. Eğer kullanıcıların mesaj sayacı bu sayıdan düşük ise, mesaj otomatik olarak sırada tutulacaktır.',
 	
 	'BUMP_INTERVAL'					=> 'Darbeleme aralığı',
 	'BUMP_INTERVAL_EXPLAIN'			=> 'Bir başlıktaki son mesaj ile bu başlığı darbeleme arasında geçecek olan dakika, saat ya da gün sayısı.',
@@ -278,7 +285,7 @@ $lang = array_merge($lang, array(
 	'YES_ANON_READ_MARKING'			=> 'Misafirler için başlık işaretlemeyi aç',
 	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'Misafirler için okunmuş/okunmamış bilgisi saklanacaktır. Eğer misafirler için her zaman mesajları okuma kapalıysa.',
 	'YES_BIRTHDAYS'					=> 'Doğum günü listelemeyi aç',
- 	'YES_BIRTHDAYS_EXPLAIN'			=> 'Eğer doğum günü listelemesi aktif değilse hiç bir yerde gösterilmeyecektir. Doğum günü özelliğini kullanmak için bu ayarı aktif etmeniz gerekmektedir.',
+ 	'YES_BIRTHDAYS_EXPLAIN'			=> 'Eğer doğum günü listelemesi aktif değilse hiç bir yerde gösterilmeyecektir. Doğum günü özelliğini kullanmak içinde bu ayarı aktif etmeniz gerekmektedir.',
 	'YES_JUMPBOX'					=> 'Hızlı geçiş kutusunun gösterilmesini aç',
 	'YES_MODERATORS'				=> 'Moderatörlerin gösterilmesini aç',
 	'YES_ONLINE'					=> 'Çevrimiçi kullanıcı listelemeyi aç',
@@ -362,7 +369,7 @@ $lang = array_merge($lang, array(
 	'BROWSER_VALID'					=> 'Tarayıcı onayla',
 	'BROWSER_VALID_EXPLAIN'			=> 'Her oturumdaki güvenliğini artırmak için, tarayıcı onaylamayı açık hale getirir.',
 	'CHECK_DNSBL'					=> 'DNS Kara Listesine karşı IP kontrolü',
-	'CHECK_DNSBL_EXPLAIN'			=> 'Eğer aktifse, kullanıcıların kayıt ve mesajları sırasında DNSBL servislerini izleyerek buna karşı IP adresi kontrolü yapar: <a href="http://spamcop.net">spamcop.net</a>, <a href="http://dsbl.org">dsbl.org</a> ve <a href="http://www.spamhaus.org">www.spamhaus.org</a>. Bu inceleme sunucuların ayarlarına bağlı olarak biraz sürebilir. Eğer yavaşlama görülürse ya da çok fazla yanlış kesin bildiri varsa bu kontrolü kapatmanız önerilir.',
+	'CHECK_DNSBL_EXPLAIN'			=> 'Eğer aktifse, kullanıcıların kayıt ve mesajları sırasında DNSBL servislerini izleyerek buna karşı IP adresi kontrolü yapar: <a href="http://spamcop.net">spamcop.net</a> ve <a href="http://www.spamhaus.org">www.spamhaus.org</a>. Bu inceleme sunucuların ayarlarına bağlı olarak biraz sürebilir. Eğer yavaşlama görülürse ya da çok fazla yanlış kesin bildiri varsa bu kontrolü kapatmanız önerilir.',
 	'CLASS_B'						=> 'A.B',
 	'CLASS_C'						=> 'A.B.C',
 	'EMAIL_CHECK_MX'				=> 'Geçerli MX kaydı için e-posta alan adı kontrolü',
@@ -410,7 +417,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_FUNCTION_NAME'			=> 'E-posta fonksiyon ismi',
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'PHP aracılığıyla posta gönderiminde kullanılacak e-posta fonksiyonu.',
 	'EMAIL_PACKAGE_SIZE'			=> 'E-posta paket boyutu',
-	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'Bu, bir paketin içerisinden gönderilecek olan en fazla e-posta sayısıdır. Bu ayar dahili mesaj sırasına uygulanır; eğer teslim edilmeyen bildiri e-postaları ile sorunlarınız varsa bu ayarı 0 yapın.',
+	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'Bu, bir paketin içerisinden gönderilecek olan en fazla e-posta sayısıdır. Bu ayar dahili mesaj sırasına uygulanır; eğer teslim edilmeyen bildiri e-postaları ile ilgili sorunlarınız varsa bu ayarı 0 yapın.',
 	'EMAIL_SIG'						=> 'E-posta imzası',
 	'EMAIL_SIG_EXPLAIN'				=> 'Mesaj panosu tarafından gönderilen tüm e-postalara bu yazı eklenir.',
 	'ENABLE_EMAIL'					=> 'Forum genelinde e-posta gönderimini aç.',
@@ -451,8 +458,8 @@ $lang = array_merge($lang, array(
 	'JAB_SETTINGS_CHANGED'		=> 'Jabber ayarları başarıyla değiştirildi.',
   'JAB_USE_SSL'            => 'Bağlantı için SSL kullan',
   'JAB_USE_SSL_EXPLAIN'      => 'Eğer bu özellik aktifse, kabul ettirmek için güvenli bağlantı denenecektir. Eğer belirlenen port 5222 ise Jabber portu 5223 olarak değiştirilecektir.',
-	'JAB_USERNAME'				=> 'Jabber kullanıcı adı',
-	'JAB_USERNAME_EXPLAIN'		=> 'Bir kullanıcı adı belirtin. Kullanıcı adı doğruluk için kontrol edilmeyecektir.',
+  'JAB_USERNAME'            => 'Jabber kullanıcı adı ya da JID',
+  'JAB_USERNAME_EXPLAIN'      => 'Bir kullanıcı adı ya da geçerli bir JID belirtin. Kullanıcı adı doğruluk için kontrol edilmeyecektir. Eğer sadece bir kullanıcı adı belirttiyseniz, o zaman JID hesabınız yukarıda belirlediğiniz kullanıcı adı ve sunucu olacaktır. Aksi takdirde geçerli bir JID belirtin, örneğin user@jabber.org.',
 ));
 
 ?>

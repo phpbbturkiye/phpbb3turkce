@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	<br />
 	Ayrıca "%1$s" mesaj panosunu dolaşırken phpBB yazılımı için harici çerezler oluşturabiliriz, buna rağmen bu belgenin kapsamında görünenler dışında sadece phpBB yazılımı tarafından oluşturulan sayfalar kastedilmektedir. İkinci konu ise tarafınızdan bize gönderilen bilgileri topluyoruz. Bu olabilir, ve bunlarla sınırlı değildir: bir misafir kullanıcının gönderdiği mesajlar (diğer anlamda "ziyaretçi mesajları"), "%1$s" mesaj panosuna yapılan kayıtlar (diğer anlamda "hesabınız") ve kayıt olup giriş yaptıktan sonra tarafınızdan gönderilen mesajlar (diğer anlamda "mesajlarınız").<br />
 	<br />
-	Hesabınızda tanınmanız amacıyla sade bir içerikte isminiz (diğer anlamda "kullanıcı adınız"), hesabınıza giriş yapabilmek için kullanacağını bir kişisel şifre (diğer anlamda "şifreniz") ve bir kişisel, geçerli e-posta adresiniz (diğer anlamda "e-mail adresiniz") olacaktır. "%1$s" mesaj panosunda hesabınıza ait bilgileriniz hostumuzun barındığı ülkedeki kanunlar kapsamında veri-koruma yöntemiyle korunmaktadır. "%1$s" tarafından istenen kullanıcı adınız, şifreniz ve e-posta adresinizin dışında kayıt işlemi sırasında neyin gerekli ve isteğe bağlı olacağı konusunda bazı bilgilerde tarafımızdan belirtilmektedir. Bütün bunlara karşı, hesabınızdaki hangi bilgilerin herkes tarafından görüntülenebileceğini seçme hakkına sahipsiniz. Ayrıca, hesabınız ile, phpBB yazılımından otomatik e-postalar oluşturup gönderme veya alma hakkına sahipsiniz.<br />
+	Hesabınızda tanınmanız amacıyla sade bir içerikte isminiz (diğer anlamda "kullanıcı adınız"), hesabınıza giriş yapabilmek için kullanacağınız bir kişisel şifre (diğer anlamda "şifreniz") ve bir kişisel, geçerli e-posta adresiniz (diğer anlamda "e-mail adresiniz") olacaktır. "%1$s" mesaj panosunda hesabınıza ait bilgileriniz hostumuzun barındığı ülkedeki kanunlar kapsamında veri-koruma yöntemiyle korunmaktadır. Kayıt işlemi sırasında "%1$s" tarafından istenen kullanıcı adınız, şifreniz ve e-posta adresinizin dışında neyin gerekli ya da isteğe bağlı olacağı “%1$s” mesaj panosunun takdirine bağlıdır. Bütün bunlara karşı, hesabınızdaki hangi bilgilerin herkes tarafından görüntülenebileceğini seçme hakkına sahipsiniz. Ayrıca, hesabınız ile, phpBB yazılımından otomatik e-postalar oluşturup gönderme veya alma hakkına sahipsiniz.<br />
 	<br />
 	Şifreniz güvenlik açısından (bir hash yöntemiyle) yeniden şifrelenmiştir. Bununla birlikte, farklı web sitelerinde aynı şifreyi kullanmamanız önerilir. Şifreniz "%1$s" mesaj panosundaki hesabınıza erişim için gerekmektedir, ayrıca lütfen şifrenizi dikkatli koruyun ve hiç bir surette "%1$s" ile bağlantılı bir kimseye, phpBB veya bir diğer 3. parti kişi veya sitelere, şifreniz için soru sormayın. Hesabınız için şifrenizi unutmanız durumunda, phpBB yazılımı tarafından sağlanan "Şifremi unuttum" özelliğini kullanabilirsiniz. Bu işlem size kullanıcı adınızı ve e-posta adresinizi soracak, daha sonra phpBB yazılımı hesabınız için istenen yeni bir şifre oluşturacaktır.<br />
 	',
@@ -288,9 +288,11 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_EDIT_MESSAGE'			=> 'Özel mesajları düzenleme yetkiniz yok.',
 	'NO_AUTH_FORWARD_MESSAGE'		=> 'Özel mesajları iletme yetkiniz yok.',
 	'NO_AUTH_GROUP_MESSAGE'			=> 'Gruplara özel mesaj gönderme yetkiniz yok.',
-	'NO_AUTH_READ_MESSAGE'			=> 'Özel mesajları okuma yetkiniz yok.',
-	'NO_AUTH_READ_REMOVED_MESSAGE'	=> 'Bu mesajı okuyamazsınız çünkü yazar tarafından silindi.',
-	'NO_AUTH_SEND_MESSAGE'			=> 'Özel mesaj gönderme yetkiniz yok.',
+  'NO_AUTH_PASSWORD_REMINDER'      => 'Yeni bir şifre istemek için yetkiniz yok.',
+  'NO_AUTH_READ_HOLD_MESSAGE'      => 'Tutulan özel mesajları okumak için yetkiniz yok.',
+  'NO_AUTH_READ_MESSAGE'         => 'Özel mesajları okumak için yetkiniz yok.',
+  'NO_AUTH_READ_REMOVED_MESSAGE'   => 'Bu mesajı okuyamazsınız çünkü mesaj, yazarı tarafından silindi.',
+  'NO_AUTH_SEND_MESSAGE'         => 'Özel mesaj göndermek için yetkiniz yok.',
 	'NO_AUTH_SIGNATURE'				=> 'Bir imza belirleme yetkiniz yok.',
 
 	'NO_BCC_RECIPIENT'			=> 'Yok',
@@ -314,6 +316,7 @@ $lang = array_merge($lang, array(
 	'NO_SAVED_DRAFTS'			=> 'Kayıtlı taslak yok.',
 	'NO_TO_RECIPIENT'			=> 'Yok',
 	'NO_WATCHED_FORUMS'			=> 'Herhangi bir foruma abone olmadınız.',
+	'NO_WATCHED_SELECTED'      => 'Abone olunan herhangi bir başlık ya da forum seçmediniz.',
 	'NO_WATCHED_TOPICS'			=> 'Herhangi bir başlığa abone olmadınız.',
 
 	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Şifre %1$d ve %2$d karakter arası uzunlukta olmalı, karışık durumda harfler içermeli ve sayılar içermelidir.',
@@ -390,7 +393,7 @@ $lang = array_merge($lang, array(
 
 	'TIMEZONE'					=> 'Zaman dilimi',
 	'TO'						=> 'Kime',
-	'TOO_MANY_RECIPIENTS'		=> 'Çok fazla alıcı.',
+	'TOO_MANY_RECIPIENTS'      => 'Çok fazla alıcıya bir özel mesaj göndermeyi denediniz.',
 	'TOO_MANY_REGISTERS'		=> 'Bu oturum için en fazla kayıt girişimi sayısını aştınız. Lütfen daha sonra tekrar deneyin.',
 
 	'UCP'						=> 'Kullanıcı Kontrol Paneli',

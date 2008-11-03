@@ -278,7 +278,7 @@ $lang = array_merge($lang, array(
 	'NO_LOCATION'				=> 'Konumu tespit edilemedi. Eğer Imagemagick yüklendiğini biliyorsanız, daha sonra yönetim kontrol panelinizden konumunu belirleyebilirsiniz',
 	'NO_TABLES_FOUND'			=> 'Hiç bir tablo bulunmadı.',
 
-	'OVERVIEW_BODY'            => 'phpBB3\'e hoşgeldiniz!<br /><br />phpBB™ dünyadaki açık kaynak mesaj panosu çözümlerinin en yaygın olarak kullanılanıdır. phpBB3 yedi yıllık uzun bir paket dizisinin en son bölümüdür. Bunlardan önce phpBB3 zengin özellikli, kullanıcı dostu, ve phpBB Takımı tarafından tam desteklenen bir yazılımdır. phpBB3, phpBB2\'de yapılanlardan daha çok geliştirilmiştir, önceki sürümlerde bulunmayan popüler ve genellikle istenilen özellikler eklenmiştir. Umarız beklentilerinizi fazlasıyla karşılar.<br /><br />Bu yükleme sistemi phpBB3 yüklenirken, geçmiş bir sürümden phpBB3\'ün son sürümüne güncelleme yaparken, hem de farklı bir mesaj panosu sisteminden phpBB3\'e dönüşüm yaparken (phpBB2 dahil) size rehberlik edecektir. Daha fazla bilgi için, sizi <a href="../docs/INSTALL.html">yükleme rehberini</a> okumaya teşvik ediyoruz.<br /><br />phpBB3 lisansını okumak için ya da destek almak hakkında bilgileri ve bizim bu konuda tutumlarımızı öğrenmek için, lütfen yan menüden ilgili seçenekleri seçin. Devam etmek için, lütfen yukarıdan uygun bir sekme seçin.',
+	'OVERVIEW_BODY'            => 'phpBB3\'e hoşgeldiniz!<br /><br />phpBB™ dünyadaki açık kaynak mesaj panosu çözümlerinin en yaygın olarak kullanılanıdır. phpBB3 2000 yılında başlayan bir paket dizisinin en son bölümüdür. Bunlardan önce phpBB3 zengin özellikli, kullanıcı dostu, ve phpBB Takımı tarafından tam desteklenen bir yazılımdır. phpBB3, phpBB2\'de yapılanlardan daha çok geliştirilmiştir, önceki sürümlerde bulunmayan popüler ve genellikle istenilen özellikler eklenmiştir. Umarız beklentilerinizi fazlasıyla karşılar.<br /><br />Bu yükleme sistemi phpBB3 yüklenirken, geçmiş bir sürümden phpBB3\'ün son sürümüne güncelleme yaparken, hem de farklı bir mesaj panosu sisteminden phpBB3\'e dönüşüm yaparken (phpBB2 dahil) size rehberlik edecektir. Daha fazla bilgi için, sizi <a href="../docs/INSTALL.html">yükleme rehberini</a> okumaya teşvik ediyoruz.<br /><br />phpBB3 lisansını okumak için ya da destek almak hakkında bilgileri ve bizim bu konuda tutumlarımızı öğrenmek için, lütfen yan menüden ilgili seçenekleri seçin. Devam etmek için, lütfen yukarıdan uygun bir sekme seçin.',
 	
 	'PCRE_UTF_SUPPORT'				=> 'PCRE UTF-8 desteği',
  	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'Eğer PHP yüklemeniz PCRE uzantısı içinde UTF-8 desteği ile derlenmediyse phpBB <strong>çalışmayacaktır</strong>.',
@@ -393,10 +393,11 @@ $lang = array_merge($lang, array(
 	'DIFF_SEP_EXPLAIN'					=> 'Şu anki orijinal dosyanın sonu / Yeni güncellenen dosyanın başlangıcı',
 	'DIFF_SIDE_BY_SIDE'					=> 'Yan yana',
 	'DIFF_UNIFIED'						=> 'Karşılaştırmayı birleştir',
-	'DO_NOT_UPDATE'						=> 'Bu dosyayı güncellemediniz',
+	'DO_NOT_UPDATE'						=> 'Bu dosyayı güncelleme',
 	'DONE'								=> 'Bitti',
 	'DOWNLOAD'							=> 'İndir',
 	'DOWNLOAD_AS'						=> 'Farklı indir',
+	'DOWNLOAD_UPDATE_METHOD_BUTTON'      => 'Düzenlenen dosyalar arşivini indir (önerilen)',
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Düzenlenen dosyalar arşivini indir',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'İndirme yaptıktan sonra arşivi açmalısınız. phpBB ana dizininiz içerisine yüklemeniz gereken değiştirilmiş dosyaları bulacaksınız. Lütfen dosyaları ait olan yerlerine yükleyin. Tüm dosyaları yükledikten sonra, lütfen aşağıdaki diğer buton ile dosyaları tekrar kontrol edin.',
 
@@ -497,6 +498,8 @@ $lang = array_merge($lang, array(
 	'STATUS_UP_TO_DATE'			=> 'Dosya zaten güncellendi',
 
   'TOGGLE_DISPLAY'         => 'Dosya listesini göster/gizle',
+  'TRY_DOWNLOAD_METHOD'      => 'Düzenlenen dosyaları indirme metodunu denemek isteyebilirsiniz.<br />Bu metot her zaman çalışmaktadır ve ayrıca önerilen güncelleme yoludur.',
+  'TRY_DOWNLOAD_METHOD_BUTTON'=> 'Bu metodu şimdi dene',
 
 	'UPDATE_COMPLETED'				=> 'Güncelleme tamamlandı',
 	'UPDATE_DATABASE'				=> 'Veritabanı güncellemesi',

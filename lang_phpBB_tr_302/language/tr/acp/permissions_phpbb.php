@@ -111,7 +111,8 @@ $lang = array_merge($lang, array(
 	'acl_u_sig'			=> array('lang' => 'İmza kullanabilir', 'cat' => 'post'),
 
 	'acl_u_sendpm'		=> array('lang' => 'Özel mesaj gönderebilir', 'cat' => 'pm'),
-	'acl_u_masspm'		=> array('lang' => 'Çoklu kullanıcılara ve gruplara özel mesaj gönderebilir', 'cat' => 'pm'),
+  'acl_u_masspm'      => array('lang' => 'Çoklu kullanıcılara mesaj gönderebilir', 'cat' => 'pm'),
+  'acl_u_masspm_group'	=> array('lang' => 'Gruplara mesaj gönderebilir', 'cat' => 'pm'),
 	'acl_u_readpm'		=> array('lang' => 'Özel mesajları okuyabilir', 'cat' => 'pm'),
 	'acl_u_pm_edit'		=> array('lang' => 'Kendi özel mesajlarını düzenleyebilir', 'cat' => 'pm'),
 	'acl_u_pm_delete'	=> array('lang' => 'Kendi klasöründen özel mesajları silebilir', 'cat' => 'pm'),

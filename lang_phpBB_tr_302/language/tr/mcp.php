@@ -292,7 +292,7 @@ $lang = array_merge($lang, array(
 	'SORT_DATE'							=> 'Tarih',
 	'SORT_IP'							=> 'IP adresi',
 	'SORT_WARNINGS'						=> 'Uyarılar',
-	'SPLIT_AFTER'						=> 'Seçilen mesajdan ayır',
+	'SPLIT_AFTER'						=> 'Seçilen mesajdan ilerisini ayır',
 	'SPLIT_FORUM'					=> 'Yeni başlık için forum',
 	'SPLIT_POSTS'						=> 'Seçilen mesajları ayır',
 	'SPLIT_SUBJECT'						=> 'Yeni başlık konusu',
@@ -346,6 +346,7 @@ $lang = array_merge($lang, array(
 	'USER_WARNING_ADDED'			=> 'Kullanıcıya başarıyla uyarı verildi',
 
 	'VIEW_DETAILS'			=> 'Detayları görüntüle',
+	'VIEW_POST'            => 'Mesajı görüntüle',
 
 	'WARNED_USERS'			=> 'Uyarı alan kullanıcılar',
 	'WARNED_USERS_EXPLAIN'	=> 'Bu uyarılarının süresi dolmayan kullanıcıların bir listesidir.',

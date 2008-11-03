@@ -170,6 +170,8 @@ $lang = array_merge($lang, array(
   'ERR_JAB_AUTH'                  => 'Jabber sunucusunda erişim izni verilmedi.',
   'ERR_JAB_CONNECT'               => 'Jabber sunucusuna bağlanılamadı.',
 	'ERR_UNABLE_TO_LOGIN'				=> 'Belirtilen kullanıcı adı veya şifre hatalı.',
+	'ERR_UNWATCHING'               => 'Abonelik iptal edilmeye çalışılırken bir hata oluştu.',
+  'ERR_WATCHING'                  => 'Abone olmaya çalışılırken bir hata oluştu.',
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'Belirtilen phpBB dosya yolu geçersiz görünüyor.',
 	'EXPAND_VIEW'						=> 'Geniş görünüm',
 	'EXTENSION'							=> 'Uzantı',
@@ -278,7 +280,7 @@ $lang = array_merge($lang, array(
 
 	'JABBER'				=> 'Jabber',
 	'JOINED'				=> 'Kayıt',
-	'JUMP_PAGE'				=> 'Geçiş yapmak istediğiniz sayfa numarasını girin.',
+	'JUMP_PAGE'				=> 'Geçiş yapmak istediğiniz sayfa numarasını girin',
 	'JUMP_TO'				=> 'Geçiş yap',
 	'JUMP_TO_PAGE'			=> 'Sayfaya geçiş yapmak için tıklayın…',
 
@@ -355,7 +357,7 @@ $lang = array_merge($lang, array(
  	'NOTIFY_ADMIN_EMAIL'		=> 'Lütfen mesaj panosu yöneticisine ya da webmaster’a bildirin: <a href="mailto:%1$s">%1$s</a>',
 	'NO_ACCESS_ATTACHMENT'		=> 'Bu dosyaya erişim izniniz yok.',
 	'NO_ACTION'					=> 'Hiç bir eylem belirlenmedi.',
-	'NO_ADMINISTRATORS'			=> 'Bu mesaj panosunda hiç bir yönetici belirlenmedi.',
+	'NO_ADMINISTRATORS'         => 'Hiç yönetici yok.',
 	'NO_AUTH_ADMIN'				=> 'Yönetici izinlerine sahip olmadığınız için Yönetim Kontrol Paneline erişiminize izin verilmiyor.',
 	'NO_AUTH_ADMIN_USER_DIFFER'	=> 'Bir başka kullanıcıyı yeniden doğrulama yetkiniz yok.',
 	'NO_AUTH_OPERATION'			=> 'Bu işlemi tamamlamak için gerekli izinlere sahip değilsiniz.',	
@@ -372,7 +374,7 @@ $lang = array_merge($lang, array(
 	'NO_MEMBERS'				=> 'Bu arama kriterine göre hiç bir üye bulunamadı.',
 	'NO_MESSAGES'				=> 'Mesaj yok',
 	'NO_MODE'					=> 'Hiç bir mod seçilmedi.',
-	'NO_MODERATORS'				=> 'Bu mesaj panosunda hiç bir moderatör tanımlanmadı.',
+	'NO_MODERATORS'            => 'Hiç moderatör yok.',
 	'NO_NEW_MESSAGES'			=> 'Yeni mesaj yok',
 	'NO_NEW_PM'					=> '<strong>0</strong> yeni mesaj',
 	'NO_NEW_POSTS'				=> 'Yeni mesaj yok',
@@ -391,6 +393,13 @@ $lang = array_merge($lang, array(
 	'NO_USER'					=> 'İstenilen kullanıcı bulunmuyor.',
 	'NO_USERS'					=> 'İstenilen kullanıcılar bulunmuyor',
 	'NO_USER_SPECIFIED'			=> 'Hiç bir kullanıcı adı belirtilmedi.',
+
+	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
+  'NUM_POSTS_IN_QUEUE'      => array(
+     0         => 'Sırada bekleyen hiç mesaj yok',      // 0
+     1         => '1 mesaj sırada bekliyor',      // 1
+     2         => '%d mesaj sırada bekliyor',      // 2+
+  ),
 
 	'OCCUPATION'				=> 'Meslek',
 	'OFFLINE'					=> 'Çevrimdışı',
@@ -542,7 +551,8 @@ $lang = array_merge($lang, array(
 	'TEST_CONNECTION'	=> 'Bağlantı testi',
 	'THE_TEAM'			=> 'Takım',
 	'TIME'				=> 'Zaman',
-
+	
+	'TOO_LONG'                  => 'Girdiğiniz değer çok uzun.',
 	'TOO_LONG_AIM'					=> 'Girdiğiniz görünen ad çok uzun.',
 	'TOO_LONG_CONFIRM_CODE'			=> 'Girdiğiniz onay kodu çok uzun.',
 	'TOO_LONG_DATEFORMAT'         => 'Girdiğiniz tarih formatı çok uzun.',
@@ -563,6 +573,7 @@ $lang = array_merge($lang, array(
 
 	'TOO_MANY_VOTE_OPTIONS'			=> 'Çok fazla seçenek için oy vermeyi denediniz.',
 
+  'TOO_SHORT'                  => 'Girdiğiniz değer çok kısa.',
 	'TOO_SHORT_AIM'					=> 'Girdiğiniz görünen ad çok kısa.',
 	'TOO_SHORT_CONFIRM_CODE'			=> 'Girdiğiniz onay kodu çok kısa.',
 	'TOO_SHORT_DATEFORMAT'         => 'Girdiğiniz tarih formatı çok kısa.',
@@ -738,6 +749,7 @@ $lang = array_merge($lang, array(
 		'-7'	=> 'UTC - 7 saat',
 		'-6'	=> 'UTC - 6 saat',
 		'-5'	=> 'UTC - 5 saat',
+		'-4.5'   => 'UTC - 4:30 saat',
 		'-4'	=> 'UTC - 4 saat',
 		'-3.5'	=> 'UTC - 3:30 saat',
 		'-3'	=> 'UTC - 3 saat',
@@ -781,6 +793,7 @@ $lang = array_merge($lang, array(
 		'-7'	=> '[UTC - 7, T] Mountain Standart Zamanı',
 		'-6'	=> '[UTC - 6, S] Merkez Standart Zamanı',
 		'-5'	=> '[UTC - 5, R] Doğu Standart Zamanı',
+		'-4.5'   => '[UTC - 4:30] Venezuella Standart Zamanı',
 		'-4'	=> '[UTC - 4, Q] Atlantik Standart Zamanı',
 		'-3.5'	=> '[UTC - 3:30, P*] Newfoundland Standart Zamanı',
 		'-3'	=> '[UTC - 3, P] Amazon Standart Zamanı, Merkez Gronland Zamanı',

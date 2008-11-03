@@ -361,6 +361,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'	=> 'Pasif kullanıcıları görüntüle',
 	
 	'WELCOME_PHPBB'			=> 'phpBB\'ye Hoş Geldiniz',
+	'WRITABLE_CONFIG'      => 'Ayar dosyanız (config.php) şu anda genel-yazılabilir (world-writable) şeklindedir. Bu dosyanın izinlerini 640 olarak ya da en az 644 olarak değiştirmenizi şiddetle öneriyoruz (örnek: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
 // Inactive Users
@@ -472,12 +473,13 @@ $lang = array_merge($lang, array(
 	'LOG_APPROVE_TOPIC'			=> '<strong>Başlık onaylandı</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Kullanıcı başlığı darbelendi</strong><br />» %s',
 	'LOG_DELETE_POST'			=> '<strong>Mesaj silindi</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>Başlık silindi</strong><br />» %s',
-	'LOG_FORK'					=> '<strong>Başlık kopyalandı</strong><br />» başlık %s adresinden kopyalanmıştır',
-	'LOG_LOCK'					=> '<strong>Başlık kilitlendi</strong><br />» %s',
-	'LOG_LOCK_POST'				=> '<strong>Mesaj kilitlendi</strong><br />» %s',
-	'LOG_MERGE'					=> '<strong>Mesajlar birleştirildi</strong> şu başlığa yerleştirildi<br />»%s',
-	'LOG_MOVE'					=> '<strong>Başlık taşındı</strong><br />» başlık %s adresinden taşındı',
+  'LOG_DELETE_SHADOW_TOPIC'   => '<strong>Gölgeli başlık silindi</strong><br />» %s',
+  'LOG_DELETE_TOPIC'         => '<strong>Başlık silindi</strong><br />» %s',
+  'LOG_FORK'               => '<strong>Başlık kopyalandı</strong><br />» şuradan: %s',
+  'LOG_LOCK'               => '<strong>Başlık kilitlendi</strong><br />» %s',
+  'LOG_LOCK_POST'            => '<strong>Mesaj kilitlendi</strong><br />» %s',
+  'LOG_MERGE'               => '<strong>Mesajlar birleştirildi</strong> ve başlık içerisine alındı<br />» %s',
+  'LOG_MOVE'               => '<strong>Başlık taşındı</strong><br />» şuradan: %1$s şuraya: %2$s',
 	'LOG_POST_APPROVED'   => '<strong>Mesaj onaylandı</strong><br />» %s', 
 	'LOG_POST_DISAPPROVED'  => '<strong>“%1$s” isimli mesaj izleyen sebepten dolayı onaylanmadı</strong><br />» %2$s',
 	'LOG_POST_EDITED'     => '<strong>“%1$s” isimli mesaj düzenlendi, yazarı</strong><br />» %2$s',
@@ -486,7 +488,6 @@ $lang = array_merge($lang, array(
  	'LOG_SPLIT_DESTINATION'		=> '<strong>Bölünen mesajlar taşındı</strong><br />» şuraya %s',
  	'LOG_SPLIT_SOURCE'			=> '<strong>Mesajlar bölündü</strong><br />» şuradan %s',
  	
-	'LOG_TOPIC_DELETED'			=> '<strong>Başlık silindi</strong><br />» %s',
 	'LOG_TOPIC_APPROVED'   => '<strong>Başlık onaylandı</strong><br />» %s', 
   'LOG_TOPIC_DISAPPROVED' => '<strong>“%1$s” isimli başlık şu sebepten dolayı onaylanmadı</strong><br />%2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Başlık sayaçları yeniden senkronize edildi</strong><br />» %s',
@@ -685,5 +686,10 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_DELETE'		=> '<strong>Kelime sansürü silindi</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Kelime sansürü düzenlendi</strong><br />» %s',
 ));
+
+// Two language keys with the same text were used in different locations
+// LOG_DELETE_TOPIC is the correct one, this line is here so that existing
+// log entries are not broken. Ensure it is included in your language file.
+$lang['LOG_TOPIC_DELETED'] = $lang['LOG_DELETE_TOPIC'];
 
 ?>

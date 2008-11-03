@@ -1,9 +1,13 @@
-----Bu dosya phpBB Türkiye "http://www.phpbbturkey.com/" sitesinden indirilmiştir----
+﻿----Bu dosya phpBB Türkiye "http://www.phpbbturkey.com/" sitesinden indirilmiştir----
 ----phpBB 3.0.2 "Olympus" Türkçe Dil Paketi----
 
 Sürüm Geçmişi:
 
-06-10-2008 v2.2.0
+03-11-2008 v2.2.0
+- Dil dosyaları phpBB 3.0.3-RC1 sürümüne göre güncellendi
+
+
+06-10-2008 v2.1.0
 - Dil dosyaları SVN sistemine aktarıldı.
 
 10-09-2008 v2.1.0

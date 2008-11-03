@@ -40,6 +40,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Eklenti özelliği kapatıldı.',
 
 	'BOOKMARK_ADDED'		=> 'Başlık sık kullanılanlara başarıyla eklendi.',
+	'BOOKMARK_ERR'         => 'Sık kullanılan başlık başarısız oldu. Lütfen tekrar deneyin.',
 	'BOOKMARK_REMOVED'		=> 'Başlık sık kullanılanlardan başarıyla silindi.',
 	'BOOKMARK_TOPIC'		=> 'Sık kullanılan başlık',
 	'BOOKMARK_TOPIC_REMOVE'	=> 'Sık kullanılanlardan sil',

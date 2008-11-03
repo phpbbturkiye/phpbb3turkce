@@ -47,6 +47,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_HELPLINE'			=> 'Yardım satırı',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Bu alan BBcode üzerine fare ile gelindiğinde metin içerir.',
 	'BBCODE_HELPLINE_TEXT'		=> 'Yardım satırı metni',
+	'BBCODE_HELPLINE_TOO_LONG'   => 'Girdiğiniz yardım satırı çok uzun.',
 	'BBCODE_INVALID_TAG_NAME'	=> 'Seçtiğiniz BBCode etiket adı zaten var.',
 	'BBCODE_INVALID'         => 'BBCode\'unuz geçersiz bir form içinde yapıldı.',
 	'BBCODE_OPEN_ENDED_TAG'		=> 'Özel BBCode\'unuz bir açık ve bir kapalı etiket içermelidir.', 
