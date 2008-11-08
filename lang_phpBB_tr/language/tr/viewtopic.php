@@ -85,7 +85,7 @@ $lang = array_merge($lang, array(
 	'POLL_VOTED_OPTION'		=> 'Bu seçenek için oy verdiniz',
 	'PRINT_TOPIC'			=> 'Yazıcı görüntüsü',
 
-	'QUICK_MOD'				=> 'Kolay-mod araçları',
+	'QUICK_MOD'				=> 'Hızlı-yönetim araçları',
 	'QUOTE'					=> 'Alıntı',
 
 	'REPLY_TO_TOPIC'		=> 'Başlığa cevap ver',

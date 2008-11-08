@@ -140,7 +140,7 @@ $lang = array_merge($lang, array(
 	'ACP_PRUNE_USERS'			=> 'Kullanıcıları buda',
 	'ACP_PRUNING'				=> 'Budama',
 	
-	'ACP_QUICK_ACCESS'			=> 'Kolay erişim',
+	'ACP_QUICK_ACCESS'			=> 'Hızlı erişim',
 	
 	'ACP_RANKS'					=> 'Rütbeler',
 	'ACP_REASONS'				=> 'Bildiri/yasaklama sebepleri',
