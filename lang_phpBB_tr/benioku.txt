@@ -9,7 +9,6 @@ Sürüm Geçmişi:
 03-11-2008 v2.2.0
 - Dil dosyaları phpBB 3.0.3-RC1 sürümüne göre güncellendi
 
-
 06-10-2008 v2.1.0
 - Dil dosyaları SVN sistemine aktarıldı.
 
@@ -126,7 +125,7 @@ Kurulum:
 
 ------------------------------------------------------
 
-İngilizce kurulmuş phpBB 3.0.3'ü Türkçeye çevirme:
+İngilizce kurulmuş phpBB 3.0.3 sürümünü Türkçe'ye çevirme:
 
 1. /styles ve /language klasörlerini phpBB 3.0.3 dosyalarınızın bulunduğu ana dizine gönderin.
 2. Administrator Control Panel'e girip üst menüden SYSTEM sekmesine tıklayın.
