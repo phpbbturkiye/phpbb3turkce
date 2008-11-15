@@ -115,10 +115,10 @@ $lang = array_merge($lang, array(
 	'GENERAL_FORUM_SETTINGS'	=> 'Genel forum ayarları',
 
 	'LINK'					=> 'Bağlantı',
-	'LIST_INDEX'			=> 'Ana-forumun açıklaması içerisindeki altforum listesi',
-	'LIST_INDEX_EXPLAIN'	=> 'Eğer ana-forumun “Açıklama içerisinde altforum listesi” seçeneği aktifse, bu forum ana sayfada ve ana-forumun açıklaması içerisinde başka bir yere bağlantı olarak gösterilir.',
-  'LIST_SUBFORUMS'         => 'Açıklama içerisinde altforum listesi',
-  'LIST_SUBFORUMS_EXPLAIN'   => 'Eğer “Ana-forumun açıklaması içerisindeki altforum listesi” seçeneği aktifse, bu forum’un altforumları ana sayfada ve açıklaması içerisinde başka bir yere bağlantı olarak gösterilir.',
+	'LIST_INDEX'			=> 'Ana-forum’un açıklaması içerisinde altforumu listele',
+	'LIST_INDEX_EXPLAIN'	=> 'Bu forum ana sayfada gösterilir ve eğer ana-forum’un “Açıklama içerisinde altforumları listele” özelliği aktifse altforumlar ana-forum’un açıklaması içerisinde başka bir yere bağlantı olarak gösterilir.',
+  'LIST_SUBFORUMS'         => 'Açıklama içerisinde altforumları listele',
+  'LIST_SUBFORUMS_EXPLAIN'   => 'Bu forumun altforumları ana sayfada gösterilir ve eğer altforumların “Ana-forum’un açıklaması içerisinde altforumu listele” özelliği aktifse ana-forum’un açıklaması içerisinde başka bir yere bağlantı olarak gösterilir.',
 	'LOCKED'				=> 'Kilitli',
 
 	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'Mesajları taşımak için seçtiğiniz forum mesaj gönderilebilir değil. Lütfen mesaj gönderilebilir bir forum seçin.',
