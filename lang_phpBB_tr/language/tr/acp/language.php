@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_FILES'					=> 'Dil paketleri',
 	'LANGUAGE_KEY'						=> 'Dil anahtarı',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Bu dil paketi zaten yüklü.',
-	'LANGUAGE_PACK_DELETED'				=> 'Dil paketi <strong>%s</strong> başarıyla kaldırıldı. Bu dili kullanan tüm kullanıcılar, forumun varsayılan diline sıfırlandı.',
+	'LANGUAGE_PACK_DELETED'				=> 'Dil paketi <strong>%s</strong> başarıyla kaldırıldı. Bu dili kullanan tüm kullanıcılar, mesaj panosunun varsayılan diline sıfırlandı.',
 	'LANGUAGE_PACK_DETAILS'				=> 'Dil Paketi Detayları',
 	'LANGUAGE_PACK_INSTALLED'			=> 'Dil paketi <strong>%s</strong> başarıyla kuruldu.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
@@ -76,7 +76,7 @@ $lang = array_merge($lang, array(
 
 	'NO_FILE_SELECTED'				=> 'Belirlenmiş bir dil dosyasına sahip değilsiniz.',
 	'NO_LANG_ID'					=> 'Belirlenmiş bir dil paketiniz yok',
-	'NO_REMOVE_DEFAULT_LANG'		=> 'Varsayılan dil paketini kaldıramazsınız.<br />Bu dil paketini kaldırmak istiyorsanız, ilk önce forumunuzun varsayılan dilini değiştirin.',
+	'NO_REMOVE_DEFAULT_LANG'		=> 'Varsayılan dil paketini kaldıramazsınız.<br />Bu dil paketini kaldırmak istiyorsanız, ilk önce mesaj panonuzun varsayılan dilini değiştirin.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Kaldırılmış dil paketleri yok',
 
 	'REMOVE_FROM_STORAGE_FOLDER'		=> 'Kayıt klasöründen kaldır',

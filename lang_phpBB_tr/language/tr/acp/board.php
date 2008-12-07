@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 
 // Board Features
 $lang = array_merge($lang, array(
-	'ACP_BOARD_FEATURES_EXPLAIN'	=> 'Bu bölümde bazı forum özelliklerini aktif ve pasif yapabilirsiniz.',
+	'ACP_BOARD_FEATURES_EXPLAIN'	=> 'Bu bölümde mesaj panosunun bazı özelliklerini aktif ve pasif yapabilirsiniz.',
 
 	'ALLOW_ATTACHMENTS'			=> 'Eklentilere izin ver',
  	'ALLOW_BIRTHDAYS'			=> 'Doğum günlerine izin ver',
@@ -197,7 +197,7 @@ $lang = array_merge($lang, array(
 	'ACP_REGISTER_SETTINGS_EXPLAIN'		=> 'Buradan profil ve kayıtla ilgili ayarları düzenleyebilirsiniz.',
 
 	'ACC_ACTIVATION'			=> 'Hesap Aktivasyonu',
-	'ACC_ACTIVATION_EXPLAIN'	=> 'Buradaki ayarlarla birlikte kullanıcı foruma hemen giriş yapabilir ya da hesap onaylama zorunluluğu getirilebilir. Arzu ederseniz yeni kayıt işlemini tamamıyla devre dışı bırakabilirsiniz.',
+	'ACC_ACTIVATION_EXPLAIN'	=> 'Buradaki ayarlarla birlikte kullanıcı mesaj panosuna hemen giriş yapabilir ya da hesap onaylama zorunluluğu getirilebilir. Arzu ederseniz yeni kayıt işlemini tamamıyla devre dışı bırakabilirsiniz.',
 	'ACC_ADMIN'					=> 'Yönetici tarafından',
 	'ACC_DISABLE'				=> 'Kapalı',
 	'ACC_NONE'					=> 'Yok',
@@ -268,18 +268,18 @@ $lang = array_merge($lang, array(
 
 // Load Settings
 $lang = array_merge($lang, array(
-	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Buradan belirli forum fonksiyonlarını açıp kapayabilirsiniz, bu sayede işlem miktarını azaltabilirsiniz. Bir çok sunucuda herhangi bir fonksiyonu kapamanız gerekmez. Aslında, belirli sistemlerde ya da paylaşılmış hosting ekipmanlarında gerekli olmadığına inandığınız fonksiyonların kapatılması bazı kazançlar sağlayabilir. Ayrıca burada sistem yüklemesi ve aktif oturum durumundan çıkıldığında, -ki bu durumda mesaj panosu çevrimdışı olur, bunlar için bazı sınırlamalar belirleyebilirsiniz.',
+	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Buradan mesaj panosunun belirli fonksiyonlarını açıp kapatabilirsiniz, bu sayede işlem miktarını azaltabilirsiniz. Bir çok sunucuda herhangi bir fonksiyonu kapamanız gerekmez. Aslında, belirli sistemlerde ya da paylaşılmış hosting ekipmanlarında gerekli olmadığına inandığınız fonksiyonların kapatılması bazı kazançlar sağlayabilir. Ayrıca burada sistem yüklemesi ve aktif oturum durumundan çıkıldığında, -ki bu durumda mesaj panosu çevrimdışı olur, bunlar için bazı sınırlamalar belirleyebilirsiniz.',
 
 	'CUSTOM_PROFILE_FIELDS'			=> 'Özel Profil Alanları',
 	'LIMIT_LOAD'					=> 'Sistem yükleme sınırı',
-	'LIMIT_LOAD_EXPLAIN'			=> 'Eğer sistem, 1-dakika yükleme ortalamasını geçerse bu değer forumu çevrimiçi duruma getirecektir, 1.0 değeri 1 işlemci için ~100% faydalanma anlamındadır. Bu özellik sadece UNIX tabanlı sunucularda ve bu bilgiye erişebilen yerlerde geçerlidir. Eğer phpBB yükleme limitine ulaşamazsa buradaki değer kendini sıfırlayarak 0 olacaktır.',
+	'LIMIT_LOAD_EXPLAIN'			=> 'Eğer sistem, 1-dakika yükleme ortalamasını geçerse bu değer mesaj panosunu çevrimiçi duruma getirecektir, 1.0 değeri 1 işlemci için ~100% faydalanma anlamındadır. Bu özellik sadece UNIX tabanlı sunucularda ve bu bilgiye erişebilen yerlerde geçerlidir. Eğer phpBB yükleme limitine ulaşamazsa buradaki değer kendini sıfırlayarak 0 olacaktır.',
 	'LIMIT_SESSIONS'				=> 'Oturumlar İçin Limit',
-	'LIMIT_SESSIONS_EXPLAIN'		=> 'Oturumların numarası burada belirtilen değeri aşarsa, forum offline konuma geçer. Değer, 1 olarak girilirse, forum 1 dakika sonra offline olacak demektir. Değerin 0(Sıfır) olması, sınırsız oturum uzunluğuna sahip olunması demektir.',
+	'LIMIT_SESSIONS_EXPLAIN'		=> 'Oturumların numarası burada belirtilen değeri aşarsa, mesaj panosu çevrimdışı konuma geçer. Değer 1 olarak girilirse, mesaj panosu 1 dakika sonra çevrimdışı olacak demektir. Değerin 0(Sıfır) olması, sınırsız oturum uzunluğuna sahip olunması demektir.',
 	'LOAD_CPF_MEMBERLIST'			=> 'Üye listesinde özel profil alanları göstermek için stillere izin ver',
 	'LOAD_CPF_VIEWPROFILE'			=> 'Kullanıcı profillerinde özel profil alanları göster',
 	'LOAD_CPF_VIEWTOPIC'			=> 'Başlık sayfalarında özel profil alanları göster',
 	'LOAD_USER_ACTIVITY'			=> 'Kullanıcıların faaliyetlerini göster',
-	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Aktif Başlık/forum kısımlarında kullanıcı kontrol panelini ve kullanıcı profillerini göster. Eğer 1 Milyon mesaja sahip bir forumunuz varsa bizim tavsiyemiz bu özelliği kapamanızdır.',
+	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Aktif Başlık/forum kısımlarında kullanıcı kontrol panelini ve kullanıcı profillerini göster. Eğer 1 Milyon mesaja sahip bir mesaj panonuz varsa bizim tavsiyemiz bu özelliği kapamanızdır.',
 	'RECOMPILE_STYLES'			=> 'Bozulmuş stil bileşenlerini yeniden derle.',
 	'RECOMPILE_STYLES_EXPLAIN' => 'Dosya sisteminde bulunan stil bileşenlerini güncellemeler için kontrol et ve yeniden derle.',
 	'YES_ANON_READ_MARKING'			=> 'Misafirler için başlık işaretlemeyi aç',
@@ -302,7 +302,7 @@ $lang = array_merge($lang, array(
 
 // Auth settings
 $lang = array_merge($lang, array(
-	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'phpBB yapısı eklenti veya modüllerin doğrulanmasını destekler. Kullanıcılar foruma girdiklerinde onların nasıl doğrulanacağının belirlenmesine izin verir. Varsayılan olarak üç plug-in bu ihtiyacı karşılar; DB, LDAP and Apache. Hiçbir metot ekstra bir bilgi gerektirmez yani konu ile ilgili seçilmiş bir metot varsa bu bilgi alanını doldurunuz.',
+	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'phpBB yapısı eklenti veya modüllerin doğrulanmasını destekler. Kullanıcılar mesaj panosuna girdiklerinde onların nasıl doğrulanacağının belirlenmesine izin verir. Varsayılan olarak üç plug-in bu ihtiyacı karşılar; DB, LDAP and Apache. Hiçbir metot ekstra bir bilgi gerektirmez yani konu ile ilgili seçilmiş bir metot varsa bu bilgi alanını doldurunuz.',
 
 	'AUTH_METHOD'				=> 'Bir doğrulama yöntemi seçiniz',
 
@@ -363,7 +363,7 @@ $lang = array_merge($lang, array(
 
 	'ALL'							=> 'Tümü',
 	'ALLOW_AUTOLOGIN'				=> 'Sürekli girişlere izin ver', 
-	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Kullanıcı forumu ziyaret ettiğinde otomatik olarak girişinin yapılabilmesi belirlenir.', 
+	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Kullanıcı mesaj panosunu ziyaret ettiğinde otomatik olarak giriş yapabilmesi belirlenir.', 
 	'AUTOLOGIN_LENGTH'				=> 'Sürekli giriş anahtarının bitiş günü', 
 	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Belirlenen gün sonunda sürekli giriş anahtarları kaldırılır. 0(Sıfır) olması durumunda kapalıdır.', 
 	'BROWSER_VALID'					=> 'Tarayıcı onayla',
@@ -420,8 +420,8 @@ $lang = array_merge($lang, array(
 	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'Bu, bir paketin içerisinden gönderilecek olan en fazla e-posta sayısıdır. Bu ayar dahili mesaj sırasına uygulanır; eğer teslim edilmeyen bildiri e-postaları ile ilgili sorunlarınız varsa bu ayarı 0 yapın.',
 	'EMAIL_SIG'						=> 'E-posta imzası',
 	'EMAIL_SIG_EXPLAIN'				=> 'Mesaj panosu tarafından gönderilen tüm e-postalara bu yazı eklenir.',
-	'ENABLE_EMAIL'					=> 'Forum genelinde e-posta gönderimini aç.',
-	'ENABLE_EMAIL_EXPLAIN'			=> 'Bu özellik kapatılırsa, forum genelinde hiçbir e-posta gönderilemeyecektir.',
+	'ENABLE_EMAIL'					=> 'Mesaj panosu genelinde e-posta gönderimini aç.',
+	'ENABLE_EMAIL_EXPLAIN'			=> 'Bu özellik kapatılırsa, mesaj panosu genelinde hiçbir e-posta gönderilemeyecektir.',
 	'SMTP_AUTH_METHOD'				=> 'SMTP için doğrulama metodu',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Ancak kullanıcı adı ve şifre girildiğinde kullanılır, Bu metodun nasıl kullanılacağından emin değilseniz hosting firmanıza danışınız.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',

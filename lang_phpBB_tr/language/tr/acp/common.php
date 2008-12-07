@@ -255,7 +255,7 @@ $lang = array_merge($lang, array(
 	'PARSE_SMILIES'			=> 'İfadeleri kullan',
 	'PARSE_URLS'			=> 'Bağlantıları kullan',
 	'PERMISSIONS_TRANSFERRED'			=> 'İzinler transfer edildi',
-	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Şu an %1$s izinlerine sahipsiniz. Bu kullanıcının izinleri ile foruma gözatabilirsiniz, fakat yönetim izinleri transfer edilmediğinden dolayı yönetim kontrol paneline erişilemeyecektir. Herhangi bir zamanda <a href="%2$s"><strong>eski izinlerinize geri dönebilirsiniz</strong></a>.',
+	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Şu an %1$s izinlerine sahipsiniz. Bu kullanıcının izinleri ile mesaj panosuna gözatabilirsiniz, fakat yönetim izinleri transfer edilmediğinden dolayı yönetim kontrol paneline erişilemeyecektir. Herhangi bir zamanda <a href="%2$s"><strong>eski izinlerinize geri dönebilirsiniz</strong></a>.',
 	'PIXEL'							=> 'piksel',
 	'PROCEED_TO_ACP'		=> '%sYönetim Kontrol Paneline ilerle%s',
 	
@@ -287,8 +287,8 @@ $lang = array_merge($lang, array(
 
 // Logs
 $lang = array_merge($lang, array(
-	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Buradaki listede forum adminlerinin gerçekleştirdiği hareketleri görebilirsiniz. Sıralamayı isme, güne, IP adresine ya da yapılan kayıt hareketine göre yapabilirsiniz. Şayet gerekli yetkiye sahipseniz buradaki bireysel kayıtları ya da tüm kayıt bilgilerini temizleyebilirsiniz.',
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Buradaki listede forumun kendi kendine gerçekleştirdiği hareketleri görebilirsiniz. Bu kayıt bilgileri özel forum sorunlarını çözmek için imkan sağlar. Örnek verecek olursak, e-posta gönderimi işleminin kullanıcılara ulaşamaması gibi. Sıralamayı isme, güne, IP adresine ya da yapılan kayıt hareketine göre yapabilirsiniz. Şayet gerekli yetkiye sahipseniz buradaki bireysel kayıtları ya da tüm kayıt bilgilerini temizleyebilirsiniz.',
+	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Buradaki listede mesaj panosu yöneticilerinin gerçekleştirdiği hareketleri görebilirsiniz. Sıralamayı isme, güne, IP adresine ya da yapılan kayıt hareketine göre yapabilirsiniz. Şayet gerekli yetkiye sahipseniz buradaki bireysel kayıtları ya da tüm kayıt bilgilerini temizleyebilirsiniz.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Buradaki listede mesaj panosunun kendi kendine gerçekleştirdiği hareketleri görebilirsiniz. Bu kayıt bilgileri özel mesaj panosu sorunlarını çözmek için imkan sağlar. Örnek verecek olursak, e-posta gönderimi işleminin kullanıcılara ulaşamaması gibi. Sıralamayı isme, güne, IP adresine ya da yapılan kayıt hareketine göre yapabilirsiniz. Şayet gerekli yetkiye sahipseniz buradaki bireysel kayıtları ya da tüm kayıt bilgilerini temizleyebilirsiniz.',
 	'ACP_MOD_LOGS_EXPLAIN'		=> 'Buradaki listelerde moderatörler tarafından başlıklar ve mesajlar gibi forumlarda yapılan ve kullanıcılar üzerinde, yasaklamalar dahil yapılan tüm eylemleri görebilirsiniz. Sıralamayı kullanıcı adına, güne, IP adresine ya da eyleme göre yapabilirsiniz. Ayrıca eğer gerekli izinlere sahipseniz buradaki bireysel kayıtları ya da tüm kayıt bilgilerini temizleyebilirsiniz.',
 	'ACP_USERS_LOGS_EXPLAIN'	=> 'Buradaki listelerde tüm kullanıcılar tarafından ya da kullanıcılar üzerinde yapılan tüm eylemleri (bildiriler, uyarılar ve kullanıcı notları) görebilirsiniz.',
 	'ALL_ENTRIES'				=> 'Tüm girdiler',
@@ -304,9 +304,9 @@ $lang = array_merge($lang, array(
 
 // Index page
 $lang = array_merge($lang, array(
-	'ADMIN_INTRO'				=> 'phpBB\'yi mesaj panosu çözümü olarak seçtiğiniz için teşekkür ederiz. Bu ekranda forumunuzun çeşitli istatistikleri hakkında genel ve kısa bilgiler gösterilir. Sol taraftaki bağlantı ekranında, forumunuzla ilgili özellikleri kontrol etmenize olanak sağlanır. Her bir sayfada bu özellikleri nasıl kullanacağınızı gösteren yönergeler mevcuttur.',
+	'ADMIN_INTRO'				=> 'phpBB\'yi mesaj panosu çözümü olarak seçtiğiniz için teşekkür ederiz. Bu ekranda mesaj panonuzun çeşitli istatistikleri hakkında genel ve kısa bilgiler gösterilir. Sol taraftaki bağlantı ekranında, mesaj panonuzla ilgili özellikleri kontrol etmenize olanak sağlanır. Her bir sayfada bu özellikleri nasıl kullanacağınızı gösteren yönergeler mevcuttur.',
 	'ADMIN_LOG'					=> 'Yönetici işlem kayıtları',
-	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Bu bilgi forum admini tarafından gerçekleştirilen son 5 hareketi görmeyi sağlar. Tüm kayıtları görebilmek için sol taraftaki menü öğelerine bakılmalıdır.',
+	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Bu bilgi mesaj panosu yöneticisi tarafından gerçekleştirilen son 5 hareketi görmeyi sağlar. Tüm kayıtları görebilmek için sol taraftaki menü öğelerine bakılmalıdır.',
 	'AVATAR_DIR_SIZE'			=> 'Avatar klasör büyüklüğü',
 
 	'BOARD_STARTED'		=> 'Mesaj panosu açılış tarihi',
@@ -509,8 +509,8 @@ $lang = array_merge($lang, array(
 	'LOG_ERROR_JABBER'		=> '<strong>Jabber hatası</strong><br />» %s',
 	'LOG_ERROR_EMAIL'		=> '<strong>E-posta hatası</strong><br />» %s',
 	
-	'LOG_FORUM_ADD'							=> '<strong>Yeni forum yaratıldı</strong><br />» %s',
-	'LOG_FORUM_DEL_FORUM'					=> '<strong>Forum Silindi</strong><br />» %s',
+	'LOG_FORUM_ADD'							=> '<strong>Yeni forum oluşturuldu</strong><br />» %s',
+	'LOG_FORUM_DEL_FORUM'					=> '<strong>Forum silindi</strong><br />» %s',
 	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Forum alt forumlarıyla birlikte silindi</strong><br />» %s',
 	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Forum alt forumlarıyla birlikte taşındı </strong> altforumlar %1$s adresine taşındı<br />» %2$s',
 	'LOG_FORUM_DEL_MOVE_POSTS'				=> '<strong>Forum silindi ve mesajlar taşındı </strong> mesajlar %1$s adresine taşındı<br />» %2$s',
@@ -576,9 +576,9 @@ $lang = array_merge($lang, array(
 	'LOG_MODULE_ADD'		=> '<strong>Modül eklendi</strong><br />» %s',
 	'LOG_MODULE_EDIT'		=> '<strong>Modül düzenlendi</strong><br />» %s',
 
-	'LOG_A_ROLE_ADD'		=> '<strong>Admin Rolü eklendi</strong><br />» %s',
-	'LOG_A_ROLE_EDIT'		=> '<strong>Admin Rolü düzenlendi</strong><br />» %s',
-	'LOG_A_ROLE_REMOVED'	=> '<strong>Admin Rolü silindi</strong><br />» %s',
+	'LOG_A_ROLE_ADD'		=> '<strong>Yönetici Rolü eklendi</strong><br />» %s',
+	'LOG_A_ROLE_EDIT'		=> '<strong>Yönetici Rolü düzenlendi</strong><br />» %s',
+	'LOG_A_ROLE_REMOVED'	=> '<strong>Yönetici Rolü silindi</strong><br />» %s',
 	'LOG_F_ROLE_ADD'		=> '<strong>Forum Rolü eklendi</strong><br />» %s',
 	'LOG_F_ROLE_EDIT'		=> '<strong>Forum Rolü düzenlendi</strong><br />» %s',
 	'LOG_F_ROLE_REMOVED'	=> '<strong>Forum Rolü kaldırıldı</strong><br />» %s',
@@ -612,7 +612,7 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_UPDATED'	=> '<strong>Bildiri/yasaklama sebebi güncellendi</strong><br />» %s',
 	'LOG_REFERER_INVALID'      => '<strong>Referer doğrulaması başarısız oldu</strong><br />»Referer, “<em>%1$s</em>” olarak görüldü. İstek kabul edilmedi ve oturum sonlandırıldı.',
 
-	'LOG_RESET_DATE'			=> '<strong>Forum açılış tarihi değeri sıfırlandı</strong>',
+	'LOG_RESET_DATE'			=> '<strong>Mesaj panosu açılış tarihi değeri sıfırlandı</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>En çok çevrimiçi olan kullanıcılar değeri sıfırlandı</strong>',
 	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>Kullanıcı mesaj sayacı yeniden senkronize edildi</strong>',
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>İşaretli başlıklar yeniden senkronize edildi</strong>',

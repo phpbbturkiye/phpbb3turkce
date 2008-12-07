@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	
 	'RESTORE_FAILURE'		=> 'Yedek dosyası bozulmuş olabilir.',
 	'RESTORE_OPTIONS'		=> 'Geri yükleme özellikleri',
-	'RESTORE_SUCCESS'		=> 'Veritabanı başarıyla geri yüklendi.<br /><br />Forumunuz yedekleme yaptığınız önceki duruma getirilmiştir.',
+	'RESTORE_SUCCESS'		=> 'Veritabanı başarıyla geri yüklendi.<br /><br />Mesaj panonuz yedekleme yaptığınız önceki durumuna getirilmiştir.',
 	
 	'SELECT_ALL'      => 'Tümünü seç',
 	'SELECT_FILE'			=> 'Bir dosya seçin',

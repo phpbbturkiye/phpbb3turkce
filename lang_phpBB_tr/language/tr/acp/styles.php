@@ -36,9 +36,9 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_IMAGESETS_EXPLAIN'	=> 'Görüntü setleri, forumdaki tüm butonların klasörünü içerir ve forum tarafından kullanılan stil olmayan diğer özel görüntülerden oluşur. Burada var olan görüntü setlerini düzenleyebilir, dışarı aktarabilir ya da silebilirsiniz. Ayrıca görüntüleri içeri alabilir ya da yeni setleri aktif edebilirsiniz.',
+	'ACP_IMAGESETS_EXPLAIN'	=> 'Görüntü setleri, mesaj panosundaki tüm butonların klasörünü içerir ve mesaj panosu tarafından kullanılan stil olmayan diğer özel görüntülerden oluşur. Burada var olan görüntü setlerini düzenleyebilir, dışarı aktarabilir ya da silebilirsiniz. Ayrıca görüntüleri içeri alabilir ya da yeni setleri aktif edebilirsiniz.',
 	'ACP_STYLES_EXPLAIN'	=> 'Buradan mesaj panonuzda mevcut olan stilleri yönetebilirsiniz. Bir stil şablonu tema ve görüntü setinden oluşur. İsterseniz var olan stilleri değiştirebilir, silebilir, pasif edebilir, tekrar aktif edebilir, oluşturabilir ya da yeni stiller ekleyebilirsiniz. Önizleme özelliğiyle bir stilin nasıl göründüğünü görebilirsiniz. Geçerli varsayılan stil (*) yıldız işaretiyle gösterilir. Her bir stili kullanan kullanıcıların sayısı listelenir, kullanıcı stili gözardı edilerek kullanılan stiller burada gösterilmez.',
-	'ACP_TEMPLATES_EXPLAIN'	=> 'Bir şablon seti tüm biçimlendirmelerden oluşur ve forum görünümünün oluşturulması için kullanılır. Burada var olan şablon setlerini düzenleyebilir, silebilir, dışarı aktarabilir, içeri alabilir ve setleri görüntüleyebilirsiniz. BBcode oluşturmak için kullanılan şablon kodlarını modifiye edebilirsiniz.',
+	'ACP_TEMPLATES_EXPLAIN'	=> 'Bir şablon seti tüm biçimlendirmelerden oluşur ve mesaj panosu görünümünün oluşturulması için kullanılır. Burada var olan şablon setlerini düzenleyebilir, silebilir, dışarı aktarabilir, içeri alabilir ve setleri görüntüleyebilirsiniz. BBcode oluşturmak için kullanılan şablon kodlarını modifiye edebilirsiniz.',
 	'ACP_THEMES_EXPLAIN'	=> 'Buradan tema oluşturabilir, kurabilir, düzenleyebilir, silebilir ve dışarı aktarabilirsiniz. Bir tema, renklerin ve görüntülerin kombinasyonundan oluşur. Temalar, mesaj panonuzun temel görünümünü tanımlamak için şablonlara uygulanır. Seçeneklerin sırası phpBB yüklemenize ve sunucunuzun ayarlarına bağlı olarak açılacaktır, daha fazla bilgi için kılavuza bakın. Not: Yeni temalar oluşturulacağı zaman var olan bir temanın temeli isteğe bağlı olarak kullanılır.',
 	'ADD_IMAGESET'			=> 'Görüntü seti oluştur',
 	'ADD_IMAGESET_EXPLAIN'	=> 'Buradan yeni bir görüntü seti oluşturabilirsiniz. Dosya izinlerinize ve sunucu ayarlarınıza bağlı olarak buradan ek seçeneklere sahip olabilirsiniz. Örneğin bu görüntü seti daha önce var olan bir görüntü setinin temelini alabilir. Ayrıca bir görüntü seti arşivini yükleme veya çıkartma (store dizininden) yapabilirsiniz. Eğer bir arşivden yükleme veya çıkartma yapıyorsanız, görüntü seti kendi adını isteğe bağlı olarak arşiv adından alabilir (bunu yapması için görüntü seti adını boş bırakın).',
@@ -135,7 +135,7 @@ $lang = array_merge($lang, array(
 	'IMAGESET_ERR_NOT_IMAGESET'	=> 'Belirlediğiniz arşiv geçerli bir görüntü seti içermiyor.',
 	'IMAGESET_ERR_STYLE_NAME'	=> 'Bu görüntü seti için bir ad belirlemelisiniz',
 	'IMAGESET_EXPORT'			=> 'Görüntü setini dışarı aktar',
-	'IMAGESET_EXPORT_EXPLAIN'	=> 'Burada bir arşivdeki şeklin içindeki görüntü setini dışarı aktarabilirsiniz. Bu arşivde, diğer bir forumda kurulmak için gerekli olan tüm görüntü setleri olacaktır. Siz burada bu dosyayı direkt olarak indirebilirsiniz ya da daha sonra indirmek, ftp adresine göndermek için kendi saklama klasörünüze bu dosyayı yerleştirebilirsiniz.',
+	'IMAGESET_EXPORT_EXPLAIN'	=> 'Burada bir arşivdeki şeklin içindeki görüntü setini dışarı aktarabilirsiniz. Bu arşivde, diğer bir mesaj panosuna kurulmak için gerekli olan tüm görüntü setleri olacaktır. Siz burada bu dosyayı direkt olarak indirebilirsiniz ya da daha sonra indirmek, ftp adresine göndermek için kendi saklama klasörünüze bu dosyayı yerleştirebilirsiniz.',
 	'IMAGESET_EXPORTED'			=> 'Görüntü seti başarıyla dışarı aktarıldı ve %s içine kaydedildi',
 	'IMAGESET_NAME'				=> 'Görüntü seti adı',
 	'IMAGESET_REFRESHED'		=> 'Görüntü seti başarıyla yenilendi',
@@ -167,8 +167,8 @@ $lang = array_merge($lang, array(
 	'IMG_FORUM_UNREAD'			=> 'Forum yeni mesajlar',
 	'IMG_FORUM_UNREAD_LOCKED'	=> 'Forum yeni kilitli mesajlar',
 	'IMG_FORUM_UNREAD_SUBFORUM'	=> 'Altforum yeni mesajlar',
-	'IMG_SUBFORUM_READ'      => 'Yetkili altforum', 
-  'IMG_SUBFORUM_UNREAD'   => 'Yetkili altforum yeni mesajlar', 
+	'IMG_SUBFORUM_READ'      => 'Altforum', 
+  'IMG_SUBFORUM_UNREAD'   => 'Altforum yeni mesajlar', 
 
 	'IMG_TOPIC_MOVED'			=> 'Başlık taşındı',
 
@@ -382,7 +382,7 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_ERR_REQUIRED_OR_INCOMPLETE' => 'Yeni şablon seti %s şablonunun kurulmuş olmasını ve kendisinden kalıt alınmamasını gerekli tutuyor. ',
 	'TEMPLATE_ERR_STYLE_NAME'	=> 'Bu şablon için bir isim belirtmelisiniz',
 	'TEMPLATE_EXPORT'			=> 'Şablonları dışarı aktar',
-	'TEMPLATE_EXPORT_EXPLAIN'	=> 'Burada arşiv formunun içindeki şablonları dışarı aktarabilirsiniz. Bu arşiv, forumda bir temanın kurulması için gerekli tüm dosyaları içerir. Siz burada bu dosyayı direkt olarak indirebilirsiniz ya da daha sonra indirmek için, ftp adresine göndermek için kendi saklama klasörünüze bu dosyayı yerleştirebilirsiniz.',
+	'TEMPLATE_EXPORT_EXPLAIN'	=> 'Burada arşiv formunun içindeki şablonları dışarı aktarabilirsiniz. Bu arşiv, mesaj panosuna bir temanın kurulması için gerekli olan tüm dosyaları içerir. Siz burada bu dosyayı direkt olarak indirebilirsiniz ya da daha sonra indirmek için, ftp adresine göndermek için kendi saklama klasörünüze bu dosyayı yerleştirebilirsiniz.',
 	'TEMPLATE_EXPORTED'			=> 'Şablonlar başarıyla dışarı aktarıldı ve %s içine saklandı',
 	'TEMPLATE_FILE'				=> 'Şablon dosyası',
 	'TEMPLATE_FILE_UPDATED'		=> 'Şablon dosyası başarıyla güncellendi',
@@ -411,7 +411,7 @@ $lang = array_merge($lang, array(
 	'THEME_ERR_STYLE_NAME'		=> 'Bu tema için bir ad belirlemelisiniz',
 	'THEME_FILE'             => 'Tema dosyası',
 	'THEME_EXPORT'				=> 'Temayı dışarı aktar',
-	'THEME_EXPORT_EXPLAIN'		=> 'Bu bölümde, arşiv biçiminin içindeki bir temayı dışarı aktarabilirsiniz. Bu arşivde diğer bir forumda kurulmak için gerekli olan tüm veriler olacaktır. Siz burada bu dosyayı direkt olarak indirebilirsiniz ya da daha sonra indirmek, ftp adresine göndermek için kendi saklama klasörünüze bu dosyayı yerleştirebilirsiniz.',
+	'THEME_EXPORT_EXPLAIN'		=> 'Bu bölümde, arşiv biçiminin içindeki bir temayı dışarı aktarabilirsiniz. Bu arşivde diğer bir mesaj panosuna kurulmak için gerekli olan tüm veriler olacaktır. Siz burada bu dosyayı direkt olarak indirebilirsiniz ya da daha sonra indirmek, ftp adresine göndermek için kendi saklama klasörünüze bu dosyayı yerleştirebilirsiniz.',
 	'THEME_EXPORTED'			=> 'Tema başarıyla dışarı aktarıldı ve %s içine saklandı',
 	'THEME_LOCATION'			=> 'Stillerin depolandığı yer',
 	'THEME_LOCATION_EXPLAIN'	=> 'Görüntüler her zaman dosya sisteminde depolanır.',

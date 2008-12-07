@@ -85,8 +85,8 @@ $lang = array_merge($lang, array(
 
 // Smilies and topic icons
 $lang = array_merge($lang, array(
-	'ACP_ICONS_EXPLAIN'		=> 'Bu sayfadan, kullanıcıların mesajlarına ve başlıklara koydukları ikonları ekleyebilecek, kaldırabilecek ve düzenleyebileceksiniz. Bu ikonlar Forum listelenirken ya da konuları yazarken görüntülenir. Yeni paket ikonları yaratabilir ve yükleyebilirsiniz.',
-	'ACP_SMILIES_EXPLAIN'	=> 'İfadeler bazen animasyonlu olarak duyguları gösteren küçük resimlerdir. Bu sayfada kullanıcıların mesajlarda ve özel mesajlarda kullandıkları ifadeleri ekleyebilir, kaldırabilir ya da düzenleyebilirsiniz. Yeni paket ifadelerini yaratabilir ve yükleyebilirsiniz.',
+	'ACP_ICONS_EXPLAIN'		=> 'Bu sayfadan, kullanıcıların mesajlarına ve başlıklara koydukları ikonları ekleyebilecek, kaldırabilecek ve düzenleyebileceksiniz. Bu ikonlar forum listelenirken ya da başlıkları açarken görüntülenir. Yeni paket ikonları oluşturabilir ve yükleyebilirsiniz.',
+	'ACP_SMILIES_EXPLAIN'	=> 'İfadeler bazen animasyonlu olarak duyguları gösteren küçük resimlerdir. Bu sayfada kullanıcıların mesajlarda ve özel mesajlarda kullandıkları ifadeleri ekleyebilir, kaldırabilir ya da düzenleyebilirsiniz. Yeni paket ifadelerini oluşturabilir ve yükleyebilirsiniz.',
 	'ADD_SMILIES'			=> 'Çoklu ifadeler ekle',
 	'ADD_SMILEY_CODE' => 'Ekstra ifade kodu ekle',
 	'ADD_ICONS'				=> 'Çoklu ikonlar ekle',
