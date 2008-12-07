@@ -379,7 +379,8 @@ $lang = array_merge($lang, array(
 	'COLLECTED_INFORMATION_EXPLAIN'=> 'Alttaki listede bir güncelleme yapılması gereken dosyalar hakkında bilgiler gösterilmektedir. Lütfen her durum bloğunun ön yüzündeki bilgileri okuyup ne demek istediklerine ve başarılı bir güncelleme için ne yapabilmeniz gerektiğine bakın.',
 	'COLLECTING_FILE_DIFFS'         => 'Dosya farklılıkları toplanıyor',
 	'COMPLETE_LOGIN_TO_BOARD'		=> 'Şimdi <a href="../ucp.php?mode=login">mesaj panonuza giriş yapmalısınız</a> ve herşeyin iyi çalıştığını kontrol etmelisiniz. install klasörünüzü silmeyi, yeniden adlandırmayı veya taşımayı unutmayın!',
-	'CONTINUE_UPDATE_NOW'			=> 'Güncelleme işlemine şimdi devam et',
+	'CONTINUE_UPDATE_NOW'			=> 'Güncelleme işlemine şimdi devam et',		// Shown within the database update script at the end if called from the updater
+	'CONTINUE_UPDATE'				=> 'Güncellemeye şimdi devam et',					// Shown after file upload to indicate the update process is not yet finished
 	'CURRENT_FILE'					=> 'Şu anki orijinal dosyanın başlangıcı',
 	'CURRENT_VERSION'				=> 'Şu anki sürüm',
 

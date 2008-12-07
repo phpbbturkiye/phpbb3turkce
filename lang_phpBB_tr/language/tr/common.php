@@ -695,6 +695,13 @@ $lang = array_merge($lang, array(
 		'TODAY'		=> 'Bugün',
 		'TOMORROW'	=> 'Yarın',
 		'YESTERDAY'	=> 'Dün',
+		
+		'AGO'		=> array(
+			0		=> 'bir dakika önceden daha az',
+			1		=> '%d dakika önce',
+			2		=> '%d dakika önce',
+			60		=> '1 saat önce',
+		),
 
 		'Sunday'	=> 'Pazar',
 		'Monday'	=> 'Pazartesi',

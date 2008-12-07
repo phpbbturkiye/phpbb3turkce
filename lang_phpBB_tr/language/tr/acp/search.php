@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> 'Buradan arama işlemleri ve mesaj indekslemesi için kullanılacak olan arama uygulaması belirleyebilirsiniz. Farklı seçenekler seçerek istenilen eylemlerin ne kadar işlem yapabileceğinin etkisini ölçebilirsiniz. Bu ayarların bazıları tüm arama motorları için aynıdır.',
 
  	'COMMON_WORD_THRESHOLD'					=> 'Genel kelime başlangıcı',
- 	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Tüm mesajların içerdiği kelimelere önemli yüzdelik oranlarına göre genel olarak bakılacaktır. Genel kelimeler arama sorgularında yoksayılır. Kapatmak için sıfır olarak ayarlayın. Sadece eğer kelimeler 100 mesajdan fazla ise sonuç alınır.',
+ 	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Tüm mesajların içerdiği kelimelere önemli yüzdelik oranlarına göre genel olarak bakılacaktır. Genel kelimeler arama sorgularında yoksayılır. Kapatmak için sıfır olarak ayarlayın. Sadece eğer kelimeler 100 mesajdan fazla ise sonuç alınır. Eğer isterseniz genel olarak kabul edilen geçerli kelimeleri indeksinizi canlandırmak için yeniden gözden geçirebilirsiniz.',
 	'CONFIRM_SEARCH_BACKEND'				=> 'Farklı bir arama uygulaması seçmek istediğinize emin misiniz? Arama uygulaması değişikliğinden sonra yeni arama uygulaması için bir indeks oluşturacaksınız. Eğer eski arama uygulamasına dönmek gibi bir planınız yoksa ayrıca sistem kaynaklarından kazanmak için eski uygulamanın indeksini silebilirsiniz.',
 	'CONTINUE_DELETING_INDEX'				=> 'Önceki indeks kaldırma işlemine devam et',
 	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'Bir indeks kaldırma işlemi başlatılmıştı. Arama indeks sayfasına erişim için bunu tamamlayacaksınız ya da iptal edeceksiniz.',

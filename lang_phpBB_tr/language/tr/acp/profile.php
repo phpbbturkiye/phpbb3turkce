@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE'			=> 'Kullanıcı kontrol panelinde göster',
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'Kullanıcı, kullanıcı kontrol panelinden bu profil alanını değiştirebilir.',
 	'DISPLAY_AT_REGISTER'			=> 'Kayıt ekranında göster',
-	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Eğer bu seçeneği açık yaparsanız, ek olarak kayıt esnasında alan görüntülenecektir.',
+	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Eğer bu özellik açık olursa, alan kayıt ekranında gösterilecektir.',
 	'DISPLAY_PROFILE_FIELD'			=> 'Profil alanını göster',
 	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'Profil alanı, yüklü ayarların içerisinde izin verilen tüm yerlerde gösterilecektir. Bunu “hayır” olarak ayarlarsanız profil alanı, başlık sayfalarından, profillerden ve üye listesinden gizlenecektir.',
 	'DROPDOWN_ENTRIES_EXPLAIN'		=> 'Seçeneklerinizi şimdi girin, her satırda bir seçenek olmalıdır.',
@@ -95,7 +95,7 @@ $lang = array_merge($lang, array(
 	'FIRST_OPTION'				=> 'İlk seçenek',
 
 	'HIDE_PROFILE_FIELD'			=> 'Gizli profil alanı',
-	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Sadece yöneticiler ve moderatörler bu profil alanını görebilir ya da doldurabilir. Eğer bu seçenek açıksa, profil alanı sadece kullanıcıların profillerinde gösterilecektir.',
+	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Kullanıcının kendisi dışındaki tüm diğer kullanıcılardan profil alanı gizlenir, yöneticiler ve moderatörler bu alanı görebilirler. Eğer kullanıcı kontrol panelindeki Göster seçeneği kapalıysa, kullanıcı bu alanı göremeyecek, değiştiremeyecektir ve alan sadece yöneticiler tarafından değiştirilebilecektir.',
 
 	'INVALID_CHARS_FIELD_IDENT'	=> 'Alan adı sadece a-z arası, tümü küçük harf ve _ işaretini içerebilir',
 	'INVALID_FIELD_IDENT_LEN'	=> 'Alan tanımı sadece 17 karakter uzunluğunda olabilir',
@@ -124,7 +124,7 @@ $lang = array_merge($lang, array(
 	'RADIO_BUTTONS'				=> 'Radyo butonları',
 	'REMOVED_PROFILE_FIELD'		=> 'Profil alanı başarıyla silindi.',
 	'REQUIRED_FIELD'			=> 'Gerekli alan',
-	'REQUIRED_FIELD_EXPLAIN'	=> 'Kullanıcı tarafından doldurulması veya belirtilmesi zorunlu profil alanı. Bu, kayıt esnasındaki profil alanındada gösterilecektir.',
+	'REQUIRED_FIELD_EXPLAIN'	=> 'Kullanıcı ya da yönetici tarafından belirlenen veya doldurulması gereken zorunlu profil alanı. Eğer kayıt ekranında göster seçeneği aktifse, alan sadece kullanıcı kendi profilini düzenlediğinde istenecektir.',
 	'ROWS'						=> 'Satırlar',
 
 	'SAVE'							=> 'Kaydet',
@@ -148,7 +148,7 @@ $lang = array_merge($lang, array(
 
 	'USER_FIELD_NAME'	=> 'Kullanıcıya sunulacak alan adı/başlığı',
 
-	'VISIBILITY_OPTION'				=> 'Görünür seçenek',
+	'VISIBILITY_OPTION'				=> 'Görülebilir seçenekler',
 ));
 
 ?>
