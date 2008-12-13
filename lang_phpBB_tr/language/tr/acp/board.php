@@ -302,7 +302,7 @@ $lang = array_merge($lang, array(
 
 // Auth settings
 $lang = array_merge($lang, array(
-	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'phpBB yapısı eklenti veya modüllerin doğrulanmasını destekler. Kullanıcılar mesaj panosuna girdiklerinde onların nasıl doğrulanacağının belirlenmesine izin verir. Varsayılan olarak üç plug-in bu ihtiyacı karşılar; DB, LDAP and Apache. Hiçbir metot ekstra bir bilgi gerektirmez yani konu ile ilgili seçilmiş bir metot varsa bu bilgi alanını doldurunuz.',
+	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'phpBB yapısı eklenti veya modüllerin doğrulanmasını destekler. Kullanıcılar mesaj panosuna girdiklerinde onların nasıl doğrulanacağının belirlenmesine izin verir. Varsayılan olarak üç tane uyumlu eklenti bu ihtiyacı karşılar; DB, LDAP ve Apache. Hiçbir metot ekstra bir bilgi gerektirmez yani konu ile ilgili seçilmiş bir metot varsa bu bilgi alanını doldurunuz.',
 
 	'AUTH_METHOD'				=> 'Bir doğrulama yöntemi seçiniz',
 
