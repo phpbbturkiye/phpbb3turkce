@@ -1,5 +1,6 @@
-﻿----Bu dosya phpBB Türkiye "http://www.phpbbturkey.com/" sitesinden indirilmiştir----
-----phpBB 3.0.3 "Olympus" Türkçe Dil Paketi----
+﻿#### Bu dosya phpBB Türkiye "http://www.phpbbturkey.com/" sitesinden indirilmiştir ####
+####
+#### phpBB 3.0.x "Olympus" Türkçe Dil Paketi ####
 
 Sürüm Geçmişi:
 
@@ -124,13 +125,13 @@ Sürüm Geçmişi:
 
 Kurulum:
 
-1. /styles ve /language klasörlerini phpBB 3.0.3 dosyalarınızın bulunduğu ana dizine gönderin.
+1. /styles ve /language klasörlerini phpBB 3.0.x dosyalarınızın bulunduğu ana dizine gönderin.
 
 ------------------------------------------------------
 
-İngilizce kurulmuş phpBB 3.0.3 sürümünü Türkçe'ye çevirme:
+İngilizce kurulmuş phpBB 3.0.x sürümünü Türkçe'ye çevirme:
 
-1. /styles ve /language klasörlerini phpBB 3.0.3 dosyalarınızın bulunduğu ana dizine gönderin.
+1. /styles ve /language klasörlerini phpBB 3.0.x dosyalarınızın bulunduğu ana dizine gönderin.
 2. Administrator Control Panel'e girip üst menüden SYSTEM sekmesine tıklayın.
 3. Açılan sayfada sol menüde bulunan GENERAL TASKS menüsünün altından Language Packs linkine tıklayın.
 4. Açılan ekranda en alt kısımda "Uninstalled language packs" bölümünün altında "Turkish Türkçe tr" alanı
