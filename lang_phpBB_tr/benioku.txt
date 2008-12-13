@@ -121,13 +121,13 @@ Sürüm Geçmişi:
 - Dil dosyaları içerisindeki ufak tefek bazı yerler henüz Türkçeleştirilmedi.
 - Bir sonraki sürüm için çalışmalar devam etmektedir.
 
-------------------------------------------------------
+#####################################################
 
 Kurulum:
 
 1. /styles ve /language klasörlerini phpBB 3.0.x dosyalarınızın bulunduğu ana dizine gönderin.
 
-------------------------------------------------------
+#####################################################
 
 İngilizce kurulmuş phpBB 3.0.x sürümünü Türkçe'ye çevirme:
 
