@@ -81,6 +81,7 @@ $lang = array_merge($lang, array(
 	'FORUM_EDIT_EXPLAIN'				=> 'Alttaki form, bu forumu özelleştirmenize izin verecektir. Not: Her kullanıcı veya kullanıcı grubu için yönetim ve mesaj sayacı kontrolleri forum izinleri yoluyla ayarlanır.',
 	'FORUM_IMAGE'						=> 'Forum resmi',
 	'FORUM_IMAGE_EXPLAIN'				=> 'phpBB ana klasörüne göre bu forum ile ilişkili olması için eklenecek bir resim.',
+	'FORUM_IMAGE_NO_EXIST'            => 'Belirtilen forum resmi mevcut değil',
 	'FORUM_LINK_EXPLAIN'				=> 'Bu foruma tıklandığında kullanıcının kaynağa ulaşacağı tam URL adresi (protokol içerir, ör: <samp>http://</samp>), örnek: <samp>http://www.phpbb.com/</samp>.',
 	'FORUM_LINK_TRACK'					=> 'Adrese gönderilen bağlantıları takip et',
 	'FORUM_LINK_TRACK_EXPLAIN'			=> 'Forum bağlantılarına kaç kere tıklandığını takip etmenizi sağlayacak kayıtlardır.',

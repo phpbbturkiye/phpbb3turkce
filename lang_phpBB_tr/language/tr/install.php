@@ -268,6 +268,7 @@ $lang = array_merge($lang, array(
 
 	'MAKE_FOLDER_WRITABLE'		=> 'Lütfen bu dosyanın mevcut olduğuna ve web sunucusu tarafından yazılabilir olduğuna emin olup tekrar deneyin:<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Lütfen bu dosyaların mevcut olduğuna ve web sunucusu tarafından yazılabilir olduğuna emin olup tekrar deneyin:<br />»<strong>%s</strong>.',
+	'MYSQL_SCHEMA_UPDATE_REQUIRED'   => 'phpBB için MySQL veritabanınızın şeması güncelliğini kaybetmiş. phpBB, MySQL 3.x/4.x için bir şema belirledi, fakat sunucu MySQL %2s üzerinde çalışıyor.<br /><strong>Güncelleme işleminden önce, şemanızı güncellemeniz gerekmektedir.</strong><br /><br />Lütfen <a href="http://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">MySQL şemasının güncellenmesi hakkında ki Bilgi Tabanı makalesi</a> sayfasına bakın. Eğer problemlerle karşılaşırsanız, lütfen <a href="http://www.phpbb.com/community/viewforum.php?f=46">destek forumlarımızı</a> kullanın.',
 
 	'NAMING_CONFLICT'			=> 'Adlandırma uyuşmazlığı: %s ve %s farklı adlar<br /><br />%s',
 	'NEXT_STEP'					=> 'Sonraki adıma ilerle',
@@ -381,7 +382,7 @@ $lang = array_merge($lang, array(
 	'COMPLETE_LOGIN_TO_BOARD'		=> 'Şimdi <a href="../ucp.php?mode=login">mesaj panonuza giriş yapmalısınız</a> ve herşeyin iyi çalıştığını kontrol etmelisiniz. install klasörünüzü silmeyi, yeniden adlandırmayı veya taşımayı unutmayın!',
 	'CONTINUE_UPDATE_NOW'			=> 'Güncelleme işlemine şimdi devam et',		// Shown within the database update script at the end if called from the updater
 	'CONTINUE_UPDATE'				=> 'Güncellemeye şimdi devam et',					// Shown after file upload to indicate the update process is not yet finished
-	'CURRENT_FILE'					=> 'Şu anki orijinal dosyanın başlangıcı',
+	'CURRENT_FILE'               => 'Kod güncellemesinden önceki Uyuşmayan - Orijinal Dosyanın Başlangıcı',
 	'CURRENT_VERSION'				=> 'Şu anki sürüm',
 
 	'DATABASE_TYPE'						=> 'Veritabanı tipi',
@@ -391,7 +392,7 @@ $lang = array_merge($lang, array(
 	'DESTINATION'						=> 'Gidilecek dosya',
 	'DIFF_INLINE'						=> 'Satır içi',
 	'DIFF_RAW'							=> 'Ham karşılaştırmayı birleştir',
-	'DIFF_SEP_EXPLAIN'					=> 'Şu anki orijinal dosyanın sonu / Yeni güncellenen dosyanın başlangıcı',
+  'DIFF_SEP_EXPLAIN'               => 'Güncellenen/yeni dosya içerisinde kullanılan kod bloğu',
 	'DIFF_SIDE_BY_SIDE'					=> 'Yan yana',
 	'DIFF_UNIFIED'						=> 'Karşılaştırmayı birleştir',
 	'DO_NOT_UPDATE'						=> 'Bu dosyayı güncelleme',
@@ -399,6 +400,8 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD'							=> 'İndir',
 	'DOWNLOAD_AS'						=> 'Farklı indir',
 	'DOWNLOAD_UPDATE_METHOD_BUTTON'      => 'Düzenlenen dosyalar arşivini indir (önerilen)',
+	'DOWNLOAD_CONFLICTS'            => 'Bu dosya için uyuşmazlıkları indir',
+  'DOWNLOAD_CONFLICTS_EXPLAIN'      => 'Farkedilen uyuşmazlıklar için &lt;&lt;&lt; ara',
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Düzenlenen dosyalar arşivini indir',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'İndirme yaptıktan sonra arşivi açmalısınız. phpBB ana dizininiz içerisine yüklemeniz gereken değiştirilmiş dosyaları bulacaksınız. Lütfen dosyaları ait olan yerlerine yükleyin. Tüm dosyaları yükledikten sonra, lütfen aşağıdaki diğer buton ile dosyaları tekrar kontrol edin.',
 
@@ -443,13 +446,13 @@ $lang = array_merge($lang, array(
 
 	'MERGE_NO_MERGE_NEW_OPTION'	=> 'Birleştirme - yeni dosyayı kullan',
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Birleştirme - yüklü olan dosyayı kullan',
-	'MERGE_MOD_FILE_OPTION'		=> 'Farklılıkları birleştir ve uyuşmazlık bloğu içindeki değiştirilen kodları kullan',
-	'MERGE_NEW_FILE_OPTION'		=> 'Farklılıkları birleştir ve uyuşmazlık bloğu içindeki yeni dosya kodlarını kullan', 
+  'MERGE_MOD_FILE_OPTION'      => 'Değişiklikleri birleştir (Uyuşmazlık bloğu içindeki yeni phpBB kodunu kullanma)',
+  'MERGE_NEW_FILE_OPTION'      => 'Değişiklikleri birleştir (Uyuşmazlık bloğu içindeki değiştirilen phpBB kodunu kullanma)',
 	'MERGE_SELECT_ERROR'		=> 'Seçilen uyuşmaz dosya birleştirme modu doğru değil.',
   'MERGING_FILES'            => 'Farklılıkları birleştir',
   'MERGING_FILES_EXPLAIN'      => 'Şu an final dosya değişiklikleri toplanıyor.<br /><br />Lütfen phpBB, değiştirilen dosyalar üzerindeki tüm işlemleri tamamlayana kadar bekleyin.',
 
-	'NEW_FILE'						=> 'Yeni güncellenen dosyanın sonu',
+	'NEW_FILE'						=> 'Uyuşmazlığın sonu',
 	'NEW_USERNAME'					=> 'Yeni kullanıcı adı',
 	'NO_AUTH_UPDATE'				=> 'Güncellemek için yetki yok',
 	'NO_ERRORS'						=> 'Hata yok',

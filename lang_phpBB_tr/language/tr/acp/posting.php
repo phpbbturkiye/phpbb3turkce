@@ -184,7 +184,7 @@ $lang = array_merge($lang, array(
 
 // Word censors
 $lang = array_merge($lang, array(
-	'ACP_WORDS_EXPLAIN'		=> 'Buradan otomatik olarak sansürlenecek kelimeleri ekleyebilir, silebilir, değiştirebilirsiniz. Ayrıca insanlar bu kelimeleri kullanıcı isimlerinde de kullanamazlar. Joker olarak * kullanabilirsiniz, Örn: *siklo* ansiklopedi kelimesini, siklo* siklon hecelerini, *siklo dersiklo hecelerini sansürleyecektir.',
+	'ACP_WORDS_EXPLAIN'		=> 'Buradan otomatik olarak sansürlenecek kelimeleri ekleyebilir, silebilir, değiştirebilirsiniz. Bu kelimeleri içeren kullanıcı adları ile kayıt olmaya izin verilmeye devam edilir. Joker olarak * kullanabilirsiniz, örn: *siklo* ansiklopedi kelimesini, siklo* siklon hecelerini, *siklo dersiklo hecelerini sansürleyecektir.',
 	'ADD_WORD'				=> 'Yeni kelime ekle',
 
 	'EDIT_WORD'		=> 'Kelime sansürü düzenle',

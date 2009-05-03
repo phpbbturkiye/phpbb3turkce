@@ -242,6 +242,15 @@ $lang = array_merge($lang, array(
  	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'GD temelinde güçlü CAPTCHA yapmak için düşük ayarlar kullanır. 0 sayısı x-ekseni arka plan parazitini kapatacaktır.',
  	'CAPTCHA_GD_Y_GRID'						=> 'GD CAPTCHA arka plan y-ekseni paraziti',
  	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'GD temelinde güçlü CAPTCHA yapmak için düşük ayarlar kullanır. 0 sayısı y-ekseni arka plan parazitini kapatacaktır.',
+ 	'CAPTCHA_GD_WAVE'                  => 'GD CAPTCHA dalga çarpıtması',
+  'CAPTCHA_GD_WAVE_EXPLAIN'            => 'Bu özellik CAPTCHA\'ya bir dalga çarpıtması uygular.',
+  'CAPTCHA_GD_3D_NOISE'               => '3D-ses objeleri ekle',
+  'CAPTCHA_GD_3D_NOISE_EXPLAIN'         => 'Bu özellik CAPTCHA\'ya harflerin ötesinde ilave objeler ekler.',
+  'CAPTCHA_GD_FONTS'                  => 'Farklı yazı tipleri kullan',
+  'CAPTCHA_GD_FONTS_EXPLAIN'            => 'Bu ayar kaç tane farklı harf biçimi kullanılacağının kontrolünü yapar. Sadece varsayılan biçimleri ya da uygulanan değiştirilmiş harfleri kullanabilirsiniz. Ayrıca küçük harfler ekleyebilirsiniz.',
+  'CAPTCHA_FONT_DEFAULT'               => 'Varsayılan',
+  'CAPTCHA_FONT_NEW'                  => 'Yeni Biçimler',
+  'CAPTCHA_FONT_LOWER'               => 'Ayrıca küçük harf kullanılsın',
  
  	'CAPTCHA_PREVIEW_MSG'					=> 'Görsel doğrulama ayarlarındaki değişiklikleriniz kaydedilmedi. Bu sadece bir önizlemedir.',
  	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'CAPTCHA, şu anda görünen geçerli ayarlarınız gibi kullanılacaktır. Yenilemek için önizleme butonunu kullanın. Not: Captcha\'ler rastgele haldedir ve bir sonrakinde ilk görüntüden farklı halde olacaktır.',
@@ -249,6 +258,8 @@ $lang = array_merge($lang, array(
  	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Misafir kullanıcıların toptan veya ard arda mesaj göndermelerini engellemek amacıyla, özel görsel kodların girilmesini zorunlu tutan bir resimdir.',
  	'VISUAL_CONFIRM_REG'					=> 'Kayıtlar için görsel doğrulamayı aç',
  	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Yeni kullanıcıların toptan veya ard arda kayıt olmalarını engellemek amacıyla, özel görsel kodların girilmesini zorunlu tutan bir resimdir.',
+ 	'VISUAL_CONFIRM_REFRESH'            => 'Doğrulama resmini yenilemek için kullanıcılara izin ver',
+  'VISUAL_CONFIRM_REFRESH_EXPLAIN'      => 'Eğer kullanıcılar kayıt sırasında Görsel Kodu çözemezlerse, yeni doğrulama kodları istemelerine izin verilir.',
 ));
 
 // Cookie Settings

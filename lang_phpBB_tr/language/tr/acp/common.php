@@ -200,7 +200,7 @@ $lang = array_merge($lang, array(
 	'ADMIN'					=> 'Yönetim',
 	'ADMIN_INDEX'			=> 'Yönetim ana sayfa',
 	'ADMIN_PANEL'			=> 'Yönetim Kontrol Paneli',
-	'ADM_LOGOUT'         => 'YKP Çıkış',
+	'ADM_LOGOUT'         => 'YKP&nbsp;Çıkış',
   'ADM_LOGGED_OUT'      => 'Yönetici Kontrol Panelinden başarıyla çıktınız',
 
 	'BACK'					=> 'Geri',

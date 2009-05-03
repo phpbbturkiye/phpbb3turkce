@@ -141,7 +141,7 @@ $lang = array_merge($lang, array(
 
 	'PARTIAL_UPLOAD'			=> 'Yüklenilen dosya sadece kısmen yüklendi.',
 	'PHP_SIZE_NA'				=> 'Eklenti\'nin dosya boyutu çok büyük.<br />PHP tarafından php.ini dosyasında belirlenen en yüksek boyut aşılamıyor.',
-	'PHP_SIZE_OVERRUN'			=> 'Eklenti\'nin dosya boyutu çok büyük, en fazla yüklenebilen boyut %d MB.<br />Not: Bu ayar php.ini dosyasında yapılmıştır ve üzerine yazılamaz.',
+	'PHP_SIZE_OVERRUN'			=> 'Eklenti’nin dosya boyutu çok büyük, en fazla yüklenebilen boyut %1$d %2$s.<br />Not: Bu ayar php.ini dosyasında yapılmıştır ve üzerine yazılamaz.',
 	'PLACE_INLINE'				=> 'Satır içine yerleştir',
 	'POLL_DELETE'				=> 'Anketi sil',
 	'POLL_FOR'					=> 'Anketin çalışma süresi',

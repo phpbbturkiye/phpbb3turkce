@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'Kullanıcı, kullanıcı kontrol panelinden bu profil alanını değiştirebilir.',
 	'DISPLAY_AT_REGISTER'			=> 'Kayıt ekranında göster',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Eğer bu özellik açık olursa, alan kayıt ekranında gösterilecektir.',
-	'DISPLAY_PROFILE_FIELD'			=> 'Profil alanını göster',
+	'DISPLAY_PROFILE_FIELD'			=> 'Profil alanını herkese göster',
 	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'Profil alanı, yüklü ayarların içerisinde izin verilen tüm yerlerde gösterilecektir. Bunu “hayır” olarak ayarlarsanız profil alanı, başlık sayfalarından, profillerden ve üye listesinden gizlenecektir.',
 	'DROPDOWN_ENTRIES_EXPLAIN'		=> 'Seçeneklerinizi şimdi girin, her satırda bir seçenek olmalıdır.',
 
