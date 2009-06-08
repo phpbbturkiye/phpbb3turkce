@@ -42,8 +42,8 @@ $lang = array_merge($lang, array(
 		<h2>Global İzinler</h2>
 		<p>Bu izinler global bir seviyede kontrol erişimi için ve tüm mesaj panosuna uygulamak için kullanılır. Bunlar Kullanıcı İzinleri, Grup İzinleri, Yöneticiler ve Global Moderatörler olarak sınıflara ayrılmıştır.</p>
 
-		<h2>Forum Temelli İzinler</h2>
-		<p>Bu izinler her bir forum temelinde kontrol erişimi için kullanılır. Bunlar Forum İzinleri, Forum Moderatörleri, Kullanıcı Forum İzinleri ve Grup Forum İzinleri olarak sınıflara ayrılmıştır.</p>
+		<h2>Forum Tabanlı İzinler</h2>
+		<p>Bu izinler her bir forum tabanında kontrol erişimi için kullanılır. Bunlar Forum İzinleri, Forum Moderatörleri, Kullanıcı Forum İzinleri ve Grup Forum İzinleri olarak sınıflara ayrılmıştır.</p>
 
 		<h2>İzin Rolleri</h2>
 		<p>Bu izinler farklı izin türlerinin sonradan bir rol-tabanlı temelde tanımlanabilmesi için izinleri farklı ayarlarda oluşturmak amacıyla kullanılır. Varsayılan roller büyük ve küçük mesaj panolarının yönetimini kapsamalıdır, buna rağmen her dört bölüm içinde uygun gördüğünüz rolleri ekleyebilir/düzenleyebilir ya da silebilirsiniz.</p>
