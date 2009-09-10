@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 
 	'TOKEN'					=> 'İşaret',
 	'TOKENS'				=> 'İşaretler',
-	'TOKENS_EXPLAIN'		=> 'İşaretler, kullanıcıların girdikleri kelimelerin mantıksal olarak anlamlandırılıp düzenlenmesidir. Örneğin mesajlarda kullanıcı tarafından girilen bir kelime bu kısımda tanımlanırsa kullanıcı bu kelimeyi yanlış yazsa bile sistem öntanımlı olan bu kelime otomatik olarak düzeltilir. Gerekli olduğunda aşağıdaki örnekte olduğu gibi çift tanımlılar arasında bir sayı eklenerekte kullanılabilir, örnek {METİN1}, {METİN2}.<br /><br />HTML yenileme sınırları içerisinde bu işaretleri herhangi bir dil dizisi olarakta language/ klasörü içerisinde kullanabilirsiniz. Mesela bu şekilde olabilir: {L_<em>&lt;DİZİADI&gt;</em>} burada tanımlanan şekli <em>&lt;DİZİADI&gt;</em> dil dosyasına eklenmesini istediğiniz yapıyla aynı olduğu görülür. Örneğin, {L_WROTE} &quot;wrote&quot; şeklinde gösterilecektir ya da yerel olarak kullanıcının tercümesine göre değişebilir.<br /><br /><strong>Not: Sadece aşağıda listelenen işaretler özel BBCode’lar dahilinde kullanılabilir.</strong>',
+	'TOKENS_EXPLAIN'		=> 'İşaretler, kullanıcıların girdikleri kelimelerin mantıksal olarak anlamlandırılıp düzenlenmesidir. Örneğin mesajlarda kullanıcı tarafından girilen bir kelime bu kısımda tanımlanırsa kullanıcı bu kelimeyi yanlış yazsa bile sistem öntanımlı olan bu kelime otomatik olarak düzeltilir. Gerekli olduğunda aşağıdaki örnekte olduğu gibi çift tanımlılar arasında bir sayı eklenerekte kullanılabilir, örnek {METİN1}, {METİN2}.<br /><br />HTML yenileme sınırları içerisinde bu işaretleri herhangi bir dil dizisi olarakta language/ klasörü içerisinde kullanabilirsiniz. Mesela bu şekilde olabilir: {L_<em>&lt;DİZİADI&gt;</em>} burada tanımlanan şekli <em>&lt;DİZİADI&gt;</em> dil dosyasına eklenmesini istediğiniz yapıyla aynı olduğu görülür. Örneğin, {L_WROTE} “wrote” şeklinde gösterilecektir ya da yerel olarak kullanıcının tercümesine göre değişebilir.<br /><br /><strong>Not: Sadece aşağıda listelenen işaretler özel BBCode’lar dahilinde kullanılabilir.</strong>',
 	'TOKEN_DEFINITION'		=> 'Bu ne olabilir?',
 	'TOO_MANY_BBCODES'		=> 'Daha fazla BBCode yaratılamaz. Bir ya da daha fazla BBCode u kaldırarak tekrar deneyin',
 
@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
     'IDENTIFIER'   => 'Latin alfabesinden karakterler (A-Z), sayılar, tire ve altçizgi',
 		'NUMBER'		=> 'Sayı dizilerinin herhangi bir serisi',
 		'EMAIL'			=> 'Geçerli e-posta adresi',
-		'URL'			=> 'Herhangi bir protokolde geçerli URL kullanımı (http, ftp, gibi… javascript exploitleri için kullanılamaz). Hiç biri verilmezse, diziye &quot;http://&quot; ön adı verilir.',
+		'URL'			=> 'Herhangi bir protokolde geçerli URL kullanımı (http, ftp, gibi… javascript exploitleri için kullanılamaz). Hiç biri verilmezse, diziye “http://” ön adı verilir.',
 		'LOCAL_URL'		=> 'Yerel URL, URL Başlık sayfasıyla ilgili olmalıdır ve sunucu ismi ya da protokolü içermemelidir.',
 		'COLOR'			=> 'Bir HTML rengi, <samp>#FF1234</samp> şeklinde sayısal form içinde ya da bir <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS renk klavyesi</a> olabilir, <samp>fuchsia</samp> veya <samp>InactiveBorder</samp> gibi de olabilir'
 	)
@@ -178,6 +178,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_ORDER'				=> 'İfade sıralaması',
 	'SMILIES_URL'				=> 'İfade resim dosyası',
 	'SMILIES_WIDTH'				=> 'İfade genişliği',
+	'TOO_MANY_SMILIES'			=> 'Limit of %d smilies reached.',
 
 	'WRONG_PAK_TYPE'	=> 'Belirtilen paket uygun veriye sahip değil.',
 ));
@@ -216,6 +217,7 @@ $lang = array_merge($lang, array(
 	'RANK_ADDED'			=> 'Rütbe başarıyla eklendi.',
 	'RANK_IMAGE'			=> 'Rütbe Resmi',
 	'RANK_IMAGE_EXPLAIN'	=> 'Rütbeyi tanımlamak için bu küçük resmi kullanabilirsiniz. Dosyanın yolu phpBB klasörüne göre değişir.',
+	'RANK_IMAGE_IN_USE'		=> '(Kullanımda)',
 	'RANK_MINIMUM'			=> 'En Düşük Mesaj Sayısı',
 	'RANK_REMOVED'			=> 'Rütbe başarıyla silindi.',
 	'RANK_SPECIAL'			=> 'Özel rütbe olarak ayarla',

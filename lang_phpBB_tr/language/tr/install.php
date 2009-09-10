@@ -133,6 +133,7 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'				=> 'Veritabanı şifresi',
 	'DB_PORT'					=> 'Veritabanı sunucu portu',
 	'DB_PORT_EXPLAIN'			=> 'Bildiğiniz sunucu işlemleri bir standart portta olmadıkça burayı boş bırakın.',
+	'DB_UPDATE_NOT_SUPPORTED'	=> 'We are sorry, but this script does not support updating from versions of phpBB prior to “%1$s”. The version you currently have installed is “%2$s”. Please update to a previous version before running this script. Assistance with this is available in the Support Forum on phpBB.com.',
 	'DB_USERNAME'				=> 'Veritabanı kullanıcı adı',
 	'DB_TEST'					=> 'Bağlantı testi',
 	'DEFAULT_LANG'				=> 'Varsayılan forum dili',
@@ -166,6 +167,7 @@ $lang = array_merge($lang, array(
 	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Gerekli</strong> - phpBB\'nin düzgün bir şekilde işlemesi için bazı dosya ve klasörlere yazılabilmesi veya erişilebilmesi gerekmektedir. Eğer "Bulunamadı" ifadesini görüyorsanız konu ile ilgili dosya veya klasörü oluşturmanız gerekmektedir. Eğer "Yazılabilir değil" ifadesini görüyorsanız dosya veya klasördeki izinleri değiştirip yazılması için phpBB\'ye izin vermeniz gerekmektedir.',
 	'FILLING_TABLE'				=> 'Doldurulan tablo <strong>%s</strong>',
 	'FILLING_TABLES'			=> 'Tablolar dolduruluyor',
+	'FIREBIRD_DBMS_UPDATE_REQUIRED'		=> 'phpBB no longer supports Firebird/Interbase prior to Version 2.1. Please update your Firebird installation to at least 2.1.0 before proceeding with the update.',
 	'FINAL_STEP'				=> 'Final adımı işlemi',
 	'FORUM_ADDRESS'				=> 'Mesaj panosu adresi',
 	'FORUM_ADDRESS_EXPLAIN'		=> 'Bu önceki mesaj panonuzun URL adresidir, örneğin <samp>http://www.siteadresi.com/phpBB2/</samp>. Eğer buraya bir adres girilmişse ve bu adresin hiç bir kısmı boş değilse yeni mesaj panosu adresiniz tarafından mesajlar, özel mesajlar ve imzalar dahilinde eskisi ile değiştirilecektir.',
@@ -184,11 +186,11 @@ $lang = array_merge($lang, array(
 	'INITIAL_CONFIG_EXPLAIN'	=> 'Sunucunuzda phpBB çalıştırabilmek için şimdi bir yükleme kararlaştırılacak, bunun için bazı özel bilgileri temin etmeniz gerekmektedir. Eğer veritabanınıza nasıl bağlanılacağını bilmiyorsanız lütfen (ilk olarak) hosting sağlayıcınız ile iletişime geçin ya da phpBB destek forumlarını kullanın. Verileri girdiğiniz zaman devam etmeden önce lütfen tamamını temin etmiş olduğunuzu kontrol edin.',
 	'INSTALL_CONGRATS'			=> 'Tebrikler!',
  	'INSTALL_CONGRATS_EXPLAIN'	=> '
- 		<p>phpBB %1$s sürümünü şimdi başarıyla yüklediniz. Buradan, yeni yüklenen phpBB3\'ünüz ile ne yapacağınızı iki seçenek halinde göreceksiniz:</p>
- 		<h2>Mevcut bir mesaj panosunu phpBB3\'e dönüştürmek</h2>
- 		<p>phpBB Birleştirme Dönüştürücü Sistemi phpBB 2.0.x ve diğer mesaj panosu sistemlerinden phpBB3\'e dönüşümü destekler. Eğer dönüştürmek istediğiniz mevcut bir mesaj panonuz varsa, lütfen <a href="%2$s">dönüştürücüye doğru ilerleyin</a>.</p>
- 		<h2>phpBB3\'ünüz ile yolunuza devam edin!</h2>
- 		<p>Alttaki butona tıklayarak Yönetim Kontrol Panelinize (YKP) ulaşacaksınız. Herhangi bir zamanda mevcut seçenekleri inceleyebileceksiniz. <a href="http://www.phpbb.com/support/documentation/3.0/">Dokümantasyon</a> ve <a href="http://www.phpbb.com/community/viewforum.php?f=46">destek forumları</a> ile çevrimiçi yardım alabileceğinizi unutmayın, daha fazla bilgi için <a href="%3$s">BENİ OKU</a> dosyasına bakın.</p><p><strong>Lütfen mesaj panonuzu kullanmadan önce şimdi install klasörünü silin, taşıyın ya da yeniden adlandırın. Eğer bu klasör mevcutsa, sadece Yönetim Kontrol Paneline (YKP) erişilebilinecektir.</strong></p>',
+		phpBB %1$s sürümünü başarıyla kurdunuz. Lütfen aşağıdaki seçeneklerden birini seçerek ilerleyin:</p>
+		<h2>Convert an existing board to phpBB3</h2>
+		<p>The phpBB Unified Convertor Framework supports the conversion of phpBB 2.0.x and other board systems to phpBB3. If you have an existing board that you wish to convert, please <a href="%2$s">proceed to the convertor</a>.</p>
+		<h2>Go live with your phpBB3!</h2>
+		<p>Clicking the button below will take you to a form for submitting statistical data to phpBB in your Administration Control Panel (ACP). We would appreciate it if you could help us by sending that information. Afterwards you should take some time to examine the options available to you. Remember that help is available online via the <a href="http://www.phpbb.com/support/documentation/3.0/">Documentation</a>, <a href="%3$s">README</a> and the <a href="http://www.phpbb.com/community/viewforum.php?f=46">Support Forums</a>.</p><p><strong>Please delete, move or rename the install directory before using your board. While this directory exists, only the Administration Control Panel (ACP) will be accessible.</strong>',
 	'INSTALL_INTRO'				=> 'Yükleme\'ye Hoşgeldiniz',
 
 	'INSTALL_INTRO_BODY'		=> 'Bu seçenek ile, sunucunuza phpBB3 yüklemek mümkün olacaktır.</p><p>Devam etmek için, veritabanı ayarlarınıza ihtiyacınız vardır. Eğer veritabanı ayarlarınızı bilmiyorsanız, lütfen hosting firmanız ile iletişime geçin ve onlara sorun. Bu ayarlar olmadan devam edemezsiniz. Size gerekenler:</p>
@@ -208,7 +210,7 @@ $lang = array_merge($lang, array(
      <li>MySQL 3.23 veya üzeri (MySQLi destekli)</li> 
      <li>PostgreSQL 7.3+</li> 
      <li>SQLite 2.8.2+</li> 
-     <li>Firebird 2.0+</li> 
+     <li>Firebird 2.1+</li> 
      <li>MS SQL Server 2000 veya üzeri (direkt olarak veya ODBC yoluyla)</li> 
      <li>Oracle</li> 
      </ul> 
@@ -230,7 +232,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_MYSQLI'		=> 'Bu makinede yüklü olan MySQL sürümü seçtiğiniz “MySQL ile MySQLi Uzantısı” seçeneği ile uyuşmuyor. Lütfen bunun yerine “MySQL” seçeneğini seçerek tekrar deneyin.',
 	'INST_ERR_DB_NO_SQLITE'		=> 'Yüklü olan SQLite uzantısı\'nın sürümü çok eski, en düşük 2.8.2 sürümüne güncellenmelidir.',
 	'INST_ERR_DB_NO_ORACLE'		=> 'Bu makinede yüklü olan Oracle\'nin sürümünde <var>NLS_CHARACTERSET</var> parametresini <var>UTF8</var>\'e göre ayarlamanız gerekiyor. Yüklemenizi 9.2+ sürümüne güncelleyin veya parametreyi değiştirin.',
-	'INST_ERR_DB_NO_FIREBIRD'	=> 'Bu makinede yüklü olan Firebird\'in sürümü 2.0\'dan eski, lütfen yeni bir sürüme güncelleyin.',
+	'INST_ERR_DB_NO_FIREBIRD'	=> 'Bu makinede yüklü olan Firebird sürümü 2.1\'den eski, lütfen yeni bir sürüme güncelleyin.',
 	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'Firebird için seçtiğiniz veritabanı 8192\'den daha az bir sayfa boyutuna sahip, en düşük 8192 olmalıdır.',
 	'INST_ERR_DB_NO_POSTGRES'	=> 'Seçtiğiniz veritabanı <var>UNICODE</var> veya <var>UTF8</var> kodlaması içerisinde oluşturulamadı. <var>UNICODE</var> veya <var>UTF8</var> kodlaması içerisinde bir veritabanı ile tekrar yükleyin.',
 	'INST_ERR_DB_NO_NAME'		=> 'Hiç bir veritabanı adı belirtilmedi.',
@@ -363,7 +365,7 @@ $lang = array_merge($lang, array(
 
 // Updater
 $lang = array_merge($lang, array(
-	'ALL_FILES_UP_TO_DATE'		=> 'Tüm dosyalar son phpBB sürümü ile güncel. Şimdi <a href="../ucp.php?mode=login">mesaj panonuza giriş yapmalısınız</a> ve herşeyin iyi çalıştığını kontrol etmelisiniz. install klasörünüzü silmeyi, yeniden adlandırmayı veya taşımayı unutmayın!',
+	'ALL_FILES_UP_TO_DATE'		=> 'Tüm dosyalar son phpBB sürümü ile güncel. Şimdi <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">mesaj panonuza giriş yapmalısınız</a> ve herşeyin iyi çalıştığını kontrol etmelisiniz. install klasörünüzü silmeyi, yeniden adlandırmayı veya taşımayı unutmayın! Please send us updated information about your server and board configurations from the <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">Send statistics</a> module in your ACP.',
 	'ARCHIVE_FILE'				=> 'Arşiv içinde kaynak dosya',
 
 	'BACK'				=> 'Geri',
@@ -465,7 +467,7 @@ $lang = array_merge($lang, array(
 	'NO_VISIBLE_CHANGES'			=> 'Görünen hiç bir değişiklik yok',
 	'NOTICE'						=> 'Uyarı',
 	'NUM_CONFLICTS'					=> 'Uyuşmazlıkların sayısı',
-	'NUMBER_OF_FILES_COLLECTED'      => 'Şu anda %2$d dosyanın %1$d tanesinin farklılıkları kontrol edildi.<br />Lütfen tüm dosyalar kontrol edilene kadar bekleyin.',
+	'NUMBER_OF_FILES_COLLECTED'      => 'Şu anda %2$d dosyadan %1$d tanesinin farklılıkları kontrol edildi.<br />Lütfen tüm dosyalar kontrol edilene kadar bekleyin.',
 
 	'OLD_UPDATE_FILES'              => 'Güncelleme dosyaları eski. phpBB %1$s sürümünden phpBB %2$s sürümüne güncelleme yapmak için güncelleme dosyaları bulundu fakat phpBB\'nin son sürümü %3$s.',
 
@@ -559,11 +561,12 @@ $lang = array_merge($lang, array(
 	'USER_INACTIVE'					=> 'Aktif olmayan kullanıcı',
 
 	'VERSION_CHECK'				=> 'Sürüm kontrolü',
-	'VERSION_CHECK_EXPLAIN'		=> 'Şu an çalıştırdığınız phpBB sürümünün güncel olup olmadığını kontrol edin.',
-	'VERSION_NOT_UP_TO_DATE'	=> 'phpBB sürümünüz güncel değil. Lütfen güncelleme işlemine devam edin.',
-	'VERSION_NOT_UP_TO_DATE_ACP'=> 'phpBB sürümünüz güncel değil.<br />Alttaki son sürüm için sürüm duyuruları bağlantısında güncellemeyi nasıl yapacağınız konusunda bilgiler bulacaksınız.',
-	'VERSION_UP_TO_DATE'		=> 'Yüklemeniz güncel, phpBB sürümünüz için herhangi bir güncelleme mevcut değil. Yine de eğer isterseniz bir dosya doğrulama kontrolü yapabilirsiniz.',
-	'VERSION_UP_TO_DATE_ACP'	=> 'Yüklemeniz güncel, phpBB sürümünüz için herhangi bir güncelleme mevcut değil. Yüklemenizi güncellemenize gerek yok.',
+	'VERSION_CHECK_EXPLAIN'			=> 'phpBB kurulumunuzun güncelliğini buradan kontrol edebilirsiniz.',
+	'VERSION_NOT_UP_TO_DATE'		=> 'phpBB kurulumunuz güncel değil. Lütfen güncelleme işlemine devam edin.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'phpBB kurulumunuz güncel değil.<br />Below is a link to the release announcement, which contains more information as well as instructions on updating.',
+	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'phpBB kurulumunuz güncel değil.',
+	'VERSION_UP_TO_DATE'			=> 'phpBB kurulumunuz güncel. Şu anda herhangi bir güncelleme mevcut değil, isterseniz bir dosya doğrulaması kontrolü için devam edebilirsiniz.',
+	'VERSION_UP_TO_DATE_ACP'		=> 'phpBB kurulumunuz güncel. Şu anda herhangi bir güncelleme mevcut değil.',
 	'VIEWING_FILE_CONTENTS'		=> 'Dosya içeriği görüntüleniyor',
 	'VIEWING_FILE_DIFF'			=> 'Dosya farklılıkları görüntüleniyor',
 

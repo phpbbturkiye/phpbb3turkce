@@ -70,6 +70,10 @@ $lang = array_merge($lang, array(
 	'ALLOW_NO_CENSORS'			=> 'Kelime sansürünün kapatılmasına izin ver',
 	'ALLOW_NO_CENSORS_EXPLAIN'	=> 'Kullanıcılar, mesajların ve özel mesajların otomatik kelime sansürünü kapatabilirler.',
 	'ALLOW_PM_ATTACHMENTS'		=> 'Özel mesajlarda eklentilere izin ver',
+	'ALLOW_PM_REPORT'			=> 'Kullanıcıların özel mesajları bildirmesine izin ver',
+	'ALLOW_PM_REPORT_EXPLAIN'	=> 'Eğer bu özellik aktifse, kullanıcılar aldıkları bir özel mesajı bildirme ya da mesaj panosu moderatörlerine gönderme seçeneğine sahip olurlar. Bu özel mesajlar Moderatör Kontrol Panelinden görülebilecektir.',
+	'ALLOW_QUICK_REPLY'			=> 'Hızlı cevaba izin ver',
+	'ALLOW_QUICK_REPLY_EXPLAIN'	=> 'Bu özellik hızlı cevabın aktif olup olmadığını belirler. Eğer bu özellik aktifse, ayrıca forumlarında hızlı cevap özelliklerinin aktif olması gerekmektedir.',
 	'ALLOW_SIG'					=> 'İmzalara izin ver',
 	'ALLOW_SIG_BBCODE'			=> 'Kullanıcı imzasında BBCode kullanımına izin ver',
 	'ALLOW_SIG_FLASH'			=> 'Kullanıcı imzasında <code>[FLASH]</code> BBCode etiketi kullanımına izin ver',
@@ -86,10 +90,14 @@ $lang = array_merge($lang, array(
 // Avatar Settings
 $lang = array_merge($lang, array(
 	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Avatarlar kullanıcıların kendilerine yakın hissedip seçtikleri genel olarak küçük, benzersiz resimlerden oluşur. Tema stiline göre çoğunlukla mesajlar görüntülenirken kullanıcı adının hemen altında gösterilir. Siz bu bölümde kullanıcılarınızın kendi avatarlarını nasıl tanımlayacağını belirleyebileceksiniz. Burada önemli bir hususa dikkat etmelisiniz, avatarlarınızın web sunucusunda yaratılmış kayıt klasörlerindeki, yazma işlemine karşı yetkilendirilmesi gerektiğini unutmayın. Lütfen şunu önemle hatırlayın, dosya boyutu sınırlaması sadece yüklenen avatarlar için geçerlidir, bu sınırlama uzak bağlantı verilen resimler için geçerli olmayacaktır.',
+	'ALLOW_AVATARS'					=> 'Avatarları aç',
+	'ALLOW_AVATARS_EXPLAIN'			=> 'Avatarların genel kullanımına izin verir;<br />Eğer genel olarak avatarları kapattıysanız ya da kesin bir şekilde avatar kullanımına izin vermiyorsanız, bu ayarı kapalı yaptığınız takdirde avatarlar mesaj panosunda artık görüntülenmeyecektir, fakat kullanıcılara hala kendi avatarlarını Kullanıcı Kontrol Panelinden indirebilirler.',
 
 	'ALLOW_LOCAL'					=> 'Galeri avatarlarını aç',
 	'ALLOW_REMOTE'					=> 'Uzak avatarı aç',
 	'ALLOW_REMOTE_EXPLAIN'			=> 'Avatarlar diğer web sitelerinden bağlantı alır.',
+	'ALLOW_REMOTE_UPLOAD'			=> 'Uzak avatar yüklemeyi aç',
+	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Diğer bir siteden avatarların yüklenmesine izin verir.',
 	'ALLOW_UPLOAD'					=> 'Avatar yüklemeyi aç',
 	'AVATAR_GALLERY_PATH'			=> 'Avatar galerisinin klasörü',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Ön-yüklenmiş resimler için phpBB ana klasörünüzün alt yolu, örnek: <samp>images/avatars/gallery</samp>.',
@@ -139,15 +147,13 @@ $lang = array_merge($lang, array(
 	'ALLOW_POST_LINKS_EXPLAIN'			=> 'Eğer <code>[URL]</code> BBCode etiketine izin verilmediyse ve otomatik/sihirli URL\'ler kapatıldıysa.',
   'ALLOW_POST_FLASH'               => 'Mesajlarda <code>[FLASH]</code> BBCode etiketi kullanımına izin ver',
   'ALLOW_POST_FLASH_EXPLAIN'         => 'Eğer mesajlarda <code>[FLASH]</code> BBCode etiketine izin verilmezse, bunun dışında izin sistemi kontrollerindeki kullanıcılar <code>[FLASH]</code> BBCode etiketi kullanabilir.',
-  'ENABLE_QUEUE_TRIGGER'         => 'Sırada bekleyen mesajları aç',
-  'ENABLE_QUEUE_TRIGGER_EXPLAIN'   => 'Eğer kayıtlı kullanıcıların mesaj sayacı aşağıda belirlenen değerden düşük ise mesaj onayı için kayıtlı kullanıcılar mesajlarını ekleme yeteneğine sahip olurlar. Bu ayar mesaj/başlık onayı için izin ayarında etki göstermez.',
-  'QUEUE_TRIGGER_POSTS'         => 'Sırada bekleyen mesajlar için en yüksek mesaj sayacı',
-  'QUEUE_TRIGGER_POSTS_EXPLAIN'   => 'Eğer sırada bekleyen mesajlar açıksa, bu mesaj sayacı kullanıcının mesaj onayı olmadan sırayla mesaj gönderebilmesi için erişmesi gereken sayıdır. Eğer kullanıcıların mesaj sayacı bu sayıdan düşük ise, mesaj otomatik olarak sırada tutulacaktır.',
-	
+
 	'BUMP_INTERVAL'					=> 'Darbeleme aralığı',
 	'BUMP_INTERVAL_EXPLAIN'			=> 'Bir başlıktaki son mesaj ile bu başlığı darbeleme arasında geçecek olan dakika, saat ya da gün sayısı.',
 	'CHAR_LIMIT'					=> 'Her mesajda en yüksek karakter sayısı',
 	'CHAR_LIMIT_EXPLAIN'			=> 'Bir mesajda izin verilen karakter sayısı. Sınırsız karakter için 0 olarak ayarlayın.',
+	'DELETE_TIME'					=> 'Silinme zamanı sınırı',
+	'DELETE_TIME_EXPLAIN'			=> 'Yeni bir mesajı silmek için mevcut olan zaman sınırı. 0 değeri bu özelliği kapatır.',
 	'DISPLAY_LAST_EDITED'			=> 'Son değiştirilme zamanı bilgisini göster',
 	'DISPLAY_LAST_EDITED_EXPLAIN'	=> 'Son değiştirilme zamanı seçili olursa mesajlarda bu bilgi gösterilecektir.',
 	'EDIT_TIME'						=> 'Düzenleme zaman limiti',
@@ -165,12 +171,15 @@ $lang = array_merge($lang, array(
 	'MAX_POST_IMG_WIDTH_EXPLAIN'	=> 'Mesajlardaki resim/flash dosyalarının en fazla genişliği. Sınırsız boyut için 0 olarak ayarların.',
 	'MAX_POST_URLS'					=> 'Her mesajdaki en fazla bağlantı sayısı',
 	'MAX_POST_URLS_EXPLAIN'			=> 'Bir mesajda izin verilen en fazla URL sayısı. Sınırsız bağlantı için 0 olarak ayarlayın.',
+	'MIN_CHAR_LIMIT'				=> 'Her mesajdaki en düşük karakter sayısı',
+	'MIN_CHAR_LIMIT_EXPLAIN'		=> 'Kullanıcının bir mesaj/özel mesajda girmesi gereken en düşük karakter sayısı.',
 	'POSTING'						=> 'Mesajlaşma',
 	'POSTS_PER_PAGE'				=> 'Her sayfadaki mesaj sayısı',
 	'QUOTE_DEPTH_LIMIT'				=> 'Her mesajda iç içe geçmiş en yüksek alıntı sayısı',
 	'QUOTE_DEPTH_LIMIT_EXPLAIN'		=> 'Bir mesajda iç içe geçmiş en yüksek alıntı sayısı. Sınırsız derinlik için 0 olarak ayarlayın.',
 	'SMILIES_LIMIT'					=> 'Her mesajdaki en fazla ifade sayısı',
 	'SMILIES_LIMIT_EXPLAIN'			=> 'Bir mesajda izin verilen en fazla ifade sayısı. Sınırsız ifade için 0 olarak ayarlayın.',
+	'SMILIES_PER_PAGE'				=> 'Her sayfadaki ifade sayısı',
 	'TOPICS_PER_PAGE'				=> 'Her sayfadaki başlık sayısı',
 ));
 
@@ -198,6 +207,10 @@ $lang = array_merge($lang, array(
 
 	'ACC_ACTIVATION'			=> 'Hesap Aktivasyonu',
 	'ACC_ACTIVATION_EXPLAIN'	=> 'Buradaki ayarlarla birlikte kullanıcı mesaj panosuna hemen giriş yapabilir ya da hesap onaylama zorunluluğu getirilebilir. Arzu ederseniz yeni kayıt işlemini tamamıyla devre dışı bırakabilirsiniz.',
+	'NEW_MEMBER_POST_LIMIT'			=> 'Yeni üye mesaj sınırı',
+	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> '<em>Yeni Kayıtlı Kullanıcılar</em> grubu içerisindeki yeni üyelerin mesajları bu sayıya ulaştıktan sonra kabul edilmeyecektir. Mesajları incelemek için ya da yeni kullanıcıların ÖM sistemini kullandıklarında kontrol etmek için bu grubu kullanabilirsiniz. <strong>0 değeri bu özelliği kapatır.</strong>',
+	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Yeni Kayıtlı Kullanıcılar grubunu varsayılan olarak ayarla',
+	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Eğer evet olarak ayarladıysanız ve yeni üyenin mesaj sınırıyla belirlenen yeni kayıtlı kullanıcılar sadece <em>Yeni Kayıtlı Kullanıcılar</em> grubuna yerleştirilmeyecektir, fakat bu grup ayrıca onların varsayılan bir grubu olacaktır. Eğer varsayılan bir gruba rütbe ve/veya avatar tanımlamak isterseniz bu kullanışlı gelebilir.',
 	'ACC_ADMIN'					=> 'Yönetici tarafından',
 	'ACC_DISABLE'				=> 'Kapalı',
 	'ACC_NONE'					=> 'Yok',
@@ -230,11 +243,45 @@ $lang = array_merge($lang, array(
 	'USERNAME_LENGTH_EXPLAIN'	=> 'Kullanıcı adlarında en yüksek ve en düşük karakter sayısı.',
 ));
 
+// Feeds
+$lang = array_merge($lang, array(
+	'ACP_FEED_MANAGEMENT'				=> 'General Syndication Feeds settings',
+	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'This Module makes available various ATOM Feeds, parsing any BBCode in posts to make them readable in external feeds.',
+
+	'ACP_FEED_ENABLE'					=> 'Enable Feeds',
+	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Turns on or off ATOM Feeds for the entire board.<br />Disabling this switches off all Feeds, no matter how the options below are set.',
+	'ACP_FEED_LIMIT'					=> 'Number of items',
+	'ACP_FEED_LIMIT_EXPLAIN'			=> 'The maximum number of feed items to display.',
+
+	'ACP_FEED_OVERALL_FORUMS'			=> 'Enable overall forums feed',
+	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'This feed displays the latest posts from all forums topics.',
+	'ACP_FEED_OVERALL_FORUMS_LIMIT'		=> 'Number of items per page to display in the forums feed',
+
+	'ACP_FEED_OVERALL_TOPIC'			=> 'Enable overall topics feed',
+	'ACP_FEED_OVERALL_TOPIC_EXPLAIN'	=> 'Enables the “All Topics” feed',
+	'ACP_FEED_OVERALL_TOPIC_LIMIT'		=> 'Number of items per page to display in the topics feed',
+	'ACP_FEED_FORUM'					=> 'Enable Per-Forum Feeds',
+	'ACP_FEED_FORUM_EXPLAIN'			=> 'Single forum new posts.',
+	'ACP_FEED_TOPIC'					=> 'Enable Per-Topic Feeds',
+	'ACP_FEED_TOPIC_EXPLAIN'			=> 'Single topics new posts.',
+	'ACP_FEED_NEWS'						=> 'News Feeds',
+	'ACP_FEED_NEWS_EXPLAIN'				=> 'Pull the first post from these forums. Select no forums to disable news feed.<br />Select multiple forums by holding <samp>CTRL</samp> and clicking.',
+
+	'ACP_FEED_GENERAL'					=> 'General Feed Settings',
+
+	'ACP_FEED_ITEM_STATISTICS'			=> 'Item statistics',
+	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Display individual statistics underneath feed items<br />(Posted by, date and time, Replies, Views)',
+	'ACP_FEED_EXCLUDE_ID'				=> 'Exclude these forums',
+	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Content from these will be <strong>not included in feeds</strong>. Select no forum to pull data from all forums.<br />Select/Deselect multiple forums by holding <samp>CTRL</samp> and clicking.',
+));
+
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
-	'ACP_VC_SETTINGS_EXPLAIN'			=> 'Buradan, görsel doğrulama varsayılan ayarları ve CAPTCHA ayarlarını tanımlayabilirsiniz.',
-
- 	'CAPTCHA_GD'							=> 'GD CAPTCHA',
+	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Here you can select and configure CAPTCHA plugins, which implement various ways to reject registration attempts from so-called spambots.',
+	'AVAILABLE_CAPTCHAS'					=> 'Available plugins',
+	'CAPTCHA_UNAVAILABLE'					=> 'The CAPTCHA cannot be selected as its requirements are not met.',
+	'CAPTCHA_GD'							=> 'GD CAPTCHA',
+	'CAPTCHA_GD_3D'							=> 'GD 3D Captcha',
  	'CAPTCHA_GD_FOREGROUND_NOISE'			=> 'GD CAPTCHA ön plan paraziti',
 	'CAPTCHA_GD_EXPLAIN'					=> 'Daha gelişmiş bir CAPTCHA yapmak için GD kullanır.',
  	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'GD temelinde güçlü CAPTCHA yapmak için ön plan paraziti kullanır.',
@@ -252,14 +299,23 @@ $lang = array_merge($lang, array(
   'CAPTCHA_FONT_NEW'                  => 'Yeni Biçimler',
   'CAPTCHA_FONT_LOWER'               => 'Ayrıca küçük harf kullanılsın',
  
- 	'CAPTCHA_PREVIEW_MSG'					=> 'Görsel doğrulama ayarlarındaki değişiklikleriniz kaydedilmedi. Bu sadece bir önizlemedir.',
- 	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'CAPTCHA, şu anda görünen geçerli ayarlarınız gibi kullanılacaktır. Yenilemek için önizleme butonunu kullanın. Not: Captcha\'ler rastgele haldedir ve bir sonrakinde ilk görüntüden farklı halde olacaktır.',
+	'CAPTCHA_NO_GD'							=> 'CAPTCHA without GD',
+	'CAPTCHA_PREVIEW_MSG'					=> 'Your changes to the visual confirmation setting were not saved. This is just a preview.',
+	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'The CAPTCHA as it would look like using the current selection.',
+
+	'CAPTCHA_SELECT'						=> 'Installed CAPTCHA plugins',
+	'CAPTCHA_SELECT_EXPLAIN'				=> 'The dropdown holds the CAPTCHA plugins recognized by the board. Gray entries are not available right now and might need configuration prior to use.',
+	'CAPTCHA_CONFIGURE'						=> 'Configure CAPTCHAs',
+	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Change the settings for the selected CAPTCHA.',
+	'CONFIGURE'								=> 'Configure',
+	'CAPTCHA_NO_OPTIONS'					=> 'This CAPTCHA has no configuration options.',
+	
  	'VISUAL_CONFIRM_POST'					=> 'Misafir mesajları için görsel doğrulamayı aç',
  	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Misafir kullanıcıların toptan veya ard arda mesaj göndermelerini engellemek amacıyla, özel görsel kodların girilmesini zorunlu tutan bir resimdir.',
  	'VISUAL_CONFIRM_REG'					=> 'Kayıtlar için görsel doğrulamayı aç',
  	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Yeni kullanıcıların toptan veya ard arda kayıt olmalarını engellemek amacıyla, özel görsel kodların girilmesini zorunlu tutan bir resimdir.',
  	'VISUAL_CONFIRM_REFRESH'            => 'Doğrulama resmini yenilemek için kullanıcılara izin ver',
-  'VISUAL_CONFIRM_REFRESH_EXPLAIN'      => 'Eğer kullanıcılar kayıt sırasında Görsel Kodu çözemezlerse, yeni doğrulama kodları istemelerine izin verilir.',
+  'VISUAL_CONFIRM_REFRESH_EXPLAIN'      => 'Eğer kullanıcılar kayıt sırasında Görsel Kodu çözemezlerse, yeni doğrulama kodları istemelerine izin verilir. Bazı eklentiler bu özelliği desteklemeyebilir.',
 ));
 
 // Cookie Settings
@@ -345,7 +401,7 @@ $lang = array_merge($lang, array(
 	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Buradan alan adı ile ilgili ayarları ve sunucu ayarlarını tanımlayabilirsiniz. Girdiğiniz verilerin doğrulundan kesin olarak emin olun. Hatalı olması durumunda e-postaların hatalı bilgiler içermesine sebep olunacaktır. Alan adını girdiğinizde şunu hatırlayın: mutlaka http:// veya diğer protokol terimlerini içermelidir. Sunucunuzun farklı bir değer kullandığını biliyorsanız ancak bu durumda port numaralarını değiştirin, port\'un 80 olması bir çok durumda doğrudur.',
 
 	'ENABLE_GZIP'				=> 'GZip sıkıştırmasını aç',
-	'ENABLE_GZIP_EXPLAIN'		=> 'Oluşturulan içerik kullanıcıya göndermek için öncelikle sıkıştırılacaktır. Bu, ağ trafiğini azaltabilir fakat ayrıca sunucu ve bağlantı tarafının her ikisinde CPU kullanımı artacaktır.',
+	'ENABLE_GZIP_EXPLAIN'		=> 'Oluşturulan içerik kullanıcıya göndermek için öncelikle sıkıştırılacaktır. Bu, ağ trafiğini azaltabilir fakat ayrıca sunucu ve bağlantı tarafının her ikisinde CPU kullanımı artacaktır. Zlib PHP uzantısının yüklenmiş olması gereklidir.',
 	'FORCE_SERVER_VARS'			=> 'Sunucu URL ayarlarını zorla',
 	'FORCE_SERVER_VARS_EXPLAIN'	=> 'Evet olarak seçilmesi durumunda sunucu ayarları buradaki otomatik olarak belirlenmiş değerlere tabi olacak ve kullanılacaktır.',
 	'ICONS_PATH'				=> 'Mesaj ikonlarının bulunduğu yol',
@@ -432,7 +488,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG'						=> 'E-posta imzası',
 	'EMAIL_SIG_EXPLAIN'				=> 'Mesaj panosu tarafından gönderilen tüm e-postalara bu yazı eklenir.',
 	'ENABLE_EMAIL'					=> 'Mesaj panosu genelinde e-posta gönderimini aç.',
-	'ENABLE_EMAIL_EXPLAIN'			=> 'Bu özellik kapatılırsa, mesaj panosu genelinde hiçbir e-posta gönderilemeyecektir.',
+	'ENABLE_EMAIL_EXPLAIN'			=> 'Bu özellik kapatılırsa, mesaj panosu genelinde hiçbir e-posta gönderilemeyecektir. <em>Note the user and admin account activation settings require this setting to be enabled. If currently using “user” or “admin” activation in the activation settings, disabling this setting will require no activation of new accounts.</em>',
 	'SMTP_AUTH_METHOD'				=> 'SMTP için doğrulama metodu',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Ancak kullanıcı adı ve şifre girildiğinde kullanılır, Bu metodun nasıl kullanılacağından emin değilseniz hosting firmanıza danışınız.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',

@@ -46,6 +46,7 @@ $lang = array_merge($lang, array(
 	'ALL_NOTES_DELETED'		=> 'Tüm kullanıcı notları başarıyla silindi.',
 	'ALL_REPORTS'			=> 'Tüm bildiriler',
 	'ALREADY_REPORTED'		=> 'Bu mesaj zaten bildirildi.',
+	'ALREADY_REPORTED_PM'	=> 'Bu özel mesaj zaten bildirildi.',
 	'ALREADY_WARNED'		=> 'Bu mesaj için zaten bir uyarı yapıldı.',
 	'APPROVE'				=> 'Onay',
 	'APPROVE_POST'			=> 'Mesajı onayla',
@@ -58,10 +59,19 @@ $lang = array_merge($lang, array(
 	'CANNOT_WARN_SELF'		=> 'Kendinize uyarı veremezsiniz.',
 	'CAN_LEAVE_BLANK'		=> 'Burayı boş bırakabilirsiniz.',
 	'CHANGE_POSTER'			=> 'Yazarı değiştir',
+	'CLOSE_PM_REPORT'		=> 'ÖM bildirisini kapat',
+	'CLOSE_PM_REPORT_CONFIRM'	=> 'Seçilen ÖM bildirisini kapatmak istediğinize emin misiniz?',
+	'CLOSE_PM_REPORTS'		=> 'ÖM bildirilerini kapat',
+	'CLOSE_PM_REPORTS_CONFIRM'	=> 'Seçilen ÖM bildirilerini kapatmak istediğinize emin misiniz?',
 	'CLOSE_REPORT'			=> 'Bildiriyi kapat',
 	'CLOSE_REPORT_CONFIRM'	=> 'Seçilen bildiriyi kapatmak istediğinize emin misiniz?',
 	'CLOSE_REPORTS'			=> 'Bildirileri kapat',
 	'CLOSE_REPORTS_CONFIRM'	=> 'Seçilen bildirileri kapatmak istediğinize emin misiniz?',
+	
+	'DELETE_PM_REPORT'			=> 'ÖM bildirisini sil',
+	'DELETE_PM_REPORT_CONFIRM'	=> 'Seçilen ÖM bildirisini silmek istediğinize emin misiniz?',
+	'DELETE_PM_REPORTS'			=> 'ÖM bildirilerini sil',
+	'DELETE_PM_REPORTS_CONFIRM'	=> 'Seçilen ÖM bildirilerini silmek istediğinize emin misiniz?',
 
 	'DELETE_POSTS'			=> 'Mesajları sil',
 	'DELETE_POSTS_CONFIRM'	=> 'Bu mesajları silmek istediğinize emin misiniz?',
@@ -106,6 +116,7 @@ $lang = array_merge($lang, array(
 	
 	'LATEST_LOGS'				=> 'Kaydedilen son 5 eylem',
 	'LATEST_REPORTED'			=> 'Son 5 bildiri',
+	'LATEST_REPORTED_PMS'		=> 'Son 5 ÖM bildirileri',
 	'LATEST_UNAPPROVED'			=> 'Onay bekleyen son 5 mesaj',
 	'LATEST_WARNING_TIME'		=> 'Son alınan uyarılar',
 	'LATEST_WARNINGS'			=> 'Son 5 uyarı',
@@ -170,6 +181,13 @@ $lang = array_merge($lang, array(
 
  	'MCP_POST_REPORTS'				=> 'Bu mesajda bildiriler bulunuyor',
 
+	'MCP_PM_REPORTS'				=> 'Bildirilen ÖMlar',
+	'MCP_PM_REPORT_DETAILS'			=> 'ÖM Bildiri detayları',
+	'MCP_PM_REPORTS_CLOSED'			=> 'Kapatılan ÖM bildirileri',
+	'MCP_PM_REPORTS_CLOSED_EXPLAIN'	=> 'Bu, daha önceden çözümlenmiş olan özel mesajlar hakkındaki bildirilerin tam listesidir.',
+	'MCP_PM_REPORTS_OPEN'			=> 'Açık ÖM bildirileri',
+	'MCP_PM_REPORTS_OPEN_EXPLAIN'	=> 'Bu, hala çözümlenmemiş olan özel mesaj bildirilerinin tam bir listesidir.',
+
 	'MCP_REPORTS'					=> 'Bildirilen mesajlar',
 	'MCP_REPORT_DETAILS'			=> 'Bildiri detayları',
 	'MCP_REPORTS_CLOSED'			=> 'Kapalı bildiriler',
@@ -231,6 +249,14 @@ $lang = array_merge($lang, array(
 
 	'ONLY_TOPIC'			=> 'Sadece başlık “%s”',
 	'OTHER_USERS'			=> 'Bu IP adresinden mesaj gönderen diğer kullanıcılar',
+	
+	'PM_REPORT_CLOSED_SUCCESS'	=> 'Seçilen ÖM bildirisi başarıyla kapatıldı.',
+	'PM_REPORT_DELETED_SUCCESS'	=> 'Seçilen ÖM bildirisi başarıyla silindi.',
+	'PM_REPORTED_SUCCESS'		=> 'Bu özel mesaj başarıyla bildirildi.',
+	'PM_REPORT_TOTAL'			=> 'İncelemek için toplam <strong>1</strong> ÖM bildirisi var.',
+	'PM_REPORTS_TOTAL'			=> 'İncelemek için toplam <strong>%d</strong> ÖM bildirisi var.',
+	'PM_REPORTS_ZERO_TOTAL'		=> 'İncelemek için herhangi bir ÖM bildirisi yok.',
+	'PM_REPORT_DETAILS'			=> 'Özel mesaj bildiri detayları',
 
 	'POSTER'				=> 'Yazar',
 	'POSTS_APPROVED_SUCCESS'	=> 'Seçilen mesajlar onaylandı.',
@@ -264,7 +290,7 @@ $lang = array_merge($lang, array(
 	'REPORT_DELETED_SUCCESS'	=> 'Seçilen bildiri başarıyla silindi.',
 	'REPORT_DETAILS'			=> 'Bildiri detayları',
 	'REPORT_MESSAGE'			=> 'Bu mesajı bildir',
-	'REPORT_MESSAGE_EXPLAIN'	=> 'Seçilen mesajı bildirmek için bu formu kullanın. Bildiri genel olarak sadece forum kurallarını çiğneyen mesaj için kullanılmalıdır.',
+	'REPORT_MESSAGE_EXPLAIN'	=> 'Seçilen özel mesajı bildirmek için bu formu kullanın. Bildiriler genel olarak sadece forum kurallarını çiğneyen mesajlar için kullanılmalıdır. <strong>Bir özel mesaj bildirildiğinde özel mesajın içeriği tüm moderatörler tarafından görüntülenebilecektir.</strong>',
 	'REPORT_NOTIFY'			=> 'Beni haberdar et',
 	'REPORT_NOTIFY_EXPLAIN'		=> 'Yapmış olduğunuz bildiri çözüme ulaştığında size bilgi verir',
 	'REPORT_POST_EXPLAIN'		=> 'Seçilen mesajı forum moderatörlerine ve mesaj panosu yöneticilerine bildirmek için bu formu kullanın. Bildiri genel olarak sadece forum kurallarını çiğneyen mesaj için kullanılmalıdır.',
@@ -275,6 +301,7 @@ $lang = array_merge($lang, array(
 	'RETURN_MESSAGE'			=> '%sMesaja dön%s',
 	'RETURN_NEW_FORUM'		=> '%sYeni foruma git%s',
 	'RETURN_NEW_TOPIC'		=> '%sYeni başlığa git%s',
+	'RETURN_PM'					=> '%sÖzel mesaja dön%s',
 	'RETURN_POST'			=> '%sMesaja dön%s',
 	'RETURN_QUEUE'			=> '%sSıralamaya dön%s',
 	'RETURN_REPORTS'			=> '%sBildirilere dön%s',
@@ -346,6 +373,7 @@ $lang = array_merge($lang, array(
 	'USER_WARNING_ADDED'			=> 'Kullanıcıya başarıyla uyarı verildi',
 
 	'VIEW_DETAILS'			=> 'Detayları görüntüle',
+	'VIEW_PM'				=> 'Özel mesajı görüntüle',
 	'VIEW_POST'            => 'Mesajı görüntüle',
 
 	'WARNED_USERS'			=> 'Uyarı alan kullanıcılar',

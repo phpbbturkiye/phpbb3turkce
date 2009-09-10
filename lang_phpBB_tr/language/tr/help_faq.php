@@ -202,6 +202,11 @@ $help = array(
 		0 => 'Başlık ikonları nedir?',
 		1 => 'Mesajlara, içeriğini işaret edecek başlık ikon resimleri tanımlanabilir. Başlık ikonlarının kullanımı yönetici tarafından ayarlanan izinlere bağlıdır.'
 	),
+	// This block will switch the FAQ-Questions to the second template column
+	array(
+		0 => '--',
+		1 => '--'
+	),
 	array(
 		0 => '--',
 		1 => 'Kullanıcı Seviyeleri ve Grupları'

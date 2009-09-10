@@ -54,6 +54,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_BACKUP'	=> 'Yedeği indir',
 	
 	'FILE_TYPE'			=> 'Dosya tipi',
+	'FILE_WRITE_FAIL'	=> 'Unable to write file to storage folder.',
 	'FULL_BACKUP'		=> 'Tam',
 	
 	'RESTORE_FAILURE'		=> 'Yedek dosyası bozulmuş olabilir.',

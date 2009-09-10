@@ -9,7 +9,7 @@ Lütfen bu e-postayı kayıtlarınızda saklayın. Hesap bilginiz alttaki gibidi
 Kullanıcı adı: {USERNAME}
 ----------------------------
 
-Şifreniz veritabanımızda şifrelenmiş bir halde saklanmaktadır. Şifrenizi unuttuğunuz zaman yeni bir tane isteyebilirsiniz ve aynı yolla hesabınızı aktif etmelisiniz.
+Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
 
 Hesabınızı yeniden aktif etmek için lütfen alttaki bağlantıyı ziyaret edin:
 

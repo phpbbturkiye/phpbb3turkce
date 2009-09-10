@@ -6,12 +6,10 @@ Lütfen bu e-postayı saklayınız. Kullanıcı bilgileriniz altta bulunmaktadı
 
 ----------------------------
 Kullanıcı adı: {USERNAME}
-Şifre: {PASSWORD}
- 
-Mesaj panosu URL adresi: {U_BOARD}
+Board URL: {U_BOARD}
 ----------------------------
 
-Lütfen kullanıcı bilgilerinizi unutmayın. Şifreniz veritabanımızda şifrelenmiş bir halde saklanmaktadır. Şifrenizi geri getirmek ve tarafımızdan görüntülenmesi mümkün değildir. Şifrenizi unuttuğunuz zaman yeni bir tane isteyebilirsiniz ve aynı yolla hesabınızı aktif etmelisiniz.
+Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
 
 Kayıt olduğunuz için teşekkür ederiz.
 

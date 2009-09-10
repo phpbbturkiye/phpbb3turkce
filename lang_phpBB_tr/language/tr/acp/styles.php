@@ -390,6 +390,7 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_LOCATION'			=> 'Şablonların saklandığı yer',
 	'TEMPLATE_LOCATION_EXPLAIN'	=> 'Görüntüler herzaman dosya sisteminde saklanır.',
 	'TEMPLATE_NAME'				=> 'Şablon ismi',
+	'TEMPLATE_FILE_NOT_WRITABLE'=> 'Unable to write to template file %s. Please check the permissions for the directory and the files.',
 	'TEMPLATE_REFRESHED'		=> 'Şablon başarıyla yenilendi',
 
 	'THEME_ADDED'				=> 'Yeni Tema dosya sistemine eklendi',

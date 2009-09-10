@@ -4,7 +4,7 @@ Subject: "{SITENAME}" forumlarına hoşgeldiniz
 
 COPPA ilkelerine göre kullanıcı hesabınız şu anda aktif değildir.
 
-Lütfen aşagıdaki bilgileri yazdırın ve ailenize imzalatın. Daha sonra bu numaraya fakslayın:
+Lütfen aşagıdaki bilgileri yazdırın ve ailenize imzalatın. Daha sonra şu numaraya fakslayın:
 
 {FAX_INFO}
 
@@ -35,7 +35,7 @@ Tarih: _______________
 
 Mesaj panosu yöneticisi bu formu aldıktan sonra bilgilerin geçerliliğini kontrol edip hesabınızı aktif hale getirecektir.
 
-Lütfen kullanıcı bilgilerinizi unutmayın. Şifreniz veritabanımızda şifrelenmiş bir halde saklanmaktadır. Şifrenizi geri getirmek ve mesaj panosu yöneticileri tarafından görülmesi mümkün değildir. Şifrenizi unuttuğunuz zaman e-posta adresinize yeni bir tane isteyebilirsiniz.
+Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
 
 Kayıt olduğunuz için teşekkürler.
 

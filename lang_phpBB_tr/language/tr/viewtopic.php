@@ -48,6 +48,7 @@ $lang = array_merge($lang, array(
 	'BUMP_TOPIC'			=> 'Başlığı darbele',
 
 	'CODE'					=> 'Kod',
+	'COLLAPSE_QR'			=> 'Hızlı Cevabı gizle',
 
 	'DELETE_TOPIC'			=> 'Başlığı sil',
 	'DOWNLOAD_NOTICE'		=> 'Bu mesaja eklenen dosyaları görüntülemek için gerekli yetkilere sahip değilsiniz.',
@@ -86,11 +87,13 @@ $lang = array_merge($lang, array(
 	'PRINT_TOPIC'			=> 'Yazıcı görüntüsü',
 
 	'QUICK_MOD'				=> 'Hızlı-yönetim araçları',
+	'QUICKREPLY'			=> 'Hızlı Cevap',
 	'QUOTE'					=> 'Alıntı',
 
 	'REPLY_TO_TOPIC'		=> 'Başlığa cevap ver',
 	'RETURN_POST'			=> '%sMesaja geri dön%s',
-
+	
+	'SHOW_QR'				=> 'Hızlı Cevap',
 	'SUBMIT_VOTE'			=> 'Oy ver',
 
 	'TOTAL_VOTES'			=> 'Toplam oy',

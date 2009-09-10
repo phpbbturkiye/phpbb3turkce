@@ -6,16 +6,14 @@ Lütfen bu e-postayı saklayın. Kullanıcı bilgileriniz altta bulunmaktadır:
 
 ----------------------------
 Kullanıcı adı: {USERNAME}
-Şifre: {PASSWORD}
- 
-Mesaj panosu URL adresi: {U_BOARD}
+Board URL: {U_BOARD}
 ----------------------------
 
-Kullanıcı hesabınız şu anda aktif değil. Aktif etmek için lütfen alttaki bağlantıya tıklayın:
+Please visit the following link in order to activate your account:
 
 {U_ACTIVATE}
 
-Lütfen kullanıcı bilgilerinizi unutmayın. Şifreniz veritabanımızda şifrelenmiş bir halde saklanmaktadır. Şifrenizi geri getirmek ve mesaj panosu yöneticileri tarafından görülmesi mümkün değildir. Şifrenizi unuttuğunuz zaman yeni bir tane isteyebilirsiniz ve aynı yolla aktif etmelisiniz.
+Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
 
 Kayıt olduğunuz için teşekkür ederiz.
 

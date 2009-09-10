@@ -88,6 +88,7 @@ $lang = array_merge($lang, array(
 	'ACP_FORUM_MANAGEMENT'			=> 'Forum yönetimi',
 	'ACP_FORUM_MODERATORS'			=> 'Forum moderatörleri',
 	'ACP_FORUM_PERMISSIONS'			=> 'Forum izinleri',
+	'ACP_FORUM_PERMISSIONS_COPY'	=> 'Forum izinlerini kopyala',
 	'ACP_FORUM_ROLES'				=> 'Forum rolleri',
 
 	'ACP_GENERAL_CONFIGURATION'		=> 'Genel ayarlar',
@@ -148,11 +149,14 @@ $lang = array_merge($lang, array(
 
 	'ACP_RESTORE'				=> 'Yeniden kur',
 
+	'ACP_FEED'					=> 'Feed management',
+	'ACP_FEED_SETTINGS'			=> 'Feed settings',
 	'ACP_SEARCH'				=> 'Arama ayarları',
 	'ACP_SEARCH_INDEX'			=> 'Arama dizini',
 	'ACP_SEARCH_SETTINGS'		=> 'Arama ayarları',
 
 	'ACP_SECURITY_SETTINGS'		=> 'Güvenlik ayarları',
+	'ACP_SEND_STATISTICS'		=> 'Send statistical information',	
 	'ACP_SERVER_CONFIGURATION'	=> 'Sunucu konfigürasyonu',
 	'ACP_SERVER_SETTINGS'		=> 'Sunucu ayarları',
 	'ACP_SIGNATURE_SETTINGS'	=> 'İmza ayarları',
@@ -160,6 +164,7 @@ $lang = array_merge($lang, array(
 	'ACP_STYLE_COMPONENTS'		=> 'Stil bileşenleri',
 	'ACP_STYLE_MANAGEMENT'		=> 'Stil yönetimi',
 	'ACP_STYLES'				=> 'Stiller',
+	'ACP_SUBMIT_CHANGES'		=> 'Değişiklikleri uygula',	
 	
 	'ACP_TEMPLATES'				=> 'Şablonlar',
 	'ACP_THEMES'				=> 'Temalar',
@@ -182,7 +187,9 @@ $lang = array_merge($lang, array(
 	'ACP_USER_SECURITY'				=> 'Kullanıcı güvenliği',
 	'ACP_USER_SIG'					=> 'İmza',
 
-	'ACP_VC_SETTINGS'					=> 'Görsel doğrulama ayarları',
+	'ACP_USER_WARNINGS'				=> 'Uyarılar',
+
+	'ACP_VC_SETTINGS'					=> 'CAPTCHA modül ayarları',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'CAPTCHA resim önizlemesi',	
 	'ACP_VERSION_CHECK'					=> 'Güncellemeleri kontrol et',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Yönetim izinlerini görüntüle',
@@ -241,6 +248,8 @@ $lang = array_merge($lang, array(
 	'MANAGE'				=> 'Yönet',
 	'MOVE_DOWN'				=> 'Aşağı taşı',
 	'MENU_TOGGLE'			=> 'Yan menüyü gizle veya göster',
+	'MORE'					=> 'More',			// Not used at the moment
+	'MORE_INFORMATION'		=> 'More information »',
 	'MOVE_UP'				=> 'Yukarı taşı',
 
 	'NOTIFY'				=> 'Bildiri',
@@ -270,6 +279,7 @@ $lang = array_merge($lang, array(
   'SETTING_TOO_BIG'      => '“%1$s” ayarı için girilen değer çok büyük. En yüksek izin verilen değer %2$d.',   
   'SETTING_TOO_LONG'      => '“%1$s” ayarı için girilen değer çok uzun. En yüksek izin verilen uzunluk %2$d.',
   'SETTING_TOO_SHORT'      => '“%1$s” ayarı için girilen değer yeterli uzunlukta değil. En düşük izin verilen uzunluk %2$d.',
+  'SHOW_ALL_OPERATIONS'	=> 'Show all operations',
 
 	'UCP'					=> 'Kullanıcı Kontrol Paneli',
 	'USERNAMES_EXPLAIN'		=> 'Her kullanıcı adını ayrı bir satıra yerleştirin.',
@@ -333,6 +343,10 @@ $lang = array_merge($lang, array(
   'PURGE_CACHE_CONFIRM'   => 'Önbelleği temizlemek istediğinize emin misiniz?', 
   'PURGE_CACHE_EXPLAIN'   => 'Tüm önbellek ile ilgili ögeleri temizler; bu, önbelleklenen herhangi şablon dosyalarını ya da sorgularını kapsar.',
   
+  'PURGE_SESSIONS'			=> 'Purge all sessions',
+	'PURGE_SESSIONS_CONFIRM'	=> 'Are you sure you wish to purge all sessions? This will log out all users.',
+	'PURGE_SESSIONS_EXPLAIN'	=> 'Purge all sessions. This will log out all users by truncating the session table.',
+  
 	'RESET_DATE'			=> 'Mesaj panosunun açılış tarihini sıfırla',
 	'RESET_DATE_CONFIRM'			=> 'Mesaj panosunun açılış tarihini sıfırlamak istediğinize emin misiniz?',
 	'RESET_ONLINE'			=> 'Şimdiye kadar en çok çevrimiçi olanları sıfırla',
@@ -357,6 +371,8 @@ $lang = array_merge($lang, array(
 	'USERS_PER_DAY'		=> 'Günlük ortalama kullanıcı',
 
 	'VALUE'				=> 'Değer',
+	'VERSIONCHECK_FAIL'			=> 'Failed to obtain latest version information.',
+	'VERSIONCHECK_FORCE_UPDATE'	=> 'Re-Check version',
 	'VIEW_ADMIN_LOG'	=> 'Yönetici kayıtlarını görüntüle',
 	'VIEW_INACTIVE_USERS'	=> 'Pasif kullanıcıları görüntüle',
 	
@@ -383,8 +399,22 @@ $lang = array_merge($lang, array(
 	'SORT_LAST_VISIT'	=> 'Son ziyaret',
 	'SORT_REASON'		=> 'Sebep',
 	'SORT_REG_DATE'		=> 'Kayıt tarihi',
+	'SORT_LAST_REMINDER'=> 'Last reminded',
+	'SORT_REMINDER'		=> 'Reminder sent',
 	
 	'USER_IS_INACTIVE'		=> 'Kullanıcı aktif değil',
+));
+
+// Send statistics page
+$lang = array_merge($lang, array(
+	'EXPLAIN_SEND_STATISTICS'	=> 'Please send information about your server and board configurations to phpBB for statistical analysis. All information that could identify you or your website has been removed - the data is entirely <strong>anonymous</strong>. We base decisions about future phpBB versions on this information. The statistics are made available publically. We also share this data with the PHP project, the programming language phpBB is made with.',
+	'EXPLAIN_SHOW_STATISTICS'	=> 'Using the button below you can preview all variables that will be transmitted.',
+	'DONT_SEND_STATISTICS'		=> 'Return to the ACP if you do not wish to send statistical information to phpBB.',
+	'GO_ACP_MAIN'				=> 'Go to the ACP start page',
+	'HIDE_STATISTICS'			=> 'Hide details',
+	'SEND_STATISTICS'			=> 'Send statistical information',
+	'SHOW_STATISTICS'			=> 'Show details',
+	'THANKS_SEND_STATISTICS'	=> 'Thank you for submitting your information.',
 ));
 
 // Log Entries
@@ -463,6 +493,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_MESSAGE'		=> '<strong>Özel mesaj ayarları değiştirildi</strong>',
 	'LOG_CONFIG_POST'			=> '<strong>Mesaj ayarları değiştirildi</strong>',
 	'LOG_CONFIG_REGISTRATION'	=> '<strong>Kullanıcı kayıt ayarları değiştirildi</strong>',
+	'LOG_CONFIG_FEED'			=> '<strong>Altered syndication feeds settings</strong>',
 	'LOG_CONFIG_SEARCH'			=> '<strong>Arama ayarları değiştirildi</strong>',
 	'LOG_CONFIG_SECURITY'		=> '<strong>Güvenlik ayarları değiştirildi</strong>',
 	'LOG_CONFIG_SERVER'			=> '<strong>Sunucu ayarları değiştirildi</strong>',
@@ -480,6 +511,8 @@ $lang = array_merge($lang, array(
   'LOG_LOCK_POST'            => '<strong>Mesaj kilitlendi</strong><br />» %s',
   'LOG_MERGE'               => '<strong>Mesajlar birleştirildi</strong> ve başlık içerisine alındı<br />» %s',
   'LOG_MOVE'               => '<strong>Başlık taşındı</strong><br />» şuradan: %1$s şuraya: %2$s',
+  'LOG_PM_REPORT_CLOSED'		=> '<strong>Closed PM report</strong><br />» %s',
+	'LOG_PM_REPORT_DELETED'		=> '<strong>Deleted PM report</strong><br />» %s',
 	'LOG_POST_APPROVED'   => '<strong>Mesaj onaylandı</strong><br />» %s', 
 	'LOG_POST_DISAPPROVED'  => '<strong>“%1$s” isimli mesaj izleyen sebepten dolayı onaylanmadı</strong><br />» %2$s',
 	'LOG_POST_EDITED'     => '<strong>“%1$s” isimli mesaj düzenlendi, yazarı</strong><br />» %2$s',
@@ -510,6 +543,7 @@ $lang = array_merge($lang, array(
 	'LOG_ERROR_EMAIL'		=> '<strong>E-posta hatası</strong><br />» %s',
 	
 	'LOG_FORUM_ADD'							=> '<strong>Yeni forum oluşturuldu</strong><br />» %s',
+	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Copied forum permissions</strong> from %1$s<br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Forum silindi</strong><br />» %s',
 	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Forum alt forumlarıyla birlikte silindi</strong><br />» %s',
 	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Forum alt forumlarıyla birlikte taşındı </strong> altforumlar %1$s adresine taşındı<br />» %2$s',
@@ -523,6 +557,7 @@ $lang = array_merge($lang, array(
 	'LOG_FORUM_MOVE_DOWN'					=> '<strong>Forum taşındı</strong> %1$s yerinden <strong>aşağı</strong> %2$s',
 	'LOG_FORUM_MOVE_UP'						=> '<strong>Forum taşındı</strong> %1$s yerinden <strong>yukarı</strong> %2$s',
 	'LOG_FORUM_SYNC'						=> '<strong>Forum yeniden senkronize edildi</strong><br />» %s',
+	'LOG_GENERAL_ERROR'	=> '<strong>A general error occured</strong>: %1$s <br />» %2$s',
 
 	'LOG_GROUP_CREATED'		=> '<strong>Yeni kullanıcı grubu yaratıldı</strong><br />» %s',
 	'LOG_GROUP_DEFAULTS'	=> '<strong>“%1$s” grubu, üyeler için varsayılan yapıldı</strong><br />» %2$s',
@@ -532,8 +567,11 @@ $lang = array_merge($lang, array(
 	'LOG_GROUP_REMOVE'		=> '<strong>Üyeler Kullanıcı Grubundan silindi</strong> %1$s<br />» %2$s',
 	'LOG_GROUP_UPDATED'		=> '<strong>Kullanıcı Grubu bilgileri güncellendi</strong><br />» %s',
 	'LOG_MODS_ADDED'		=> '<strong>Kullanıcı Grubuna yeni liderler eklendi</strong> %1$s<br />» %2$s',
-	'LOG_USERS_APPROVED'	=> '<strong>Kullanıcı Grubuna katılımlar onaylandı</strong> %1$s<br />» %2$s',
 	'LOG_USERS_ADDED'		=> '<strong>Kullanıcı Grubuna yeni üyeler eklendi</strong> %1$s<br />» %2$s',
+	'LOG_USERS_APPROVED'	=> '<strong>Users approved in usergroup</strong> %1$s<br />» %2$s',
+	'LOG_USERS_PENDING'		=> '<strong>Users requested to join group “%1$s” and need to be approved</strong><br />» %2$s',
+
+	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>Error while creating image</strong><br />» Error in %1$s on line %2$s: %3$s',
 
 	'LOG_IMAGESET_ADD_DB'		=> '<strong>Veritabanına yeni görüntü kümesi eklendi</strong><br />» %s',
 	'LOG_IMAGESET_ADD_FS'		=> '<strong>Dosya sistemine yeni görüntü kümesi eklendi</strong><br />» %s',
@@ -602,6 +640,7 @@ $lang = array_merge($lang, array(
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Kullanıcılar budandı ve mesajlar tutuldu</strong><br />» %s',
 	
 	'LOG_PURGE_CACHE'    => '<strong>Önbellek temizlendi</strong>',
+	'LOG_PURGE_SESSIONS'		=> '<strong>Purged sessions</strong>',
 	
  	'LOG_RANK_ADDED'		=> '<strong>Yeni rütbe eklendi</strong><br />» %s',
  	'LOG_RANK_REMOVED'		=> '<strong>Rütbe silindi</strong><br />» %s',
@@ -653,12 +692,14 @@ $lang = array_merge($lang, array(
 	'LOG_USER_DELETED'		=> '<strong>Kullanıcı silindi</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'	=> '<strong>Kullanıcı tarafından oluşturulan tüm eklenti dosyaları silindi</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Kullanıcı avatarı silindi</strong><br />» %s',
+	'LOG_USER_DEL_OUTBOX'	=> '<strong>Emptied user outbox</strong><br />» %s',
 	'LOG_USER_DEL_POSTS'	=> '<strong>Kullanıcı tarafından oluşturulan tüm mesajlar silindi</strong><br />» %s',
 	'LOG_USER_DEL_SIG'		=> '<strong>Kullanıcı imzası silindi</strong><br />» %s',
 	'LOG_USER_INACTIVE'		=> '<strong>Kullanıcı deaktif edildi</strong><br />» %s',
 	'LOG_USER_MOVE_POSTS'	=> '<strong>Kullanıcı mesajları taşındı</strong><br />» “%1$s” tarafından gönderilen mesajlar “%2$s” forumuna taşındı',
 	'LOG_USER_NEW_PASSWORD'	=> '<strong>Kullanıcı şifresi değiştirildi</strong><br />» %s',
 	'LOG_USER_REACTIVATE'	=> '<strong>Kullanıcı hesabı yeniden aktivasyon için zorunlu tutuldu</strong><br />» %s',
+	'LOG_USER_REMOVED_NR'	=> '<strong>Removed newly registered flag from user</strong><br />» %s',
 	'LOG_USER_UPDATE_EMAIL'	=> '<strong>“%1$s” adlı kullanıcının e-posta adresi değiştirildi</strong><br />» “%2$s” olan e-posta adresi “%3$s” olarak değiştirildi',
 	'LOG_USER_UPDATE_NAME'	=> '<strong>Kullanıcı adı değiştirildi</strong><br />» “%1$s” olan kullanıcı adı “%2$s” olarak değiştirildi',
 	'LOG_USER_USER_UPDATE'	=> '<strong>Kullanıcı bilgileri güncellendi</strong><br />» %s',
@@ -681,6 +722,10 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_JOIN'			=> '<strong>Kullanıcı gruba katıldı</strong><br />» %s',
 	'LOG_USER_GROUP_JOIN_PENDING'	=> '<strong>Kullanıcı gruba katıldı ve onaylanması gerekiyor</strong><br />» %s',
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>Kullanıcı grup üyeliğinden ayrıldı</strong><br />» %s',
+	
+	'LOG_WARNING_DELETED'		=> '<strong>Deleted user warning</strong><br />» %s',
+	'LOG_WARNINGS_DELETED'		=> '<strong>Deleted %2$s user warnings</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Deleted all user warnings</strong><br />» %s',
 
 	'LOG_WORD_ADD'			=> '<strong>Kelime sansürü eklendi</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>Kelime sansürü silindi</strong><br />» %s',

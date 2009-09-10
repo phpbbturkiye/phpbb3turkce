@@ -48,6 +48,8 @@ $lang = array_merge($lang, array(
 	'BAN_REASON'			=> 'Yasaklama nedeni',
 	'BAN_GIVE_REASON'		=> 'Yasaklanan kişiye gösterilen açıklama',
 	'BAN_UPDATE_SUCCESSFUL'	=> 'Yasaklama listesi başarıyla güncellendi.',
+	'BANNED_UNTIL_DATE'		=> '%s tarihine kadar', // Example: "until Mon 13.Jul.2009, 14:44"
+	'BANNED_UNTIL_DURATION'	=> '%1$s (%2$s tarihine kadar)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
 
 	'EMAIL_BAN'					=> 'Bir ya da daha fazla e-posta adresini yasaklama',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Bu kısım aktif olduğunda, belirttiğiniz e-posta adresleri var olan tüm yasaklamaların dışında tutulur.',

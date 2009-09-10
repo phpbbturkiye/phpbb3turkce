@@ -37,23 +37,23 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Buradan mesaj panonuzdaki kullanıcıları silebilirsiniz (veya deaktif edebilirsiniz). Bu değişik yollarla yapılabilir; mesaj sayısına göre, son aktifliğe göre, v.b. Bu kriterlerin her biri birleşik olabilir, örneğin. 10 mesajdan az göndermiş ve son aktifliği 2002-01-01 yılından önce olan kullanıcıları budayabilirsiniz. Alternatif olarak kullanıcıların bir listesini direkt olarak metin kutusuna girebilirsiniz, bu durumda girilen kriterler yoksayılacaktır. Bunu yaparken dikkat etmelisiniz! Bir kere silinen bir kullanıcının geri dönüşü yoktur.',
+	'ACP_PRUNE_USERS_EXPLAIN'	=> 'This section allows you to delete or deactivate users on your board. Accounts can be filtered in a variety of ways; by post count, most recent activity, etc. Criteria may be combined to narrow down which accounts are affected. For example, you can prune users with fewer than 10 posts, who were also inactive after 2002-01-01. Alternatively, you may skip the criteria selection completely by entering a list of users (each on a separate line) into the text field. Take care with this facility! Once a user is deleted, there is no way to reverse the action.',
 
-	'DEACTIVATE_DELETE'			=> 'Deaktifleştir veya sil',
-	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Deaktif kullanıcıları veya tamamen silmek istediklerinizi seçin, not: bu geri dönüşü olmayan bir işlemdir!',
+	'DEACTIVATE_DELETE'			=> 'Deactivate or delete',
+	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Choose whether to deactivate users or delete them entirely. Please note that deleted users cannot be restored!',
 	'DELETE_USERS'				=> 'Sil',
 	'DELETE_USER_POSTS'			=> 'Budanan kullanıcı mesajlarını sil',
 	'DELETE_USER_POSTS_EXPLAIN' => 'Silinen kullanıcılar tarafından oluşturulan mesajları siler, eğer kullanıcılar aktif değilse bir etkisi olmaz.',
 
 	'JOINED_EXPLAIN'			=> '<kbd>YYYY-AA-GG</kbd> formatında bir tarih girin.',
 
-	'LAST_ACTIVE_EXPLAIN'		=> '<kbd>YYYY-AA-GG</kbd> formatında bir tarih girin.',
+	'LAST_ACTIVE_EXPLAIN'		=> '<kbd>YYYY-AA-GG</kbd> formatında bir tarih girin. Enter <kbd>0000-00-00</kbd> to prune users who never logged in, <em>Before</em> and <em>After</em> conditions will be ignored.',
 	
  	'PRUNE_USERS_LIST'				=> 'Budanan kullanıcılar',
 	'PRUNE_USERS_LIST_DELETE'		=> 'Budanacak kullanıcılar için seçilen kritere göre alttaki hesaplar silinecekti.',
  	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Budanacak kullanıcılar için seçilen kritere göre alttaki hesaplar deaktif edilecekti.',
 
-	'SELECT_USERS_EXPLAIN'		=> 'Belirlenen kullanıcı adlarını buraya girin, bunlar altta tercih edilen kriterleri kullanacaklardır.',
+	'SELECT_USERS_EXPLAIN'		=> 'Belirlenen kullanıcı adlarını buraya girin, bunlar altta tercih edilen kriterleri kullanacaklardır. Founders cannot be pruned.',
 
 	'USER_DEACTIVATE_SUCCESS'	=> 'Seçilen kullanıcılar başarıyla deaktif edildi',
 	'USER_DELETE_SUCCESS'		=> 'Seçilen kullanıcılar başarıyla silindi',

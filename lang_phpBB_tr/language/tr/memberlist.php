@@ -134,6 +134,10 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN'			=> 'Kullanıcı yönetimi',
 	'USER_BAN'            => 'Yasaklama',
 	'USER_FORUM'			=> 'Kullanıcı istatistikleri',
+	'USER_LAST_REMINDED'	=> array(
+		0		=> 'Şu anda hiç bir hatırlatma gönderilmedi',
+		1		=> '%1$d hatırlatma gönderildi<br />» %2$s',
+	),
 	'USER_ONLINE'			=> 'Çevrimiçi',
 	'USER_PRESENCE'			=> 'Mesaj panosundaki yeri',
 

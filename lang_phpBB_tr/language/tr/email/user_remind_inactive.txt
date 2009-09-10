@@ -2,8 +2,8 @@ Subject: Aktif olmayan hesap hatırlatıcı
 
 Merhaba {USERNAME},
 
-"{SITENAME}" mesaj panosunda {REGISTER_DATE} tarihinde yeni bir hesap oluşturarak kayıt oldunuz. Şimdiye kadar bu hesabı aktif hale getirmediniz ve bu, mesaj panosuna giriş yapmak için bir önkoşuldur. Hesabınızı aktif etmek için lütfen alttaki aktivasyon bağlantısına tıklayın.
- 
+This notification is a reminder that your account at "{SITENAME}", created on {REGISTER_DATE}, remains inactive. If you would like to activate this account, please visit the following link:
+
 {U_ACTIVATE}
 
 "{SITENAME}" mesaj panosuna kayıt olduğunuz için teşekkür ederiz, katılımlarınızı bekliyoruz.

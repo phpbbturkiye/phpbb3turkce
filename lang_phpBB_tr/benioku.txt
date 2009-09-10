@@ -4,6 +4,9 @@
 
 Sürüm Geçmişi:
 
+10-09-2009 v2.3.0
+- Dil dosyaları phpBB 3.0.6-RC1 sürümü için güncellendi
+
 20-06-2009 v2.2.3b
 - posting.php dosyasındaki hatalı çeviri düzeltildi. (gizli font rengi -> font rengini gizle)
 - common.php dosyasındaki hatalı çeviri düzeltildi. (log kayıtı -> eylem kaydı)

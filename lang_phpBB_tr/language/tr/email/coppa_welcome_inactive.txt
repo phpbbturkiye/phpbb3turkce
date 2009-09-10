@@ -16,7 +16,6 @@ Veya e-posta gönderin:
 "{SITENAME}" - {U_BOARD} katılma izni
 
 Kullanıcı adı: {USERNAME}
-Şifre: {PASSWORD}
 E-posta: {EMAIL_ADDRESS}
 
 "{SITENAME}" HAKKINDAKİ BİLGİLERİ ALDIM VE ADI GEÇEN KİŞİNİN ÜYELİĞİNİ ONAYLIYORUM.
@@ -36,7 +35,7 @@ Tarih: _______________
 
 Mesaj panosu yöneticisi bu formu aldıktan sonra bilgilerin geçerliliğini kontrol edip hesabınızı aktif hale getirecektir.
 
-Lütfen kullanıcı bilgilerinizi unutmayın. Şifreniz veritabanımızda şifrelenmiş bir halde saklanmaktadır. Şifrenizi geri getirmek ve mesaj panosu yöneticileri tarafından görülmesi mümkün değildir. Şifrenizi unuttuğunuz zaman e-posta adresinize yeni bir tane isteyebilirsiniz ve aynı yolla hesabınızı aktif etmelisiniz.
+Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
 
 Üye olduğunuz için teşekkürler.
 
