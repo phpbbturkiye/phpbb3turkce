@@ -448,8 +448,8 @@ $lang = array_merge($lang, array(
 
 	'MERGE_NO_MERGE_NEW_OPTION'	=> 'Birleştirme - yeni dosyayı kullan',
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Birleştirme - yüklü olan dosyayı kullan',
-  'MERGE_MOD_FILE_OPTION'      => 'Değişiklikleri birleştir (Uyuşmazlık bloğu içindeki yeni phpBB kodunu kullanma)',
-  'MERGE_NEW_FILE_OPTION'      => 'Değişiklikleri birleştir (Uyuşmazlık bloğu içindeki değiştirilen phpBB kodunu kullanma)',
+  'MERGE_MOD_FILE_OPTION'      => 'Değişiklikleri birleştir (Uyuşmazlık bloğu içindeki yeni phpBB kodunu kaldır)',
+  'MERGE_NEW_FILE_OPTION'      => 'Değişiklikleri birleştir (Uyuşmazlık bloğu içindeki değiştirilen phpBB kodunu kaldır)',
 	'MERGE_SELECT_ERROR'		=> 'Seçilen uyuşmaz dosya birleştirme modu doğru değil.',
   'MERGING_FILES'            => 'Farklılıkları birleştir',
   'MERGING_FILES_EXPLAIN'      => 'Şu an final dosya değişiklikleri toplanıyor.<br /><br />Lütfen phpBB, değiştirilen dosyalar üzerindeki tüm işlemleri tamamlayana kadar bekleyin.',
