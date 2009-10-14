@@ -60,6 +60,7 @@ $lang = array_merge($lang, array(
 
 	'FILE_NOT_FOUND_404'	=> '<strong>%s</strong> dosyası bulunamıyor.',
 	'FORK_TOPIC'			=> 'Başlığı kopyala',
+	'FULL_EDITOR'			=> 'Tam Editör',
 
 	'LINKAGE_FORBIDDEN'		=> 'Bu mesaj panosundan ya da bu mesaj panosuna görüntüleme, indirme veya bağlantı verme yetkiniz yok.',
 	'LOGIN_NOTIFY_TOPIC'	=> 'Bu başlık hakkında bildiriniz var, lütfen giriş yapıp görüntüleyin.',
