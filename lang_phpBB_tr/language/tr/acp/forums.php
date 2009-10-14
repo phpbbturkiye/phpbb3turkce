@@ -46,10 +46,10 @@ $lang = array_merge($lang, array(
 
 	'CONTINUE'						=> 'Devam',
 	'COPY_PERMISSIONS'				=> 'İzinleri şuradan kopyala',
-	'COPY_PERMISSIONS_EXPLAIN'		=> 'To ease up the permission setup for your new forum, you can copy the permissions of an existing forum.',
+	'COPY_PERMISSIONS_EXPLAIN'		=> 'Yeni forumunuz için izin ayarlama işlemini kolaylaştırır, varolan bir forumun izinlerini kopyalayabilirsiniz.',
 	'COPY_PERMISSIONS_ADD_EXPLAIN'	=> 'Bu yapıldığı zaman, forum buradan seçtiğiniz izinlerin aynısına sahip olacaktır. Eğer hiç forum seçilmediyse yeni oluşturulan forum, izinler ayarlanana kadar görünmeyecektir.',
 	'COPY_PERMISSIONS_EDIT_EXPLAIN'	=> 'Eğer izinleri kopyalamayı seçtiyseniz, forum buradan seçtiğiniz izinlerin aynısına sahip olacaktır. Bu, buradan seçtiğiniz forumun izinleri ile bu forum için önceden ayarlanan var olan izinlerin üzerine yazacaktır. Eğer hiç forum seçmediyseniz şu anki izinler kalacaktır.',
-	'COPY_TO_ACL'					=> 'Alternatively, you are also able to %sset up new permissions%s for this forum.',
+	'COPY_TO_ACL'					=> 'Alternatif olarak, ayrıca bu forum için %syeni izin ayarlaması%s yapabilirsiniz.',
 	'CREATE_FORUM'					=> 'Yeni forum oluştur',
 
 	'DECIDE_MOVE_DELETE_CONTENT'		=> 'İçeriği sil ya da foruma taşı',
@@ -65,8 +65,8 @@ $lang = array_merge($lang, array(
 	'ENABLE_INDEXING_EXPLAIN'	=> 'Evet olarak seçildiğinde, forumdaki mesajlaşmalar arama için indekslenecektir.',
 	'ENABLE_POST_REVIEW'			=> 'Mesaj incelemesini aç',
 	'ENABLE_POST_REVIEW_EXPLAIN'	=> 'Eğer evet olarak ayarlarsanız, kullanıcılar başlığa yeni mesajlar oluşturduğu zaman yazılarını önizleyebileceklerdir. Bu, sohbet forumları için kapalı olmalıdır.',
-	'ENABLE_QUICK_REPLY'			=> 'Enable quick reply',
-	'ENABLE_QUICK_REPLY_EXPLAIN'	=> 'If set to yes users get a quick reply box for this forum. If the global option for quick reply is disabled or the forum not postable to the quick reply box will not be displayed, even if set to yes here.',
+	'ENABLE_QUICK_REPLY'			=> 'Hızlı cevabı aç',
+	'ENABLE_QUICK_REPLY_EXPLAIN'	=> 'Eğer evet olarak ayarlanırsa kullanıcılar bu forum için hızlı cevap kutusuna erişebilecektir. Eğer hızlı cevap için genel ayar kapalıysa ya da forum mesaj gönderimine kısıtlanmışsa, hızlı cevap kutusu burada evet olarak ayarlansa bile görüntülenmeyecektir.',
 	'ENABLE_RECENT'				=> 'Aktif başlıkları göster',
 	'ENABLE_RECENT_EXPLAIN'		=> 'Evet olarak seçildiğinde, aktif başlıkların listesi içinde foruma açılmış olan başlıklar gösterilecektir.',
 	'ENABLE_TOPIC_ICONS'		=> 'Başlık ikonlarını aç',

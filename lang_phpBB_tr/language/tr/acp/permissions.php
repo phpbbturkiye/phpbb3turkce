@@ -110,11 +110,11 @@ $lang = array_merge($lang, array(
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'Bu öge için tanımlanmış rol ve izinler sadece bu ögeye ve tüm işaretlenen ögelere uygulanacaktır.',
 	'AUTH_UPDATED'				=> 'İzinler güncellendi',
 	
-	'COPY_PERMISSIONS_CONFIRM'				=> 'Are you sure you wish to carry out this operation? Please be aware that this will overwrite any existing permissions on the selected targets.',
-	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'The source forum you want to copy permissions from.',
-	'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'		=> 'The destination forums you want the copied permissions applied to.',
-	'COPY_PERMISSIONS_FROM'					=> 'Copy permissions from',
-	'COPY_PERMISSIONS_TO'					=> 'Apply permissions to',
+	'COPY_PERMISSIONS_CONFIRM'				=> 'Bu işlemi gerçekleştirmek istediğinize emin misiniz? Şunu bilmelisiniz ki, bu işlem seçilen hedeflerdeki varolan izinlerin üzerine yazacaktır.',
+	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'İzinlerini kopyalamak istediğiniz kaynak forum.',
+	'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'		=> 'Kopyalanmış izinleri uygulamak istediğiniz hedef forumlar.',
+	'COPY_PERMISSIONS_FROM'					=> 'İzinleri şuradan kopyala',
+	'COPY_PERMISSIONS_TO'					=> 'İzinleri şuraya uygula',
 
 	'CREATE_ROLE'				=> 'Rol oluştur',
 	'CREATE_ROLE_FROM'			=> 'Buradan ayarları kullan…',
@@ -196,7 +196,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_FORUM_POLLS'		=> 'Standart erişim gibidir, fakat anket oluşturabilir.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'	=> 'Forumu okuyabilirler, fakat yeni başlıklar oluşturamazlar ya da mesajlara cevap veremezler.',
 	'ROLE_DESCRIPTION_FORUM_STANDARD'	=> 'Forumun bir çok özelliklerinden yararlanabilirler, buna eklentiler ve kendi başlıklarını silmek dahildir, fakat kendi başlıklarını kilitleyemezler ve anketler oluşturamazlar.',
-	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'A role for members of the special newly registered users group; contains <samp>NEVER</samp> permissions to lock features for new users.',
+	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'Yeni kayıtlı kullanıcılar grubunun üyeleri için özel bir roldür; yeni kullanıcılar için kilit özelliklere <samp>ASLA</samp> izinlerini içerir.',
 	'ROLE_DESCRIPTION_MOD_FULL'			=> 'Yönetim ile ilgili tüm özellikleri kullanırlar, buna yasaklamada dahildir.',
 	'ROLE_DESCRIPTION_MOD_QUEUE'		=> 'Yönetim yapabilirler, onaylanmayı bekleyen mesajları ve mesajların düzenlenmesini yönetebilirler, fakat başka birşey yapamazlar.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'		=> 'Temel başlık işlerini kullanabilirler. Uyarı gönderemezler ya da yönetimle ilgili mesaj onaylama yapamazlar.',
@@ -206,7 +206,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_USER_NOAVATAR'	=> 'Sınırlı özellik ayarlarına sahiptir, ve Avatar özelliğini kullanmalarına izin verilmemiştir.',
 	'ROLE_DESCRIPTION_USER_NOPM'		=> 'Sınırlı özellik ayarlarına sahiptir, ve Özel mesajlaşmalarına izin verilmemiştir.',
 	'ROLE_DESCRIPTION_USER_STANDARD'	=> 'Bir çoğu için giriş hakkı vardır fakat tüm kullanıcı özellikleri için değil. Örnek olarak, kullanıcı adını değiştiremez ya da flood limiti gözardı edilemez.',
-	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'A role for members of the special newly registered users group; contains <samp>NEVER</samp> permissions to lock features for new users.',
+	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'Yeni kayıtlı kullanıcılar grubunun üyeleri için özel bir roldür; yeni kullanıcılar için kilit özelliklere <samp>ASLA</samp> izinlerini içerir.',
 	
 	'ROLE_DESCRIPTION_EXPLAIN'		=> 'Hangi rol için ne yapılacağı ve rolün açıklamasını kısa bir tanımlama şeklinde girerek yazabilirsiniz. Burada gireceğiniz açıklama izinler ekranındada gösterilecektir.',
 	'ROLE_DESCRIPTION_LONG'			=> 'Rol açıklaması çok uzun, lütfen açıklamayı 4000 karakter olarak sınırlayın.',
@@ -252,7 +252,7 @@ $lang = array_merge($lang, array(
 	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'	=> 'Forum bağımsız kullanıcı izni <samp>EVET</samp> seçeneğinin yerel izin sonucu olan <samp>ASLA</samp> seçeneğinin yerini alması durumunu değerlendirir %sGlobal izinleri araştır%s',
 	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> 'Forum bağımsız kullanıcı izni <samp>ASLA</samp> seçeneğinin yerel izinleri etkilemediğini değerlendirir %sGlobal izinleri araştır%s',
 	
-	'TRACE_USER_FOUNDER'			=> 'Kullanıcı bir kurucudur, bu nedenle yönetici izinleri daima <samp>EVET</samp> olarak ayarlıdır.',
+	'TRACE_USER_FOUNDER'			=> 'Kullanıcı bir kurucudur, bu nedenle yönetici izinleri her zaman <samp>EVET</samp> olarak ayarlıdır.',
 	'TRACE_USER_KEPT'				=> 'Kullanıcının izni <samp>HAYIR<samp> olarak ayarlanmıştır bu yüzden eski toplam değer kalır.',
 	'TRACE_USER_KEPT_LOCAL'					=> 'Bu forum için kullanıcının izni <samp>HAYIR<samp> olarak ayarlanmıştır bu yüzden eski toplam değer kalır.',
 	'TRACE_USER_NEVER_TOTAL_NEVER'		=> 'Kullanıcının izni <samp>ASLA</samp> olarak ayarlanmıştır ve toplam değer <samp>ASLA</samp> olarak ayarlandığında, hiç bir değişim olmaz.',

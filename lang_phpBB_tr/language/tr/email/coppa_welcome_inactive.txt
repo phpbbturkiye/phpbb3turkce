@@ -2,9 +2,9 @@ Subject: "{SITENAME}" forumlarına hoşgeldiniz
 
 {WELCOME_MSG}
 
-COPPA ilkelerine göre kullanıcı hesabınız şu anda aktif değildir.
+COPPA ilkelerine göre, hesabınız şu anda aktif değildir.
 
-Lütfen aşagıdaki bilgileri yazdırın ve ailenize imzalatın. Daha sonra bu numaraya fakslayın:
+Lütfen bu mesajı yazdırın ve ailenize ya da velinize tarihi yazarak imzalatın. Daha sonra şuraya fakslayın:
 
 {FAX_INFO}
 
@@ -33,9 +33,9 @@ Tarih: _______________
 ------------------------------ BURADAN KESİNİZ ------------------------------
 
 
-Mesaj panosu yöneticisi bu formu aldıktan sonra bilgilerin geçerliliğini kontrol edip hesabınızı aktif hale getirecektir.
+Mesaj panosu yöneticisi üstteki formu faks ya da normal posta yoluyla aldıktan sonra, hesabınız aktifleştirilecektir.
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Şifreniz veritabanımızda güvenli bir şekilde saklanmaktadır ve ele geçirilemeyecek durumdadır. Eğer şifrenizi unutursanız, hesabınız ile tanımlı olan e-posta adresinizi kullanarak şifrenizi sıfırlayabilirsiniz.
 
 Üye olduğunuz için teşekkürler.
 

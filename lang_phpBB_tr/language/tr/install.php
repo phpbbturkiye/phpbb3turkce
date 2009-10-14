@@ -133,7 +133,7 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'				=> 'Veritabanı şifresi',
 	'DB_PORT'					=> 'Veritabanı sunucu portu',
 	'DB_PORT_EXPLAIN'			=> 'Bildiğiniz sunucu işlemleri bir standart portta olmadıkça burayı boş bırakın.',
-	'DB_UPDATE_NOT_SUPPORTED'	=> 'We are sorry, but this script does not support updating from versions of phpBB prior to “%1$s”. The version you currently have installed is “%2$s”. Please update to a previous version before running this script. Assistance with this is available in the Support Forum on phpBB.com.',
+	'DB_UPDATE_NOT_SUPPORTED'	=> 'Üzgünüz, ancak bu güncelleme paketi phpBB\'nin “%1$s” sürümünden önceki sürümlerden güncellemeyi desteklememektedir. Yüklü olan mevcut sürümünüz “%2$s”\'dir. Lütfen bu güncelleme paketini çalıştırmadan önce forumunuzu bir önceki sürüme güncelleyin. Konu ile ilgili olarak phpBB.com sitesindeki Destek Forumları size yardımcı olacaktır.',
 	'DB_USERNAME'				=> 'Veritabanı kullanıcı adı',
 	'DB_TEST'					=> 'Bağlantı testi',
 	'DEFAULT_LANG'				=> 'Varsayılan forum dili',
@@ -167,7 +167,7 @@ $lang = array_merge($lang, array(
 	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Gerekli</strong> - phpBB\'nin düzgün bir şekilde işlemesi için bazı dosya ve klasörlere yazılabilmesi veya erişilebilmesi gerekmektedir. Eğer "Bulunamadı" ifadesini görüyorsanız konu ile ilgili dosya veya klasörü oluşturmanız gerekmektedir. Eğer "Yazılabilir değil" ifadesini görüyorsanız dosya veya klasördeki izinleri değiştirip yazılması için phpBB\'ye izin vermeniz gerekmektedir.',
 	'FILLING_TABLE'				=> 'Doldurulan tablo <strong>%s</strong>',
 	'FILLING_TABLES'			=> 'Tablolar dolduruluyor',
-	'FIREBIRD_DBMS_UPDATE_REQUIRED'		=> 'phpBB no longer supports Firebird/Interbase prior to Version 2.1. Please update your Firebird installation to at least 2.1.0 before proceeding with the update.',
+	'FIREBIRD_DBMS_UPDATE_REQUIRED'		=> 'phpBB, Firebird/Interbase uygulamasının 2.1\'den önceki sürümlerini desteklememektedir. Lütfen güncelleme işlemine devam etmeden önce Firebird uygulamasının 2.1.0 veya daha yukarı sürümünü yükleyin.',
 	'FINAL_STEP'				=> 'Final adımı işlemi',
 	'FORUM_ADDRESS'				=> 'Mesaj panosu adresi',
 	'FORUM_ADDRESS_EXPLAIN'		=> 'Bu önceki mesaj panonuzun URL adresidir, örneğin <samp>http://www.siteadresi.com/phpBB2/</samp>. Eğer buraya bir adres girilmişse ve bu adresin hiç bir kısmı boş değilse yeni mesaj panosu adresiniz tarafından mesajlar, özel mesajlar ve imzalar dahilinde eskisi ile değiştirilecektir.',
@@ -187,10 +187,10 @@ $lang = array_merge($lang, array(
 	'INSTALL_CONGRATS'			=> 'Tebrikler!',
  	'INSTALL_CONGRATS_EXPLAIN'	=> '
 		phpBB %1$s sürümünü başarıyla kurdunuz. Lütfen aşağıdaki seçeneklerden birini seçerek ilerleyin:</p>
-		<h2>Convert an existing board to phpBB3</h2>
-		<p>The phpBB Unified Convertor Framework supports the conversion of phpBB 2.0.x and other board systems to phpBB3. If you have an existing board that you wish to convert, please <a href="%2$s">proceed to the convertor</a>.</p>
-		<h2>Go live with your phpBB3!</h2>
-		<p>Clicking the button below will take you to a form for submitting statistical data to phpBB in your Administration Control Panel (ACP). We would appreciate it if you could help us by sending that information. Afterwards you should take some time to examine the options available to you. Remember that help is available online via the <a href="http://www.phpbb.com/support/documentation/3.0/">Documentation</a>, <a href="%3$s">README</a> and the <a href="http://www.phpbb.com/community/viewforum.php?f=46">Support Forums</a>.</p><p><strong>Please delete, move or rename the install directory before using your board. While this directory exists, only the Administration Control Panel (ACP) will be accessible.</strong>',
+		<h2>Mevcut bir mesaj panosunu phpBB3\'e dönüştürmek</h2>
+		<p>phpBB Birleştirme Dönüştürücü Sistemi phpBB 2.0.x ve diğer mesaj panosu sistemlerinden phpBB3\'e dönüşümü destekler. Eğer dönüştürmek istediğiniz mevcut bir mesaj panonuz varsa, lütfen <a href="%2$s">dönüştürücüye doğru ilerleyin</a>.</p>
+		<h2>phpBB3\'ünüz ile yolunuza devam edin!</h2>
+		<p>Alttaki butona tıkladıktan sonra Yönetim Kontrol Paneli (YKP)\'nizdeki bazı istatistiksel verileri phpBB\'ye ulaştıracağınız bir form ile karşılaşacaksınız. Eğer o bilgileri göndererek bizlere yardımcı olursanız, sizlere minnettar kalacağız. Daha sonra biraz zamanınızı ayırarak size sunulan mevcut seçenekleri inceleyebilirsiniz. <a href="http://www.phpbb.com/support/documentation/3.0/">Dokümantasyon</a>, <a href="%3$s">BENİ OKU</a> ve <a href="http://www.phpbb.com/community/viewforum.php?f=46">Destek Forumları</a> yoluyla çevrimiçi yardım alabileceğinizi unutmayın.</p><p><strong>Lütfen mesaj panonuzu kullanmadan önce install klasörünü silin, taşıyın ya da yeniden adlandırın. Eğer bu klasör mevcutsa, sadece Yönetim Kontrol Paneline (YKP) erişilebilinecektir.</strong>',
 	'INSTALL_INTRO'				=> 'Yükleme\'ye Hoşgeldiniz',
 
 	'INSTALL_INTRO_BODY'		=> 'Bu seçenek ile, sunucunuza phpBB3 yüklemek mümkün olacaktır.</p><p>Devam etmek için, veritabanı ayarlarınıza ihtiyacınız vardır. Eğer veritabanı ayarlarınızı bilmiyorsanız, lütfen hosting firmanız ile iletişime geçin ve onlara sorun. Bu ayarlar olmadan devam edemezsiniz. Size gerekenler:</p>
@@ -365,7 +365,7 @@ $lang = array_merge($lang, array(
 
 // Updater
 $lang = array_merge($lang, array(
-	'ALL_FILES_UP_TO_DATE'		=> 'Tüm dosyalar son phpBB sürümü ile güncel. Şimdi <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">mesaj panonuza giriş yapmalısınız</a> ve herşeyin iyi çalıştığını kontrol etmelisiniz. install klasörünüzü silmeyi, yeniden adlandırmayı veya taşımayı unutmayın! Please send us updated information about your server and board configurations from the <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">Send statistics</a> module in your ACP.',
+	'ALL_FILES_UP_TO_DATE'		=> 'Tüm dosyalar son phpBB sürümü ile güncel. Şimdi <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">mesaj panonuza giriş yapmalısınız</a> ve herşeyin iyi çalıştığını kontrol etmelisiniz. install klasörünüzü silmeyi, yeniden adlandırmayı veya taşımayı unutmayın! Lütfen sunucunuz hakkındaki güncel bilgileri ve mesaj panosu ayarlarınızı YKP\'nizdeki <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">İstatistikleri gönder</a> modülünü kullanarak gönderin.',
 	'ARCHIVE_FILE'				=> 'Arşiv içinde kaynak dosya',
 
 	'BACK'				=> 'Geri',
@@ -563,7 +563,7 @@ $lang = array_merge($lang, array(
 	'VERSION_CHECK'				=> 'Sürüm kontrolü',
 	'VERSION_CHECK_EXPLAIN'			=> 'phpBB kurulumunuzun güncelliğini buradan kontrol edebilirsiniz.',
 	'VERSION_NOT_UP_TO_DATE'		=> 'phpBB kurulumunuz güncel değil. Lütfen güncelleme işlemine devam edin.',
-	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'phpBB kurulumunuz güncel değil.<br />Below is a link to the release announcement, which contains more information as well as instructions on updating.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'phpBB kurulumunuz güncel değil.<br />Aşağıdaki bağlantıdan güncelleme işlemleriyle ilgili daha fazla bilgi alabileceğiniz sürüm yayınlama duyurularına ulaşabilirsiniz.',
 	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'phpBB kurulumunuz güncel değil.',
 	'VERSION_UP_TO_DATE'			=> 'phpBB kurulumunuz güncel. Şu anda herhangi bir güncelleme mevcut değil, isterseniz bir dosya doğrulaması kontrolü için devam edebilirsiniz.',
 	'VERSION_UP_TO_DATE_ACP'		=> 'phpBB kurulumunuz güncel. Şu anda herhangi bir güncelleme mevcut değil.',

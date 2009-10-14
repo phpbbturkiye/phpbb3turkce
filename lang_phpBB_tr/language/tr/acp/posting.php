@@ -178,7 +178,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_ORDER'				=> 'İfade sıralaması',
 	'SMILIES_URL'				=> 'İfade resim dosyası',
 	'SMILIES_WIDTH'				=> 'İfade genişliği',
-	'TOO_MANY_SMILIES'			=> 'Limit of %d smilies reached.',
+	'TOO_MANY_SMILIES'			=> '%d ifade sınırına ulaşıldı.',
 
 	'WRONG_PAK_TYPE'	=> 'Belirtilen paket uygun veriye sahip değil.',
 ));

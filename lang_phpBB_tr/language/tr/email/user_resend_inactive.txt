@@ -8,9 +8,9 @@ Lütfen bu e-postayı saklayın. Kullanıcı bilginiz altta bulunmaktadır:
 Kullanıcı adı: {USERNAME}
 ----------------------------
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Şifreniz veritabanımızda güvenli bir şekilde saklanmaktadır ve ele geçirilemeyecek durumdadır. Eğer şifrenizi unutursanız, hesabınız ile tanımlı olan e-posta adresinizi kullanarak şifrenizi sıfırlayabilirsiniz.
 
-Please visit the following link in order to activate your account:
+Hesabınızı aktif hale getirmek için lütfen alttaki bağlantıyı ziyaret edin:
 
 {U_ACTIVATE}
 

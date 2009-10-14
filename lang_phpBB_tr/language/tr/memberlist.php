@@ -135,7 +135,7 @@ $lang = array_merge($lang, array(
 	'USER_BAN'            => 'Yasaklama',
 	'USER_FORUM'			=> 'Kullanıcı istatistikleri',
 	'USER_LAST_REMINDED'	=> array(
-		0		=> 'Şu anda hiç bir hatırlatma gönderilmedi',
+		0		=> 'Şu anda gönderilen hiç bir hatırlatma yok',
 		1		=> '%1$d hatırlatma gönderildi<br />» %2$s',
 	),
 	'USER_ONLINE'			=> 'Çevrimiçi',

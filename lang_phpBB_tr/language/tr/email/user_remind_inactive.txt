@@ -2,7 +2,7 @@ Subject: Aktif olmayan hesap hatırlatıcı
 
 Merhaba {USERNAME},
 
-This notification is a reminder that your account at "{SITENAME}", created on {REGISTER_DATE}, remains inactive. If you would like to activate this account, please visit the following link:
+Bu bildiri "{SITENAME}" sitesinde, {REGISTER_DATE} tarihinde oluşturulmuş, aktif olmayan hesabınız için bir hatırlatıcı niteliğindedir. Eğer hesabınızı aktif hale getirmek istiyorsanız, lütfen alttaki bağlantıyı ziyaret edin:
 
 {U_ACTIVATE}
 
