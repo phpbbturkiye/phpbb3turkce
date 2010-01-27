@@ -49,4 +49,4 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_EXPLAIN'				=> 'Otomatik gönderimleri önlemek için önderdiğimiz bir yol. Görüntülenen kelimeleri altındaki metin alanına gireceksiniz.',
 ));
 
-?> 
+?>
