@@ -254,6 +254,8 @@ $lang = array_merge($lang, array(
 	'PM_REPORT_DELETED_SUCCESS'	=> 'Seçilen ÖM bildirisi başarıyla silindi.',
 	'PM_REPORTED_SUCCESS'		=> 'Bu özel mesaj başarıyla bildirildi.',
 	'PM_REPORT_TOTAL'			=> 'İncelemek için toplam <strong>1</strong> ÖM bildirisi var.',
+	'PM_REPORTS_CLOSED_SUCCESS'	=> 'Seçilen ÖM bildirileri başarıyla kapatıldı.',
+	'PM_REPORTS_DELETED_SUCCESS'=> 'Seçilen ÖM bildirileri başarıyla silindi.',	
 	'PM_REPORTS_TOTAL'			=> 'İncelemek için toplam <strong>%d</strong> ÖM bildirisi var.',
 	'PM_REPORTS_ZERO_TOTAL'		=> 'İncelemek için herhangi bir ÖM bildirisi yok.',
 	'PM_REPORT_DETAILS'			=> 'Özel mesaj bildiri detayları',
@@ -329,6 +331,7 @@ $lang = array_merge($lang, array(
 	'SPLIT_TOPIC_BEYOND_CONFIRM'		=> 'Seçilen mesajdan bu başlığı ayırmak istediğinize emin misiniz?',
 	'SPLIT_TOPIC_EXPLAIN'				=> 'Alttaki formu kullanarak başlığı ikiye ayırabilirsiniz, mesajları ayrı ayrı seçerek veya tek bir mesajdan ayırabilirsiniz.',
 
+	'THIS_PM_IP'				=> 'Bu özel mesaj için IP adresi',
 	'THIS_POST_IP'			=> 'Bu mesaj için IP adresi',
 	'TOPICS_APPROVED_SUCCESS'	=> 'Seçilen başlıklar onaylandı.',
 	'TOPICS_DELETED_SUCCESS'	=> 'Seçilen başlıklar veritabanından başarıyla silindi.',

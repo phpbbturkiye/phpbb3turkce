@@ -95,8 +95,8 @@ $help = array(
 		1 => 'Mesaj panosu yöneticisi konuştuğunuz dili destekleyen paketi kurmamıştır, ya da hiç kimse bu mesaj panosunu konuştuğunuz dile henüz çevirmemiştir. Mesaj panosu yöneticilerine başvurup, kendi dilinizi destekleyen paketi kurmalarını rica edin. Eğer böyle bir dil paketi yoksa, yeni bir çeviri oluşturmakta özgürsünüz. Daha fazla bilgi phpBB web sitesinde bulunabilir (mesaj panosu sayfalarının altındaki bağlantıya bakın).'
 	),
 	array(
-		0 => 'Kullanıcı adımın altında resim göstermek için ne yapmalıyım?',
-		1 => 'Mesajların görüntülendiği sayfalarda kullanıcı adlarının altında iki tür resim görebilirsiniz. Kullandığınız temaya bağlı olarak birincisi, kullanıcı rütbenizi gösterir ve genelde gönderdiğiniz mesaj sayısına bağlı olarak belirli bir sayıda yıldız veya kare şeklindedir. İkincisi ise avatar olarak bilinen biraz daha büyük bir resimdir. Bu resim genelde kullanıcıya ait ve özeldir. Avatar kullanma imkanını mesaj panosu yöneticisi saptar. Ayrıca avatar\'ların ne şekilde kullanılabileceğinide saptar. Eğer avatar kullanamıyorsanız, mesaj panosu yöneticisi ile iletişime geçip bu imkanı ne sebepten dolayı iptal ettiğini sorabilirsiniz.'
+		0 => 'Kullanıcı adım ile beraber bir resmi nasıl gösteririm?',
+		1 => 'Mesajları görüntülerken kullanıcı adı ile beraber iki tane resim görebilirsiniz. Bunlardan birisi rütbeniz ile tanımlanmış olan bir resim olabilir. Bu resim genelde yıldızlar, kareler ya da noktalar şeklindedir ve mesaj panosunda ne kadar mesaj oluşturduğunuzu ya da durumunuzu gösterir. Diğeri ise, avatar olarak bilinen genellikle daha büyük bir resimdir. Bu resim genelde kullanıcıya ait ve özeldir. Avatar kullanma imkanını mesaj panosu yöneticisi saptar. Ayrıca avatar\'ların ne şekilde kullanılabileceğinide saptar. Eğer avatar kullanamıyorsanız, mesaj panosu yöneticisi ile iletişime geçip bu imkanı ne sebepten dolayı iptal ettiğini sorabilirsiniz.'
 	),
 	array(
 		0 => 'Rütbem nedir ve onu nasıl değiştirebilirim?',

@@ -265,7 +265,6 @@ $lang = array_merge($lang, array(
 	'PARSE_URLS'			=> 'Bağlantıları kullan',
 	'PERMISSIONS_TRANSFERRED'			=> 'İzinler transfer edildi',
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Şu an %1$s izinlerine sahipsiniz. Bu kullanıcının izinleri ile mesaj panosuna gözatabilirsiniz, fakat yönetim izinleri transfer edilmediğinden dolayı yönetim kontrol paneline erişilemeyecektir. Herhangi bir zamanda <a href="%2$s"><strong>eski izinlerinize geri dönebilirsiniz</strong></a>.',
-	'PIXEL'							=> 'piksel',
 	'PROCEED_TO_ACP'		=> '%sYönetim Kontrol Paneline ilerle%s',
 	
 	'REMIND'				=> 'Hatırlat',
@@ -336,6 +335,8 @@ $lang = array_merge($lang, array(
 	'NUMBER_TOPICS'		=> 'Başlıkların sayısı',
 	'NUMBER_USERS'		=> 'Kullanıcıların sayısı',
 	'NUMBER_ORPHAN'		=> 'Boşta kalan eklentiler',
+	
+	'PHP_VERSION_OLD'	=> 'Bu sunucudaki PHP sürümü phpBB\'nin gelecek sürümleri tarafından desteklenmeyecektir. %sDetaylar%s',
 
 	'POSTS_PER_DAY'		=> 'Günlük ortalama mesaj',
 
