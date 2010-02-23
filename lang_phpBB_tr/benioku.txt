@@ -1,9 +1,9 @@
 ﻿#### Bu dosya phpBB Türkiye "http://www.phpbbturkey.com/" sitesinden indirilmiştir ####
 ####
 #### phpBB 3.0.x "Olympus" Türkçe Dil Paketi ####
-
+####
 Sürüm Geçmişi:
-
+-------------------------------------------------------
 03-02-2010 V2.4.1
 - Dil dosyaları phpBB 3.0.7RC-1 sürümüne göre uyarlandı.
 
