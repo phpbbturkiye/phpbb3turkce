@@ -41,6 +41,8 @@ $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'BBCode HTML yapısıyla neyin nasıl gösterileceği konusunda yapılan uygulamalardır. Bu sayfadan BBCode ekleyebilir, silebilir ve özel BBCode\'ları düzenleyebilirsiniz.',
 	'ADD_BBCODE'				=> 'Yeni bir BBCode ekle',
 
+	'BBCODE_DANGER'				=> 'Eklemeyi denediğiniz BBCode bir HTML niteliği içerisinde yanıltıcı bir {METİN} tipi kullanıldığını gösteriyor. Bu XSS güvenlik sorunundan olabilir. Onun yerine daha başka tanımlayıcı {SADEMETİN} ya da {INTTEXT} tiplerini kullanmayı deneyin. Eğer ilgili riskleri anladıysanız ve kesinlikle kaçınılmaz olarak {METİN} tipini kullanmayı düşünüyorsanız sadece ilerleyin.',
+	'BBCODE_DANGER_PROCEED'		=> 'İlerle', //'I understand the risk',
 	'BBCODE_ADDED'				=> 'BBCode başarıyla eklendi',
 	'BBCODE_EDITED'				=> 'BBCode başarıyla düzenlendi',
 	'BBCODE_NOT_EXIST'			=> 'Seçmiş olduğunuz BBCode mevcut değil',
@@ -72,8 +74,9 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_BBCODES'		=> 'Daha fazla BBCode yaratılamaz. Bir ya da daha fazla BBCode u kaldırarak tekrar deneyin',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'Herhangi bir metin, yabancı karakterler içerebilir, sayılar, vb… HTML etiketleri içerisinde bu işareti kullanmamalısınız. Bunun yerine BELİRTEÇ ya da SADEMETİN kullanmayı deneyin.',
-    'SIMPLETEXT'   => 'Latin alfabesinden karakterler (A-Z), sayılar, boşluklar, virgüller, noktalar, eksi, artı, tire ve altçizgi',
+		'TEXT'			=> 'Herhangi bir metin, yabancı karakterler içerebilir, sayılar, vb… HTML etiketleri içerisinde bu işareti kullanmamalısınız. Bunun yerine BELİRTEÇ, INTTEXT ya da SADEMETİN kullanmayı deneyin.',
+		'SIMPLETEXT'   => 'Latin alfabesinden karakterler (A-Z), sayılar, boşluklar, virgüller, noktalar, eksi, artı, tire ve altçizgi',
+		'INTTEXT'		=> 'Unicode harf karakterleri, sayılar, boşluklar, virgüller, noktalar, eksi, artı, tire, altçizgi ve boşluklar.',
     'IDENTIFIER'   => 'Latin alfabesinden karakterler (A-Z), sayılar, tire ve altçizgi',
 		'NUMBER'		=> 'Sayı dizilerinin herhangi bir serisi',
 		'EMAIL'			=> 'Geçerli e-posta adresi',
