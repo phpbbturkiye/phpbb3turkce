@@ -13,8 +13,11 @@ Sürüm Geçmişi:
 03-02-2010 V2.4.1
 - Dil dosyaları phpBB 3.0.7-RC1 sürümüne göre uyarlandı.
 
-27-01-2010 v2.4.0
-- Dil dosyaları phpBB 3.0.6 sürümü için güncellendi
+27-01-2010 v2.4.0a
+- Dil dosyaları phpBB 3.0.6 sürümü için yeniden güncellendi
+
+22-11-2009 v2.4.0
+- Dil dosyaları phpBB 3.0.6 sürümüne göre güncellendi
 
 10-11-2009 v2.3.2
 - Dil dosyaları phpBB 3.0.6-RC4 sürümüne göre güncellendi
