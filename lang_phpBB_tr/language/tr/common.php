@@ -167,11 +167,11 @@ $lang = array_merge($lang, array(
 	'ENCLOSURE'			=> 'Çevir',
 	'ERR_CHANGING_DIRECTORY'			=> 'Dizin değiştirilemiyor.',
 	'ERR_CONNECTING_SERVER'				=> 'Sunucuya bağlanırken hata oluştu.',
-  'ERR_JAB_AUTH'                  => 'Jabber sunucusunda erişim izni verilmedi.',
-  'ERR_JAB_CONNECT'               => 'Jabber sunucusuna bağlanılamadı.',
+	'ERR_JAB_AUTH'                  => 'Jabber sunucusunda erişim izni verilmedi.',
+	'ERR_JAB_CONNECT'               => 'Jabber sunucusuna bağlanılamadı.',
 	'ERR_UNABLE_TO_LOGIN'				=> 'Belirtilen kullanıcı adı veya şifre hatalı.',
 	'ERR_UNWATCHING'               => 'Abonelik iptal edilmeye çalışılırken bir hata oluştu.',
-  'ERR_WATCHING'                  => 'Abone olmaya çalışılırken bir hata oluştu.',
+	'ERR_WATCHING'                  => 'Abone olmaya çalışılırken bir hata oluştu.',
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'Belirtilen phpBB dosya yolu geçersiz görünüyor.',
 	'EXPAND_VIEW'						=> 'Geniş görünüm',
 	'EXTENSION'							=> 'Uzantı',
@@ -229,7 +229,7 @@ $lang = array_merge($lang, array(
 
 	'GENERAL_ERROR'				=> 'Genel Hata',
 	'GB'                  => 'GB',
-  'GIB'                  => 'GiB',
+	'GIB'                  => 'GiB',
 	'GO'						=> 'Git',
 	'GOTO_PAGE'					=> 'Sayfaya git',
 	'GROUP'						=> 'Grup',
@@ -288,7 +288,7 @@ $lang = array_merge($lang, array(
 	'JUMP_TO_PAGE'			=> 'Sayfaya geçiş yapmak için tıklayın…',
 
 	'KB'				=> 'KB',
-  'KIB'               => 'KiB',
+	'KIB'               => 'KiB',
 
 	'LAST_POST'				=> 'Son mesaj',
 	'LAST_UPDATED'			=> 'Son güncelleme',
@@ -348,8 +348,8 @@ $lang = array_merge($lang, array(
 	'NEW_PMS'					=> '<strong>%d</strong> yeni mesaj',
 	'NEW_POST'					=> 'Yeni mesaj',
 	'NEW_POSTS'					=> 'Yeni mesaj var',
-  'NEXT'                  => 'Sonraki',      // Used in pagination
-  'NEXT_STEP'               => 'Sonraki',
+	'NEXT'                  => 'Sonraki',      // Used in pagination
+	'NEXT_STEP'               => 'Sonraki',
 	'NEVER'						=> 'Hiç',
 	'NO'						=> 'Hayır',
 	'NOT_ALLOWED_MANAGE_GROUP'	=> 'Bu grubu yönetme izniniz yok.',
@@ -400,11 +400,11 @@ $lang = array_merge($lang, array(
 	'NO_USER_SPECIFIED'			=> 'Hiç bir kullanıcı adı belirtilmedi.',
 
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
-  'NUM_POSTS_IN_QUEUE'      => array(
-     0         => 'Sırada bekleyen hiç mesaj yok',      // 0
-     1         => '1 mesaj sırada bekliyor',      // 1
-     2         => '%d mesaj sırada bekliyor',      // 2+
-  ),
+	'NUM_POSTS_IN_QUEUE'      => array(
+		0         => 'Sırada bekleyen hiç mesaj yok',      // 0
+		1         => '1 mesaj sırada bekliyor',      // 1
+		2         => '%d mesaj sırada bekliyor',      // 2+
+	),
 
 	'OCCUPATION'				=> 'Meslek',
 	'OFFLINE'					=> 'Çevrimdışı',
@@ -445,8 +445,8 @@ $lang = array_merge($lang, array(
 	'POST_TOPIC'			=> 'Yeni bir başlık gönder',
 	'POST_UNAPPROVED'	=> 'Bu mesaj onay için bekliyor',
 	'PREVIEW'			=> 'Önizleme',
-  'PREVIOUS'            => 'Önceki',      // Used in pagination
-  'PREVIOUS_STEP'         => 'Önceki',
+	'PREVIOUS'            => 'Önceki',      // Used in pagination
+	'PREVIOUS_STEP'         => 'Önceki',
 	'PRIVACY'			=> 'Gizlilik ilkeleri',
 	'PRIVATE_MESSAGE'	=> 'Özel mesaj',
 	'PRIVATE_MESSAGES'	=> 'Özel mesajlar',
@@ -585,7 +585,7 @@ $lang = array_merge($lang, array(
 
 	'TOO_MANY_VOTE_OPTIONS'			=> 'Çok fazla seçenek için oy vermeyi denediniz.',
 
-  'TOO_SHORT'                  => 'Girdiğiniz değer çok kısa.',
+	'TOO_SHORT'                  => 'Girdiğiniz değer çok kısa.',
 	'TOO_SHORT_AIM'					=> 'Girdiğiniz görünen ad çok kısa.',
 	'TOO_SHORT_CONFIRM_CODE'			=> 'Girdiğiniz onay kodu çok kısa.',
 	'TOO_SHORT_DATEFORMAT'         => 'Girdiğiniz tarih formatı çok kısa.',

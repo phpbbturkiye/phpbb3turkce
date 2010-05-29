@@ -40,8 +40,8 @@ $lang = array_merge($lang, array(
 	'ALREADY_IN_GROUP'		=> 'Seçilen grubun zaten bir üyesisiniz.',
 	'ALREADY_IN_GROUP_PENDING'	=> 'Seçilen gruba zaten katılım isteğinde bulundunuz.',
 	
-  'CANNOT_JOIN_GROUP'         => 'Bu gruba katılamazsınız. Sadece açık ve serbestçe açık olan gruplara katılabilirsiniz.',
-  'CANNOT_RESIGN_GROUP'      => 'Bu gruptan ayrılamazsınız. Sadece açık ve serbestçe açık olan gruplardan ayrılabilirsiniz.',
+	'CANNOT_JOIN_GROUP'         => 'Bu gruba katılamazsınız. Sadece açık ve serbestçe açık olan gruplara katılabilirsiniz.',
+	'CANNOT_RESIGN_GROUP'      => 'Bu gruptan ayrılamazsınız. Sadece açık ve serbestçe açık olan gruplardan ayrılabilirsiniz.',
 	'CHANGED_DEFAULT_GROUP'	=> 'Varsayılan grup başarıyla değiştirildi.',
 	
 	'GROUP_AVATAR'			=> 'Grup avatarı', 
