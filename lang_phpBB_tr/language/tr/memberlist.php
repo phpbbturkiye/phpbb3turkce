@@ -139,7 +139,7 @@ $lang = array_merge($lang, array(
 		1		=> '%1$d hatırlatma gönderildi<br />» %2$s',
 	),
 	'USER_ONLINE'			=> 'Çevrimiçi',
-	'USER_PRESENCE'			=> 'Mesaj panosundaki yeri',
+	'USER_PRESENCE'			=> 'Mesaj panosundaki görünüşü',
 
 	'VIEWING_PROFILE'		=> 'Profil görüntüleniyor - %s',
 	'VISITED'				=> 'Son ziyaret',
