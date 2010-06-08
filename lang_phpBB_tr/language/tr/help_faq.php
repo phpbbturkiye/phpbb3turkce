@@ -261,15 +261,15 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'Arkadaşlar ve Düşmanlar'
+		1 => 'Arkadaşlar ve Engellenenler'
 	),
 	array(
-		0 => 'Arkadaşlarım ve Düşmanlarım listesi nedir?',
-		1 => 'Bu listeleri kullanarak mesaj panosunun diğer üyelerini toplayabilirsiniz. Arkadaşlar listenize eklenen üyeler, onlara özel mesajlar göndermeye ve çevrimiçi durumlarını görüntülemeye kolay erişim sağlamak için Kullanıcı Kontrol Panelinizde listelenecektir. Tema uygun desteği sağlıyorsa, bu kullanıcılardan gelen mesajlar ayrıca detaylı ve belirgin olarak görünebilir. Eğer düşmanlar listenize bir kullanıcı eklediyseniz onlar tarafından oluşturulan mesajlar varsayılan olarak gizlenecektir.'
+		0 => 'Arkadaşlarım ve Engellenenler listesi nedir?',
+		1 => 'Bu listeleri kullanarak mesaj panosunun diğer üyelerini toplayabilirsiniz. Arkadaşlar listenize eklenen üyeler, onlara özel mesajlar göndermeye ve çevrimiçi durumlarını görüntülemeye kolay erişim sağlamak için Kullanıcı Kontrol Panelinizde listelenecektir. Tema uygun desteği sağlıyorsa, bu kullanıcılardan gelen mesajlar ayrıca detaylı ve belirgin olarak görünebilir. Eğer engellenenler listenize bir kullanıcı eklediyseniz onlar tarafından oluşturulan mesajlar varsayılan olarak gizlenecektir.'
 	),
 	array(
-		0 => 'Kullanıcıları Arkadaşlar veya Düşmanlar listeme nasıl ekleyebilir / silebilirim?',
-		1 => 'Listenize kullanıcıları iki yolla ekleyebilirsiniz. Her kullanıcı’nın profilinde, onları Arkadaşlar ya da Düşmanlar listenize eklemek için bir bağlantı olacaktır. Alternatif olarak Kullanıcı Kontrol Paneliniz’den, direkt olarak kullanıcıların üye adlarını girerek ekleyebilirsiniz. Ayrıca aynı sayfayı kullanarak kullanıcıları listenizden silebilirsiniz.'
+		0 => 'Kullanıcıları Arkadaşlar veya Engellenenler listeme nasıl ekleyebilir / silebilirim?',
+		1 => 'Listenize kullanıcıları iki yolla ekleyebilirsiniz. Her kullanıcı’nın profilinde, onları Arkadaşlar ya da Engellenenler listenize eklemek için bir bağlantı olacaktır. Alternatif olarak Kullanıcı Kontrol Paneliniz’den, direkt olarak kullanıcıların üye adlarını girerek ekleyebilirsiniz. Ayrıca aynı sayfayı kullanarak kullanıcıları listenizden silebilirsiniz.'
 	),
 	array(
 		0 => '--',

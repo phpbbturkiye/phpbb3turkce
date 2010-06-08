@@ -158,7 +158,7 @@ $lang = array_merge($lang, array(
 	'IMG_POLL_CENTER'		=> 'Anket merkezi',
 	'IMG_POLL_RIGHT'		=> 'Anket sağ bitişi',
 	'IMG_ICON_FRIEND'		=> 'Arkadaş olarak ekle',
-	'IMG_ICON_FOE'			=> 'Düşman olarak ekle',
+	'IMG_ICON_FOE'			=> 'Engellenen olarak ekle',
 
 	'IMG_FORUM_LINK'			=> 'Forum bağlantısı',
 	'IMG_FORUM_READ'			=> 'Forum',

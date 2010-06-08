@@ -39,7 +39,7 @@ $lang = array_merge($lang, array(
 	'ABOUT_USER'			=> 'Profil',
 	'ACTIVE_IN_FORUM'		=> 'En çok aktif olunan forum',
 	'ACTIVE_IN_TOPIC'		=> 'En çok aktif olunan başlık',
-	'ADD_FOE'				=> 'Düşmanlara ekle',
+	'ADD_FOE'				=> 'Engellenenlere ekle',
 	'ADD_FRIEND'			=> 'Arkadaşlara ekle',
 	'AFTER'					=> 'Sonra',
 	
@@ -113,8 +113,8 @@ $lang = array_merge($lang, array(
 	'RANK'					=> 'Rütbe',
 	'REAL_NAME'				=> 'Alıcı adı',
 	'RECIPIENT'				=> 'Alıcı',
-	'REMOVE_FOE'			=> 'Düşman sil',
-	'REMOVE_FRIEND'			=> 'Arkadaş sil',
+	'REMOVE_FOE'			=> 'Engellenenlerden kaldır',
+	'REMOVE_FRIEND'			=> 'Arkadaşlardan kaldır',
 
 	'SEARCH_USER_POSTS'		=> 'Kullanıcı mesajlarını ara',
 	'SELECT_MARKED'			=> 'İşaretlileri seç',
