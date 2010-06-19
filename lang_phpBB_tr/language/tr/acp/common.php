@@ -635,7 +635,7 @@ $lang = array_merge($lang, array(
 	'LOG_PROFILE_FIELD_REMOVED'		=> '<strong>Profil alanı silindi</strong><br />» %s',
 
 	'LOG_PRUNE'					=> '<strong>Forumlar budandı</strong><br />» %s',
-	'LOG_AUTO_PRUNE'			=> '<strong>Forumlar otomatik budandı</strong><br />» %s',
+	'LOG_AUTO_PRUNE'			=> '<strong>Forumlar otomatik olarak budandı</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>Kullanıcılar deaktif edildi</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Kullanıcılar budandı ve mesajlar silindi</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Kullanıcılar budandı ve mesajlar tutuldu</strong><br />» %s',
