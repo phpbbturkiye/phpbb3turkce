@@ -372,7 +372,7 @@ $lang = array_merge($lang, array(
 	'YES_ONLINE_TRACK_EXPLAIN'		=> 'Kullanıcı profillerinde ve başlık sayfalarında çevrimiçi bilgisini gösterir.',
 	'YES_POST_MARKING'				=> 'Başlıklardaki noktalama özelliğini aç',
 	'YES_POST_MARKING_EXPLAIN'		=> 'Kullanıcının bir başlığa mesaj gönderdiğini belirten siyah bir noktadır.',
-	'YES_READ_MARKING'				=> 'Server tabanlı başlık işaretlemeyi aç',
+	'YES_READ_MARKING'				=> 'Sunucu tabanlı başlık işaretlemeyi aç',
 	'YES_READ_MARKING_EXPLAIN'		=> 'Okunmuş/Okunmamış durum bilgilerinin çerez yerine sunucuda depolanmasını sağlayan özelliktir.',
 ));
 
