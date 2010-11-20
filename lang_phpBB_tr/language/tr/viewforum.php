@@ -48,15 +48,20 @@ $lang = array_merge($lang, array(
 
 	'MARK_TOPICS_READ'		=> 'Başlıkları okunmuş işaretle',
 
-	'NEW_POSTS_HOT'			=> 'Yeni mesajlar [ Popüler ]',
-	'NEW_POSTS_LOCKED'		=> 'Yeni mesajlar [ Kilitli ]',
-	'NO_NEW_POSTS_HOT'		=> 'Yeni mesaj yok [ Popüler ]',
-	'NO_NEW_POSTS_LOCKED'	=> 'Yeni mesaj yok [ Kilitli ]',
-	'NO_READ_ACCESS'		=> 'Bu forumdaki başlıkları okumak için gerekli izinlere sahip değilsiniz.',
+	'NEW_POSTS_HOT'         => 'Yeni mesajlar [ Popüler ]',   // Not used anymore
+	'NEW_POSTS_LOCKED'      => 'Yeni mesajlar [ Kilitli ]',   // Not used anymore
+	'NO_NEW_POSTS_HOT'      => 'Yeni mesaj yok [ Popüler ]',   // Not used anymore
+	'NO_NEW_POSTS_LOCKED'   => 'Yeni mesaj yok [ Kilitli ]',   // Not used anymore
+	'NO_READ_ACCESS'      => 'Bu forumdaki başlıkları okumak için gerekli izinlere sahip değilsiniz.',
+	'NO_UNREAD_POSTS_HOT'      => 'Okunmamış mesaj yok [ Popüler ]',
+	'NO_UNREAD_POSTS_LOCKED'   => 'Okunmamış mesaj yok [ Kilitli ]',
 
-	'POST_FORUM_LOCKED'		=> 'Forum kilitli',
+	'POST_FORUM_LOCKED'      => 'Forum kilitli',
 
-	'TOPICS_MARKED'			=> 'Bu forumdaki başlıklar okunmuş sayıldı.',
+	'TOPICS_MARKED'         => 'Bu forumdaki başlıklar okunmuş sayıldı.',
+
+	'UNREAD_POSTS_HOT'      => 'Okunmamış mesajlar [ Popüler ]',
+	'UNREAD_POSTS_LOCKED'   => 'Okunmamış mesajlar [ Kilitli ]',
 
 	'VIEW_FORUM'			=> 'Forum görüntüleniyor',
 	'VIEW_FORUM_TOPIC'		=> '1 başlık',

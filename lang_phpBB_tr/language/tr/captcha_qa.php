@@ -36,9 +36,9 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CAPTCHA_QA'				=> 'S&amp;C CAPTCHA',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'Bu soru kimlik tespit etmek ve otomatik gönderimleri önlemek için sunulur.',
-	'CONFIRM_QUESTION_WRONG'	=> 'Onay sorusu için geçersiz bir cevap belirttiniz.',
+	'CAPTCHA_QA'            => 'S&amp;C',
+	'CONFIRM_QUESTION_EXPLAIN'   => 'Bu soru spambotlar tarafından otomatik form gönderimlerini önlemek için sunulur.',
+	'CONFIRM_QUESTION_WRONG'   => 'Soruya geçersiz bir cevap belirttiniz.',
 
 	'QUESTION_ANSWERS'			=> 'Cevaplar',
 	'ANSWERS_EXPLAIN'			=> 'Lütfen soru için her bir satıra geçerli cevaplar girin.',
@@ -47,15 +47,15 @@ $lang = array_merge($lang, array(
 	'ANSWER'					=> 'Cevap',
 	'EDIT_QUESTION'				=> 'Soruyu Düzenle',
 	'QUESTIONS'					=> 'Sorular',
-	'QUESTIONS_EXPLAIN'			=> 'Kayıt sırasında, kullanıcılara burada belirtilen sorulardan birisi sorulacaktır. Bu özelliği kullanmak için, varsayılan dilinizde en az bir soru ayarlamalısınız. Bu sorular hedef kitlenizin cevaplayabilmesi için kolay olmalıdır, fakat bir Google™ aramasında bulunamayacak şekilde olmalıdır. Geniş ve düzenli değişiklik kullanarak en iyi sonuçları veren soruları ayarlayın. Eğer sorunuz noktalama işaretleri ya da büyük harfe duyarlı ise sıkı ayarı açın.',
-	'QUESTION_DELETED'			=> 'Soru silindi',
-	'QUESTION_LANG'				=> 'Dil',
-	'QUESTION_LANG_EXPLAIN'		=> 'Bu soru ve cevabın yazılacağı dil.',
-	'QUESTION_STRICT'			=> 'Sıkı kontrol',
-	'QUESTION_STRICT_EXPLAIN'	=> 'Eğer açıksa, büyük harf ve boşluk ayrıca zorunlu olacaktır.',
+	'QUESTIONS_EXPLAIN'         => 'S&amp;C eklentisini açtığınız zaman her form gönderimi için, kullanıcılara burada belirlenen sorulardan birisi sorulacaktır. Bu eklentiyi kullanmak için varsayılan dilde en az bir soru ayarlanmalıdır. Bu sorular hedef kitlenizin cevaplayabilmesi için kolay olmalıdır, fakat bir Google™ aramasında bulunamayacak şekilde olmalıdır. Geniş ve düzenli değişiklik kullanarak en iyi sonuçları veren soruları ayarlayın. Eğer sorunuz karışık durum, noktalama işareti ya da boşluğa duyarlı ise sıkı ayarı açın.',
+	'QUESTION_DELETED'         => 'Soru silindi',
+	'QUESTION_LANG'            => 'Dil',
+	'QUESTION_LANG_EXPLAIN'      => 'Bu soru ve cevabın yazılacağı dil.',
+	'QUESTION_STRICT'         => 'Sıkı kontrol',
+	'QUESTION_STRICT_EXPLAIN'   => 'Karışık durum, noktalama işareti ve boşluk uygulamak için açın.',
 
-	'QUESTION_TEXT'				=> 'Soru',
-	'QUESTION_TEXT_EXPLAIN'		=> 'Soru kayıt işlemi sırasında sorulacaktır.',
+	'QUESTION_TEXT'            => 'Soru',
+	'QUESTION_TEXT_EXPLAIN'      => 'Kullanıcıya sunulan soru.',
 
 	'QA_ERROR_MSG'				=> 'Lütfen tüm boşlukları doldurun ve en az bir cevap girin.',
 	'QA_LAST_QUESTION'			=> 'Eklenti aktifken tüm soruları silemezsiniz.',

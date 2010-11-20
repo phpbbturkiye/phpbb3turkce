@@ -128,7 +128,7 @@ $lang = array_merge($lang, array(
 	'DB_ERR_QUERY_FIRST_TABLE'	=> '<var>query_first</var> uygulaması sırasında hata oluştu, %s (“%s”).',
 	'DB_ERR_SELECT'				=> '<code>SELECT</code> sorgusu çalıştırılması sırasında hata oluştu.',
 	'DB_HOST'					=> 'Veritabanı ana makine adı veya VKA',
-	'DB_HOST_EXPLAIN'			=> 'Veri Kaynak Adı için VKA (DSN) belirtilmelidir ve sadece ODBC yüklemeleri için uygundur.',
+   	'DB_HOST_EXPLAIN'         => 'Veri Kaynak Adı için VKA (DSN) belirtilmelidir ve sadece ODBC yüklemeleri için uygundur. PostgreSQL\'da, yerel sunucuya UNIX domain socket yoluyla bağlanmak için localhost, TCP yoluyla bağlanmak içinse 127.0.0.1 kullanılır.',
 	'DB_NAME'					=> 'Veritabanı adı',
 	'DB_PASSWORD'				=> 'Veritabanı şifresi',
 	'DB_PORT'					=> 'Veritabanı sunucu portu',
@@ -145,8 +145,9 @@ $lang = array_merge($lang, array(
 	'DLL_FTP'					=> 'Uzak FTP desteği [ Yükleme ]',
 	'DLL_GD'					=> 'GD grafik desteği [ Görsel Doğrulama ]',
 	'DLL_MBSTRING'				=> 'Multi-byte karakter desteği',
-	'DLL_MSSQL'					=> 'MSSQL Sunucusu 2000+',
-	'DLL_MSSQL_ODBC'			=> 'MSSQL Sunucusu 2000+ ile ODBC',
+	'DLL_MSSQL'					=> 'MSSQL Server 2000+',
+	'DLL_MSSQL_ODBC'			=> 'MSSQL Server 2000+ ile ODBC',
+   	'DLL_MSSQLNATIVE'         => 'MSSQL Server 2005+ [ Native ]',
 	'DLL_MYSQL'					=> 'MySQL',
 	'DLL_MYSQLI'				=> 'MySQL ile MySQLi Uzantısı',
 	'DLL_ORACLE'				=> 'Oracle',
@@ -212,6 +213,7 @@ $lang = array_merge($lang, array(
      <li>SQLite 2.8.2+</li> 
      <li>Firebird 2.1+</li> 
      <li>MS SQL Server 2000 veya üzeri (direkt olarak veya ODBC yoluyla)</li> 
+	 <li>MS SQL Server 2005 veya üzeri (native)</li>
      <li>Oracle</li> 
      </ul> 
         
@@ -554,6 +556,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'Veri güncelleniyor',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Veritabanı en son sabit sürüme güncelleniyor',
 	'UPDATED_VERSION'				=> 'Güncellenen sürüm',
+	'UPGRADE_INSTRUCTIONS'         => '<strong>%1$s</strong> için yayınlanan yeni bir özellik mevcut. Lütfen bu özelliğin ne sunduğunu, ve nasıl güncelleyeceğinizi öğrenmek için <a href="%2$s" title="%2$s"><strong>yayın duyurusunu</strong></a> okuyun.',
 	'UPLOAD_METHOD'					=> 'Yükleme metodu',
 
 	'UPDATE_DB_SUCCESS'				=> 'Veritabanı güncellemesi başarıyla yapıldı.',
@@ -580,16 +583,6 @@ $lang = array_merge($lang, array(
    'CONFIG_SITENAME'              => 'siteadresiniz.com', 
      
    'DEFAULT_INSTALL_POST'        => 'Bu, phpBB3 yüklemenizin içindeki örnek bir mesajdır. Her şey çalışıyor görünüyor. Eğer isterseniz bu mesajı silebilirsiniz ve mesaj panonuzu ayarlamaya devam edebilirsiniz. Yükleme işlemi sırasında öntanımlı kullanıcı grupları, yöneticiler, botlar, global moderatörler, misafirler, kayıtlı kullanıcılar ve kayıtlı COPPA kullanıcıları için ayrılan izinler ilk kategoriniz ve ilk forumunuz için tanımlandı. Ayrıca eğer ilk kategorinizi ve ilk forumunuzu silmeyi tercih ederseniz, oluşturacağınız tüm yeni kategoriler ve forumlar için tüm bu kullanıcı gruplarına izinleri atamayı unutmayın. İlk kategorinizi ve ilk forumunuzu yeniden adlandırmanız ve oluşturacağınız yeni kategoriler ve yeni forumlar için izinleri buradan kopyalamanız önerilir. İyi eğlenceler!', 
-     
-   'EXT_GROUP_ARCHIVES'       => 'Arşivler', 
-   'EXT_GROUP_DOCUMENTS'       => 'Belgeler', 
-   'EXT_GROUP_DOWNLOADABLE_FILES'  => 'İndirilebilir Dosyalar', 
-   'EXT_GROUP_FLASH_FILES'       => 'Flash Dosyaları', 
-   'EXT_GROUP_IMAGES'            => 'Resimler', 
-   'EXT_GROUP_PLAIN_TEXT'          => 'Düz Yazı', 
-   'EXT_GROUP_QUICKTIME_MEDIA'      => 'Quicktime Ortam Dosyaları', 
-   'EXT_GROUP_REAL_MEDIA'            => 'Real Media Ortam Dosyaları', 
-   'EXT_GROUP_WINDOWS_MEDIA'         => 'Windows Media Ortam Dosyaları', 
      
    'FORUMS_FIRST_CATEGORY'      => 'İlk kategoriniz', 
    'FORUMS_TEST_FORUM_DESC'   => 'İlk forumunuzun açıklaması.', 

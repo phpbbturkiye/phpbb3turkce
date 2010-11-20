@@ -41,7 +41,7 @@ $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'BBCode HTML yapısıyla neyin nasıl gösterileceği konusunda yapılan uygulamalardır. Bu sayfadan BBCode ekleyebilir, silebilir ve özel BBCode\'ları düzenleyebilirsiniz.',
 	'ADD_BBCODE'				=> 'Yeni bir BBCode ekle',
 
-	'BBCODE_DANGER'				=> 'Eklemeyi denediğiniz BBCode bir HTML niteliği içerisinde yanıltıcı bir {METİN} tipi kullanıldığını gösteriyor. Bu XSS güvenlik sorunundan olabilir. Onun yerine daha başka tanımlayıcı {SADEMETİN} ya da {INTTEXT} tiplerini kullanmayı deneyin. Eğer ilgili riskleri anladıysanız ve kesinlikle kaçınılmaz olarak {METİN} tipini kullanmayı düşünüyorsanız sadece ilerleyin.',
+	'BBCODE_DANGER'				=> 'Eklemeyi denediğiniz BBCode bir HTML niteliği içerisinde yanıltıcı bir {TEXT} tipi kullanıldığını gösteriyor. Bu XSS güvenlik sorunundan olabilir. Onun yerine daha başka tanımlayıcı {SIMPLETEXT} ya da {INTTEXT} tiplerini kullanmayı deneyin. Eğer ilgili riskleri anladıysanız ve kesinlikle kaçınılmaz olarak {TEXT} tipini kullanmayı düşünüyorsanız sadece ilerleyin.',
 	'BBCODE_DANGER_PROCEED'		=> 'İlerle', //'I understand the risk',
 	'BBCODE_ADDED'				=> 'BBCode başarıyla eklendi',
 	'BBCODE_EDITED'				=> 'BBCode başarıyla düzenlendi',
@@ -57,32 +57,32 @@ $lang = array_merge($lang, array(
 	'BBCODE_TAG_TOO_LONG'		=> 'Seçtiğiniz etiket adı çok uzun.',
 	'BBCODE_TAG_DEF_TOO_LONG'		=> 'Girdiğiniz etiket tanımı çok uzun, lütfen etiket tanımınızı kısaltın.',
 	'BBCODE_USAGE'				=> 'BBCode kullanımı',
-	'BBCODE_USAGE_EXAMPLE'		=> '[highlight={RENK}]{METİN}[/highlight]<br /><br />[font={SADEMETİN1}]{SADEMETİN2}[/font]',
+	'BBCODE_USAGE_EXAMPLE'		=> '[highlight={COLOR}]{TEXT}[/highlight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
 	'BBCODE_USAGE_EXPLAIN'		=> 'Buradan nasıl BBCode kullanılacağını belirleyebilirsiniz. Girmiş olduğunuz herhangi bir değişkene uygun gelen işareti değiştirin (%salta bakın%s).',
 
 	'EXAMPLE'						=> 'Örnek:',
 	'EXAMPLES'						=> 'Örnekler:',
 
 	'HTML_REPLACEMENT'				=> 'HTML yenileme',
-	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color: {RENK};"&gt;{METİN}&lt;/span&gt;<br /><br />&lt;span style="font-family: {SADEMETİN1};"&gt;{SADEMETİN	2}&lt;/span&gt;',
+	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color: {COLOR};"&gt;{TEXT}&lt;/span&gt;<br /><br />&lt;span style="font-family: {SIMPLETEXT1};"&gt;{SIMPLETEXT2}&lt;/span&gt;',
 	'HTML_REPLACEMENT_EXPLAIN'		=> 'Buradan varsayılan HTML yenilemesini belirleyebilirsiniz. Yukarıda kullandığınız işaretleri geri koymayı unutmayın!',
 
 	'TOKEN'					=> 'İşaret',
 	'TOKENS'				=> 'İşaretler',
-	'TOKENS_EXPLAIN'		=> 'İşaretler, kullanıcıların girdikleri kelimelerin mantıksal olarak anlamlandırılıp düzenlenmesidir. Örneğin mesajlarda kullanıcı tarafından girilen bir kelime bu kısımda tanımlanırsa kullanıcı bu kelimeyi yanlış yazsa bile sistem öntanımlı olan bu kelime otomatik olarak düzeltilir. Gerekli olduğunda aşağıdaki örnekte olduğu gibi çift tanımlılar arasında bir sayı eklenerekte kullanılabilir, örnek {METİN1}, {METİN2}.<br /><br />HTML yenileme sınırları içerisinde bu işaretleri herhangi bir dil dizisi olarakta language/ klasörü içerisinde kullanabilirsiniz. Mesela bu şekilde olabilir: {L_<em>&lt;DİZİADI&gt;</em>} burada tanımlanan şekli <em>&lt;DİZİADI&gt;</em> dil dosyasına eklenmesini istediğiniz yapıyla aynı olduğu görülür. Örneğin, {L_WROTE} “wrote” şeklinde gösterilecektir ya da yerel olarak kullanıcının tercümesine göre değişebilir.<br /><br /><strong>Not: Sadece aşağıda listelenen işaretler özel BBCode’lar dahilinde kullanılabilir.</strong>',
+	'TOKENS_EXPLAIN'		=> 'İşaretler, kullanıcıların girdikleri kelimelerin mantıksal olarak anlamlandırılıp düzenlenmesidir. Örneğin mesajlarda kullanıcı tarafından girilen bir kelime bu kısımda tanımlanırsa kullanıcı bu kelimeyi yanlış yazsa bile, sistem öntanımlı olan bu kelime ile otomatik olarak düzeltir. Gerekli olduğunda aşağıdaki örnekte olduğu gibi çift tanımlılar arasından bir sayı eklenerekte kullanılabilir, örnek {TEXT1}, {TEXT2}.<br /><br />HTML yenileme sınırları içerisinde bu işaretleri herhangi bir dil dizisi olarakta language/ klasörü içerisinde kullanabilirsiniz. Mesela şu şekilde olabilir; {L_<em>&lt;STRINGNAME&gt;</em>} ve burada tanımlanan şekli <em>&lt;STRINGNAME&gt;</em> ise dil dosyasına eklenmesini istediğiniz yapıyla aynı olduğu görülür. Örneğin, {L_WROTE} “wrote” şeklinde gösterilecektir ya da yerel olarak kullanıcının tercümesine göre değişebilir.<br /><br /><strong>Not: Sadece aşağıda listelenen işaretler özel BBCode’lar dahilinde kullanılabilir.</strong>',
 	'TOKEN_DEFINITION'		=> 'Bu ne olabilir?',
 	'TOO_MANY_BBCODES'		=> 'Daha fazla BBCode yaratılamaz. Bir ya da daha fazla BBCode u kaldırarak tekrar deneyin',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'Herhangi bir metin, yabancı karakterler içerebilir, sayılar, vb… HTML etiketleri içerisinde bu işareti kullanmamalısınız. Bunun yerine BELİRTEÇ, INTTEXT ya da SADEMETİN kullanmayı deneyin.',
+		'TEXT'			=> 'Herhangi bir metin, yabancı karakterler içerebilir, sayılar, vb… HTML etiketleri içerisinde bu işareti kullanmamalısınız. Bunun yerine IDENTIFIER, INTTEXT ya da SIMPLETEXT kullanmayı deneyin.',
 		'SIMPLETEXT'   => 'Latin alfabesinden karakterler (A-Z), sayılar, boşluklar, virgüller, noktalar, eksi, artı, tire ve altçizgi',
 		'INTTEXT'		=> 'Unicode harf karakterleri, sayılar, boşluklar, virgüller, noktalar, eksi, artı, tire, altçizgi ve boşluklar.',
-    'IDENTIFIER'   => 'Latin alfabesinden karakterler (A-Z), sayılar, tire ve altçizgi',
+		'IDENTIFIER'   => 'Latin alfabesinden karakterler (A-Z), sayılar, tire ve altçizgi',
 		'NUMBER'		=> 'Sayı dizilerinin herhangi bir serisi',
 		'EMAIL'			=> 'Geçerli e-posta adresi',
 		'URL'			=> 'Herhangi bir protokolde geçerli URL kullanımı (http, ftp, gibi… javascript exploitleri için kullanılamaz). Hiç biri verilmezse, diziye “http://” ön adı verilir.',
 		'LOCAL_URL'		=> 'Yerel URL, URL Başlık sayfasıyla ilgili olmalıdır ve sunucu ismi ya da protokolü içermemelidir.',
-		'COLOR'			=> 'Bir HTML rengi, <samp>#FF1234</samp> şeklinde sayısal form içinde ya da bir <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS renk klavyesi</a> olabilir, <samp>fuchsia</samp> veya <samp>InactiveBorder</samp> gibi de olabilir'
+		'COLOR'			=> 'Bir HTML rengi, <samp>#FF1234</samp> şeklinde sayısal form içinde ya da bir <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS renk klavyesindeki</a> gibi olabilir, <samp>fuchsia</samp> veya <samp>InactiveBorder</samp> gibi de olabilir'
 	)
 ));
 

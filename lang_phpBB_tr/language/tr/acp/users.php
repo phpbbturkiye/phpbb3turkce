@@ -42,6 +42,7 @@ $lang = array_merge($lang, array(
 	'BAN_ALREADY_ENTERED'	=> 'Önceki yasaklama başarıyla girildi. Yasaklama listesi güncellenmedi.',
 	'BAN_SUCCESSFUL'		=> 'Yasaklama başarıyla girildi',
 
+	'CANNOT_BAN_ANONYMOUS'         => 'Misafir hesabını yasaklama izniniz yok. Misafir kullanıcılar için izinler, İzinler sekmesinin altından ayarlanabilir.',
 	'CANNOT_BAN_FOUNDER'			=> 'Kurucu hesaplarını yasaklama izniniz yok.',
 	'CANNOT_BAN_YOURSELF'			=> 'Kendinizi yasaklama izniniz yok.',
 	'CANNOT_DEACTIVATE_BOT'			=> 'Bot hesaplarını deaktif etme izniniz yok. Lütfen bunun yerine botlar sayfasından botu deaktif edin.',

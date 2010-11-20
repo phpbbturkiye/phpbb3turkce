@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE'				=> 'Özel reCaptcha anahtarı',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Özel reCaptcha anahtarınız. Anahtarlar <a href="http://recaptcha.net">reCaptcha.net</a> sitesinden elde edilebilir.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'Otomatik gönderimleri önlemek için önderdiğimiz bir yol. Görüntülenen kelimeleri altındaki metin alanına gireceksiniz.',
+	'RECAPTCHA_EXPLAIN'            => 'Otomatik gönderimleri önlemek amacıyla, görüntülenen kelimeleride altındaki metin alanına girmemiz gerekir.',
 ));
 
 ?>

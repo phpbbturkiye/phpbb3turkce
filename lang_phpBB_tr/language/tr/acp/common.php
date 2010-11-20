@@ -189,7 +189,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_USER_WARNINGS'				=> 'Uyarılar',
 
-	'ACP_VC_SETTINGS'					=> 'CAPTCHA modül ayarları',
+	'ACP_VC_SETTINGS'               	=> 'Spambot önlemleri',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'CAPTCHA resim önizlemesi',	
 	'ACP_VERSION_CHECK'					=> 'Güncellemeleri kontrol et',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Yönetim izinlerini görüntüle',
@@ -500,7 +500,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_SERVER'			=> '<strong>Sunucu ayarları değiştirildi</strong>',
 	'LOG_CONFIG_SETTINGS'		=> '<strong>Mesaj panosu ayarları değiştirildi</strong>',
 	'LOG_CONFIG_SIGNATURE'		=> '<strong>İmza ayarları değiştirildi</strong>',
-	'LOG_CONFIG_VISUAL'			=> '<strong>Görsel doğrulama ayarları değiştirildi</strong>',
+	'LOG_CONFIG_VISUAL'         => '<strong>Anti-spambot ayarları değiştirildi</strong>',
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Başlık onaylandı</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Kullanıcı başlığı darbeledi</strong><br />» %s',
