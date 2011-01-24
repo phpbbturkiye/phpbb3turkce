@@ -270,7 +270,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_TOPICS_NEW'				=> 'Yeni başlıklar beslemesini aç',
 	'ACP_FEED_TOPICS_NEW_EXPLAIN'		=> '“Yeni Başlıklar” beslemesi açıldığında son oluşturulan başlıklar içerdikleri ilk mesaj ile gösterilir.',
 	'ACP_FEED_TOPICS_ACTIVE'			=> 'Aktif başlıklar beslemesini aç',
-	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> '“Actif Başlıklar” beslemesi açıldığında son aktif başlıklar içerdikleri ilk mesaj ile gösterilir.',
+	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> '“Aktif Başlıklar” beslemesi açıldığında son aktif başlıklar içerdikleri ilk mesaj ile gösterilir.',
 	'ACP_FEED_NEWS'						=> 'Haber beslemesi',
 	'ACP_FEED_NEWS_EXPLAIN'				=> 'Bu forumlardan ilk mesaj çekilir. Haber beslemesini kapatmak için hiç forum seçmeyin.<br />Çoklu forumlar seçmek için <samp>CTRL</samp> tuşuna basılı tutun ve tıklayın.',
 
