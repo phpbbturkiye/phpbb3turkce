@@ -148,7 +148,7 @@ $lang = array_merge($lang, array(
 	'REDIRECT_ACL'	=> 'Şimdi, bu forum için %sizinleri ayarlayabilirsiniz%s.',
 	
 	'SYNC_IN_PROGRESS'			=> 'Forum senkronize ediliyor',
-	'SYNC_IN_PROGRESS_EXPLAIN'	=> 'Şu anki eşleştirilen forum sırası %1$d/%2$d.',
+	'SYNC_IN_PROGRESS_EXPLAIN'	=> 'Şu anda yeniden senkronize edilen başlık sıra numarası %1$d/%2$d.',
 
 	'TYPE_CAT'			=> 'Kategori',
 	'TYPE_FORUM'		=> 'Forum',
