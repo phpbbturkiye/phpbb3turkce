@@ -346,7 +346,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Buradan mesaj panosunun belirli fonksiyonlarını açıp kapatabilirsiniz, bu sayede işlem miktarını azaltabilirsiniz. Bir çok sunucuda herhangi bir fonksiyonu kapamanız gerekmez. Aslında, belirli sistemlerde ya da paylaşılmış hosting ekipmanlarında gerekli olmadığına inandığınız fonksiyonların kapatılması bazı kazançlar sağlayabilir. Ayrıca burada sistem yüklemesi ve aktif oturum durumundan çıkıldığında, -ki bu durumda mesaj panosu çevrimdışı olur, bunlar için bazı sınırlamalar belirleyebilirsiniz.',
 
-	'CUSTOM_PROFILE_FIELDS'			=> 'Özel Profil Alanları',
+	'CUSTOM_PROFILE_FIELDS'			=> 'Özel profil alanları',
 	'LIMIT_LOAD'					=> 'Sistem yükleme sınırı',
 	'LIMIT_LOAD_EXPLAIN'			=> 'Eğer sistem, 1-dakika içerisindeki yükleme ortalamasında burada belirtilen değeri geçerse mesaj panosu otomatik olarak çevrimdışı olacaktır, 1.0 değeri bir işlemcinin ~100% kullanımına eşittir. Bu özellik sadece UNIX tabanlı sunucularda ve bu bilgiye erişebilen yerlerde geçerlidir. Eğer phpBB, sistemin yükleme sınırını tespit edemezse buradaki değer kendini 0 değerine sıfırlar.',
 	'LIMIT_SESSIONS'				=> 'Oturum sınırı',
