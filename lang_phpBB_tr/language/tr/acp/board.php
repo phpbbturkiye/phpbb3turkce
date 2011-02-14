@@ -440,7 +440,7 @@ $lang = array_merge($lang, array(
 
 	'ALL'							=> 'Tümü',
 	'ALLOW_AUTOLOGIN'				=> 'Sürekli girişlere izin ver', 
-	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Kullanıcılar mesaj panosunu ziyaret ettiklerinde otomatik olarak giriş yapıp yapamayacaklarını belirler.', 
+	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Kullanıcıların mesaj panosunu ziyaret ettiklerinde otomatik olarak giriş yapıp yapamayacaklarını belirler.', 
 	'AUTOLOGIN_LENGTH'				=> 'Sürekli giriş anahtarının sona erme uzunluğu (gün cinsinden)', 
 	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Sürekli giriş anahtarları burada belirlenen gün sayısından sonra kaldırılır. Bu özelliği kapatmak için rakamla 0 (sıfır) sayısını kullanın.', 
 	'BROWSER_VALID'					=> 'Tarayıcı doğrulama',
