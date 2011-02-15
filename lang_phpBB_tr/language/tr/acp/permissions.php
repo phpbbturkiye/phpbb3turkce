@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 	'ALL_YES'					=> 'Tümü <samp>EVET</samp>',
 	'APPLY_ALL_PERMISSIONS'		=> 'Tüm izinleri uygula',
 	'APPLY_PERMISSIONS'			=> 'İzinleri uygula',
-	'APPLY_PERMISSIONS_EXPLAIN'	=> 'Bu öge için tanımlanmış rol ve izinler sadece bu ögeye ve tüm işaretlenen ögelere uygulanacaktır.',
+	'APPLY_PERMISSIONS_EXPLAIN'	=> 'Bu alanda belirlenen rol ve izinler sadece bu alan için ve işaretlenen tüm maddelere göre uygulanacaktır.',
 	'AUTH_UPDATED'				=> 'İzinler güncellendi',
 	
 	'COPY_PERMISSIONS_CONFIRM'				=> 'Bu işlemi gerçekleştirmek istediğinize emin misiniz? Şunu bilmelisiniz ki, bu işlem seçilen hedeflerdeki varolan izinlerin üzerine yazacaktır.',
