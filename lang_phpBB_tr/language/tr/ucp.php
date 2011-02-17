@@ -327,10 +327,10 @@ $lang = array_merge($lang, array(
 	'NO_WATCHED_SELECTED'      => 'Abone olunan herhangi bir başlık ya da forum seçmediniz.',
 	'NO_WATCHED_TOPICS'			=> 'Herhangi bir başlığa abone olmadınız.',
 
-	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Şifre %1$d ve %2$d karakter arası uzunlukta olmalı, karışık durumda harfler içermeli ve sayılar içermelidir.',
-	'PASS_TYPE_ANY_EXPLAIN'		=> '%1$d ve %2$d karakter arasında olmalıdır.',
+	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Şifre %1$d ve %2$d karakter arası uzunlukta olmalı, karışık durumda harfler ve sayılar içermelidir.',
+	'PASS_TYPE_ANY_EXPLAIN'		=> 'Şifre %1$d ve %2$d karakter arasında olmalıdır.',
 	'PASS_TYPE_CASE_EXPLAIN'	=> 'Şifre %1$d ve %2$d karakter arası uzunlukta olmalı ve karışık durumda harfler içermelidir.',
-	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Şifre %1$d ve %2$d karakter arası uzunlukta, karışık durumda harfler içermeli, sayılar ve simgeler içermelidir.',
+	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Şifre %1$d ve %2$d karakter arası uzunlukta olmalı, karışık durumda harfler, sayılar ve simgeler içermelidir.',
 	'PASSWORD'					=> 'Şifre',
 	'PASSWORD_ACTIVATED'		=> 'Yeni şifreniz aktif edildi.',
 	'PASSWORD_UPDATED'			=> 'Yeni şifreniz kayıtlı e-posta adresinize gönderildi.',
