@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_FILES'			=> 'E-posta şablonları',
 
 	'FILE_CONTENTS'				=> 'Dosya içerikleri',
-	'FILE_FROM_STORAGE'			=> 'Kayıt klasöründen dosya',
+	'FILE_FROM_STORAGE'			=> 'Depolama dizininden dosya',
 
 	'HELP_FILES'				=> 'Yardım dosyaları',
 
@@ -56,19 +56,19 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_FILES'					=> 'Dil paketleri',
 	'LANGUAGE_KEY'						=> 'Dil anahtarı',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Bu dil paketi zaten yüklü.',
-	'LANGUAGE_PACK_DELETED'				=> 'Dil paketi <strong>%s</strong> başarıyla kaldırıldı. Bu dili kullanan tüm kullanıcılar, mesaj panosunun varsayılan diline sıfırlandı.',
-	'LANGUAGE_PACK_DETAILS'				=> 'Dil Paketi Detayları',
-	'LANGUAGE_PACK_INSTALLED'			=> 'Dil paketi <strong>%s</strong> başarıyla kuruldu.',
+	'LANGUAGE_PACK_DELETED'				=> '<strong>%s</strong> dil paketi başarıyla kaldırıldı. Bu dili kullanan tüm kullanıcıların dil seçenekleri, mesaj panosunun varsayılan dili olarak ayarlandı.',
+	'LANGUAGE_PACK_DETAILS'				=> 'Dil paketi detayları',
+	'LANGUAGE_PACK_INSTALLED'			=> '<strong>%s</strong> dil paketi başarıyla kuruldu.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
-	'LANGUAGE_PACK_LOCALNAME'			=> 'Yerel isim',
-	'LANGUAGE_PACK_NAME'				=> 'İsim',
-	'LANGUAGE_PACK_NOT_EXIST'			=> 'Seçilmiş dil paketi mevcut değil.',
+	'LANGUAGE_PACK_LOCALNAME'			=> 'Yerel adı',
+	'LANGUAGE_PACK_NAME'				=> 'Ad',
+	'LANGUAGE_PACK_NOT_EXIST'			=> 'Seçilen dil paketi mevcut değil.',
 	'LANGUAGE_PACK_USED_BY'				=> 'Kullananlar (robotlar dahil)',
 	'LANGUAGE_VARIABLE'					=> 'Dil değişkenleri',
 	'LANG_AUTHOR'						=> 'Dil paketi yapımcısı',
 	'LANG_ENGLISH_NAME'					=> 'İngilizce adı',
 	'LANG_ISO_CODE'						=> 'ISO kodu',
-	'LANG_LOCAL_NAME'					=> 'Yerel ismi',
+	'LANG_LOCAL_NAME'					=> 'Yerel adı',
 
 	'MISSING_LANGUAGE_FILE'		=> 'Kayıp dil dosyası: <strong style="color:red">%s</strong>',
 	'MISSING_LANG_VARIABLES'	=> 'Kayıp dil değişkenleri',
@@ -79,7 +79,7 @@ $lang = array_merge($lang, array(
 	'NO_REMOVE_DEFAULT_LANG'		=> 'Varsayılan dil paketini kaldıramazsınız.<br />Bu dil paketini kaldırmak istiyorsanız, ilk önce mesaj panonuzun varsayılan dilini değiştirin.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Kaldırılmış dil paketleri yok',
 
-	'REMOVE_FROM_STORAGE_FOLDER'		=> 'Kayıt klasöründen kaldır',
+	'REMOVE_FROM_STORAGE_FOLDER'		=> 'Depolama dizininden kaldır',
 
 	'SELECT_DOWNLOAD_FORMAT'	=> 'İndirme biçimi seçin',
 	'SUBMIT_AND_DOWNLOAD'		=> 'Onayla ve dosyayı indir',
