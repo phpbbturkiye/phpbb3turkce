@@ -207,7 +207,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_REGISTER_SETTINGS_EXPLAIN'		=> 'Buradan profil ve kayıtla ilgili ayarları düzenleyebilirsiniz.',
 
-	'ACC_ACTIVATION'			=> 'Hesap Aktivasyonu',
+	'ACC_ACTIVATION'			=> 'Hesap aktivasyonu',
 	'ACC_ACTIVATION_EXPLAIN'	=> 'Buradaki ayarlarla birlikte kullanıcı mesaj panosuna hemen giriş yapabilir ya da hesap onaylama zorunluluğu getirilebilir. Arzu ederseniz yeni kayıt işlemini tamamıyla devre dışı bırakabilirsiniz.',
 	'NEW_MEMBER_POST_LIMIT'			=> 'Yeni üye mesaj sınırı',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Yeni üyeler burada belirtilen mesaj sayısına ulaşana kadar <em>Yeni Kayıtlı Kullanıcılar</em> grubunda kalırlar. Yeni üyelerin mesajlarını incelemek ya da ÖM sistemini kullanamamalarını sağlamak için bu grubu kullanabilirsiniz. <strong>0 değeri bu özelliği kapatır.</strong>',
