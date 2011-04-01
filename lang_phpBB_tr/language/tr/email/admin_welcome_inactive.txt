@@ -1,4 +1,4 @@
-Subject: "{SITENAME}" forumlarına hoşgeldiniz
+Subject: "{SITENAME}" mesaj panosuna hoşgeldiniz
 
 {WELCOME_MSG}
 

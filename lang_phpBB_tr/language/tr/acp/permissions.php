@@ -133,8 +133,8 @@ $lang = array_merge($lang, array(
 	'LOOK_UP_GROUP'				=> 'Kullanıcı grubunu incele',
 	'LOOK_UP_USER'				=> 'Kullanıcı incele',
 
-	'MANAGE_GROUPS'		=> 'Grupları Yönet',
-	'MANAGE_USERS'		=> 'Kullanıcıları Yönet',
+	'MANAGE_GROUPS'		=> 'Grupları yönet',
+	'MANAGE_USERS'		=> 'Kullanıcıları yönet',
 
 	'NO_AUTH_SETTING_FOUND'		=> 'İzin ayarları tanımlanmadı.',
 	'NO_ROLE_ASSIGNED'			=> 'Hiç bir rol tanımlanmadı…',
@@ -147,7 +147,7 @@ $lang = array_merge($lang, array(
 	'ONLY_FORUM_DEFINED'	=> 'Seçiminizde sadece tanımlanmış forumlar olmalıdır. Lütfen en azından bir kullanıcı ya da bir grup seçin.',
 
 	'PERMISSION_APPLIED_TO_ALL'		=> 'İzinler ve rol aynı zamanda tüm işaretlenen objelere uygulanacaktır',
-	'PLUS_SUBFORUMS'				=> '+Alt forumlar',
+	'PLUS_SUBFORUMS'				=> '+Altforumlar',
 
 	'REMOVE_PERMISSIONS'			=> 'İzinleri kaldır',
 	'REMOVE_ROLE'					=> 'Rol kaldır',
@@ -167,13 +167,13 @@ $lang = array_merge($lang, array(
  	'ROLE_FORUM_LIMITED'		=> 'Sınırlı Erişim',
  	'ROLE_FORUM_LIMITED_POLLS'	=> 'Sınırlı Erişim + Anketler',
  	'ROLE_FORUM_NOACCESS'		=> 'Erişim Yok',
- 	'ROLE_FORUM_ONQUEUE'		=> 'Yönetim Sırasına Göre',
+ 	'ROLE_FORUM_ONQUEUE'		=> 'Yönetim Onaylı Mesajlar',
  	'ROLE_FORUM_POLLS'			=> 'Standart Erişim + Anketler',
  	'ROLE_FORUM_READONLY'		=> 'Sadece Okuma Erişimi',
  	'ROLE_FORUM_STANDARD'		=> 'Standart Erişim',
  	'ROLE_FORUM_NEW_MEMBER'		=> 'Yeni kayıtlı Kullanıcı',
  	'ROLE_MOD_FULL'				=> 'Tam Moderatör',
- 	'ROLE_MOD_QUEUE'			=> 'Sıralı Moderatör',
+ 	'ROLE_MOD_QUEUE'			=> 'Onay Moderatörü',
  	'ROLE_MOD_SIMPLE'			=> 'Basit Moderatör',
  	'ROLE_MOD_STANDARD'			=> 'Standart Moderatör',
  	'ROLE_USER_FULL'			=> 'Tüm Özellikler',
