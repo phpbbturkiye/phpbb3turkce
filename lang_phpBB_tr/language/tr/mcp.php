@@ -198,9 +198,9 @@ $lang = array_merge($lang, array(
 	'MCP_QUEUE'								=> 'Onay yönetimi',
 	'MCP_QUEUE_APPROVE_DETAILS'				=> 'Detayları onayla',
 	'MCP_QUEUE_UNAPPROVED_POSTS'			=> 'Onay bekleyen mesajlar',
-	'MCP_QUEUE_UNAPPROVED_POSTS_EXPLAIN'	=> 'Bu kullanıcılara görüntülenmeden önce onay isteyen tüm mesajların bir listesidir.',
+	'MCP_QUEUE_UNAPPROVED_POSTS_EXPLAIN'	=> 'Bu, kullanıcılara görüntülenmeden önce onay isteyen tüm mesajların bir listesidir.',
 	'MCP_QUEUE_UNAPPROVED_TOPICS'			=> 'Onay bekleyen başlıklar',
-	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'Bu kullanıcılara görüntülenmeden önce onay isteyen tüm başlıkların bir listesidir.',
+	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'Bu, kullanıcılara görüntülenmeden önce onay isteyen tüm başlıkların bir listesidir.',
 
 	'MCP_VIEW_USER'			=> 'Belirli bir kullanıcı için uyarıları görüntüle',
 
