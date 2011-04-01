@@ -195,7 +195,7 @@ $lang = array_merge($lang, array(
 	'MCP_REPORTS_OPEN'				=> 'Açık bildiriler',
 	'MCP_REPORTS_OPEN_EXPLAIN'		=> 'Bu çözülmemiş tüm bildiri alan mesajların bir listesidir.',
 
-	'MCP_QUEUE'								=> 'Yönetim sırası',
+	'MCP_QUEUE'								=> 'Onay yönetimi',
 	'MCP_QUEUE_APPROVE_DETAILS'				=> 'Detayları onayla',
 	'MCP_QUEUE_UNAPPROVED_POSTS'			=> 'Onay bekleyen mesajlar',
 	'MCP_QUEUE_UNAPPROVED_POSTS_EXPLAIN'	=> 'Bu kullanıcılara görüntülenmeden önce onay isteyen tüm mesajların bir listesidir.',
