@@ -357,7 +357,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_WARNINGS'			=> 'Toplam Uyarılar',
 
 	'UNAPPROVED_POSTS_TOTAL'	=> 'Onay için bekleyen toplam <strong>%d</strong> mesaj var.',
-	'UNAPPROVED_POSTS_ZERO_TOTAL'	=> 'Onay için bekleyen mesaj yok.',
+	'UNAPPROVED_POSTS_ZERO_TOTAL'	=> 'Onay için bekleyen hiç bir mesaj yok.',
 	'UNAPPROVED_POST_TOTAL'		=> 'Onay için bekleyen toplam <strong>1</strong> mesaj var.',
 	'UNLOCK'						=> 'Kilidi aç',
 	'UNLOCK_POST'					=> 'Mesajın kilidini aç',

@@ -403,9 +403,9 @@ $lang = array_merge($lang, array(
 
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
 	'NUM_POSTS_IN_QUEUE'      => array(
-		0         => 'Sırada bekleyen hiç mesaj yok',      // 0
-		1         => '1 mesaj sırada bekliyor',      // 1
-		2         => '%d mesaj sırada bekliyor',      // 2+
+		0         => 'Onay bekleyen hiç bir mesaj yok',      // 0
+		1         => '1 mesaj onay bekliyor',      // 1
+		2         => '%d mesaj onay bekliyor',      // 2+
 	),
 
 	'OCCUPATION'				=> 'Meslek',
