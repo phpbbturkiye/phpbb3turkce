@@ -40,15 +40,15 @@ $lang = array_merge($lang, array(
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Eklenti özelliği kapatıldı.',
 
 	'BOOKMARK_ADDED'		=> 'Başlık sık kullanılanlara başarıyla eklendi.',
-	'BOOKMARK_ERR'         => 'Sık kullanılan başlık başarısız oldu. Lütfen tekrar deneyin.',
+	'BOOKMARK_ERR'         => 'Sık kullanılanlara ekleme işlemi başarısız oldu. Lütfen tekrar deneyin.',
 	'BOOKMARK_REMOVED'		=> 'Başlık sık kullanılanlardan başarıyla silindi.',
-	'BOOKMARK_TOPIC'		=> 'Sık kullanılan başlık',
+	'BOOKMARK_TOPIC'		=> 'Sık kullanılanlara ekle',
 	'BOOKMARK_TOPIC_REMOVE'	=> 'Sık kullanılanlardan sil',
 	'BUMPED_BY'				=> 'En son %1$s tarafından %2$s tarihinde darbelendi.',
 	'BUMP_TOPIC'			=> 'Başlığı darbele',
 
 	'CODE'					=> 'Kod',
-	'COLLAPSE_QR'			=> 'Hızlı Cevabı gizle',
+	'COLLAPSE_QR'			=> 'Hızlı cevabı gizle',
 
 	'DELETE_TOPIC'			=> 'Başlığı sil',
 	'DOWNLOAD_NOTICE'		=> 'Bu mesaja eklenen dosyaları görüntülemek için gerekli yetkilere sahip değilsiniz.',
