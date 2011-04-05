@@ -247,7 +247,7 @@ $lang = array_merge($lang, array(
 	'NO_TOPIC_SELECTED'		=> 'Bu eylemi uygulamak için en az bir tane başlık seçmelisiniz.',
 	'NO_TOPICS_QUEUE'				=> 'Onay için bekleyen hiç bir başlık yok.',
 
-	'ONLY_TOPIC'			=> 'Sadece başlık “%s”',
+	'ONLY_TOPIC'			=> 'Sadece “%s” başlığı',
 	'OTHER_USERS'			=> 'Bu IP adresinden mesaj gönderen diğer kullanıcılar',
 	
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'Seçilen ÖM bildirisi başarıyla kapatıldı.',
