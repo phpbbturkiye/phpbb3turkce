@@ -116,7 +116,6 @@ $lang = array_merge($lang, array(
 	'REMOVE_FOE'			=> 'Engellenenlerden kaldır',
 	'REMOVE_FRIEND'			=> 'Arkadaşlardan kaldır',
 
-	'SEARCH_USER_POSTS'		=> 'Kullanıcı mesajlarını ara',
 	'SELECT_MARKED'			=> 'İşaretlileri seç',
 	'SELECT_SORT_METHOD'	=> 'Sıralama tipini seçin',
  	'SEND_AIM_MESSAGE'		=> 'AIM mesajı gönder',

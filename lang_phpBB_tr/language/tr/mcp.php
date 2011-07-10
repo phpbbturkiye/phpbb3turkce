@@ -210,9 +210,8 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_POST'			=> 'Belirli mesaj için uyarı ver',
 	'MCP_WARN_USER'			=> 'Kullanıcıya uyarı ve',
 
-	'MERGE_POSTS'			=> 'Mesajları birleştir',
-	'MERGE_POSTS_CONFIRM'		=> 'Seçilen mesajları birleştirmek istediğinize emin misiniz?',
-	'MERGE_TOPIC_EXPLAIN'		=> 'Alttaki formu kullanarak seçilen mesajları diğer bir başlıkla birleştirebilirsiniz. Bu mesajlar yeniden düzenlenmeyecektir ve kullanıcılar mesajlarını yeni başlıkta göreceklerdir.<br />Lütfen gidecek başlık id numarası girin veya "Başlık seç" butonuna tıklayarak başlığı arayın.',
+	'MERGE_POSTS_CONFIRM'		=> 'Seçilen mesajları taşımak istediğinize emin misiniz?',
+	'MERGE_TOPIC_EXPLAIN'		=> 'Alttaki formu kullanarak seçilen mesajları diğer bir başlığa taşıyabilirsiniz. Mesajlar bu başlıktan ayrılacak ve diğer başlığın içerisinde birleşecektir. Bu mesajlar yeniden sıraya konmayacaktır ve kullanıcılar mesajlarını yeni başlıkta göreceklerdir.<br />Lütfen gidecek başlık id numarası girin veya "Başlık seç" butonuna tıklayarak başlığı arayın.',
 	'MERGE_TOPIC_ID'			=> 'Gidecek başlık id numarası',
  	'MERGE_TOPICS'			=> 'Başlıkları birleştir',
  	'MERGE_TOPICS_CONFIRM'	=> 'Seçilen başlıkları birleştirmek istediğinize emin misiniz?',

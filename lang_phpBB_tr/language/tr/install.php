@@ -128,7 +128,7 @@ $lang = array_merge($lang, array(
 	'DB_ERR_QUERY_FIRST_TABLE'	=> '<var>query_first</var> uygulaması sırasında hata oluştu, %s (“%s”).',
 	'DB_ERR_SELECT'				=> '<code>SELECT</code> sorgusu çalıştırılması sırasında hata oluştu.',
 	'DB_HOST'					=> 'Veritabanı ana makine adı veya VKA',
-   	'DB_HOST_EXPLAIN'         => 'Veri Kaynak Adı için VKA (DSN) belirtilmelidir ve sadece ODBC yüklemeleri için uygundur. PostgreSQL\'da, yerel sunucuya UNIX domain socket yoluyla bağlanmak için localhost, TCP yoluyla bağlanmak içinse 127.0.0.1 kullanılır.',
+   	'DB_HOST_EXPLAIN'         => 'Veri Kaynak Adı için VKA (DSN) belirtilmelidir ve sadece ODBC yüklemeleri için uygundur. PostgreSQL\'da, yerel sunucuya UNIX domain socket yoluyla bağlanmak için localhost, TCP yoluyla bağlanmak içinse 127.0.0.1 kullanılır. SQLite için, veritabanı dosyanıza giden tam yolu girin.',
 	'DB_NAME'					=> 'Veritabanı adı',
 	'DB_PASSWORD'				=> 'Veritabanı şifresi',
 	'DB_PORT'					=> 'Veritabanı sunucu portu',
@@ -288,7 +288,7 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT'				=> 'PCRE UTF-8 desteği',
  	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'Eğer PHP yüklemeniz PCRE uzantısı içinde UTF-8 desteği ile derlenmediyse phpBB <strong>çalışmayacaktır</strong>.',
  	'PHP_GETIMAGESIZE_SUPPORT'     => 'PHP getimagesize() fonksiyonu mevcut', 
-  'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN' => '<strong>Gerekli</strong> - phpBB doğru şekilde özellikte olması için, getimagesize fonksiyonu mevcut olmalıdır.',
+	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN' => '<strong>Gerekli</strong> - phpBB doğru şekilde özellikte olması için, getimagesize fonksiyonu mevcut olmalıdır.',
 	'PHP_OPTIONAL_MODULE'			=> 'İsteğe bağlı modüller',
 	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>İsteğe Bağlı</strong> - Bu modüller veya uygulamalar isteğe bağlıdır. Fakat, eğer bunlar mevcutsa ekstra özellikler aktif olacaktır.',
 	'PHP_SUPPORTED_DB'				=> 'Desteklenen veritabanları',
@@ -299,7 +299,7 @@ $lang = array_merge($lang, array(
 	'PHP_SETTINGS'					=> 'PHP sürümü ve ayarları',
 	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Gerekli</strong> - phpBB yüklemesi için en düşük PHP sürümünüz 4.3.3 olmalıdır. Eğer altta "güvenli mod" görünüyorsa PHP yüklemeniz bu modda çalışmaktadır. Bu, uzaktan yönetim ve benzer özelliklerde sınırlama getirecektir.',
 	'PHP_URL_FOPEN_SUPPORT'     => 'PHP <var>allow_url_fopen</var> ayarı açık', 
-  'PHP_URL_FOPEN_SUPPORT_EXPLAIN' => '<strong>İsteğe Bağlı</strong> - Bu ayar isteğe bağlıdır, fakat kapalı-mesaj panosu avatarları gibi bazı phpBB özellikleri bu olmadan düzgün bir şekilde çalışmayacaktır.',
+	'PHP_URL_FOPEN_SUPPORT_EXPLAIN' => '<strong>İsteğe Bağlı</strong> - Bu ayar isteğe bağlıdır, fakat site dışı avatarlar gibi bazı phpBB özellikleri bu olmadan düzgün bir şekilde çalışmayacaktır.',
 	'PHP_VERSION_REQD'				=> 'PHP sürümü >= 4.3.3',
 	'POST_ID'						=> 'Mesaj ID numarası',
 	'PREFIX_FOUND'					=> 'Geçerli bir yükleme için taranacak tablolarınızın <strong>%s</strong> şeklinde bir tablo öneki kullandığı görünüyor.',
@@ -367,7 +367,7 @@ $lang = array_merge($lang, array(
 
 // Updater
 $lang = array_merge($lang, array(
-	'ALL_FILES_UP_TO_DATE'		=> 'Tüm dosyalar son phpBB sürümü ile güncel. Şimdi <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">mesaj panonuza giriş yapmalısınız</a> ve herşeyin iyi çalıştığını kontrol etmelisiniz. install klasörünüzü silmeyi, yeniden adlandırmayı veya taşımayı unutmayın! Lütfen sunucunuz hakkındaki güncel bilgileri ve mesaj panosu ayarlarınızı YKP\'nizdeki <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">İstatistikleri gönder</a> modülünü kullanarak gönderin.',
+	'ALL_FILES_UP_TO_DATE'		=> 'Tüm dosyalar son phpBB sürümü ile güncel. Şimdi <a href="../ucp.php?mode=login">mesaj panonuza giriş yapmalısınız</a> ve herşeyin iyi çalıştığını kontrol etmelisiniz. install klasörünüzü silmeyi, yeniden adlandırmayı veya taşımayı unutmayın! Lütfen sunucunuz hakkındaki güncel bilgileri ve mesaj panosu ayarlarınızı YKP\'nizdeki <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">İstatistikleri gönder</a> modülünü kullanarak gönderin.',
 	'ARCHIVE_FILE'				=> 'Arşiv içinde kaynak dosya',
 
 	'BACK'				=> 'Geri',

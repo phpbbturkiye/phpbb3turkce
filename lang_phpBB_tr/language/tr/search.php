@@ -52,8 +52,9 @@ $lang = array_merge($lang, array(
 	
 	'JUMP_TO_POST'                  => 'Mesaja geçiş yap',
 
-	'LOGIN_EXPLAIN_EGOSEARCH'   => 'Bu mesaj panosu kendi mesajlarınızı görüntüleyebilmeniz için kayıtlı olmanızı ve giriş yapmanızı gerekli tutuyor.',
-	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Bu mesaj panosu okunmamış mesajlarınızı görüntüleyebilmeniz için kayıtlı olmanızı ve giriş yapmanızı gerekli tutuyor.',
+	'LOGIN_EXPLAIN_EGOSEARCH'   => 'Bu mesaj panosu kendi mesajlarınızı görüntülemek için kayıtlı olmanızı ve giriş yapmanızı gerekli tutuyor.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Bu mesaj panosu okunmamış mesajlarınızı görüntülemek için kayıtlı olmanızı ve giriş yapmanızı gerekli tutuyor.',
+	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Bu mesaj panosu son ziyaretinizden beri gönderilen yeni mesajları görüntülemek için kayıtlı olmanızı ve giriş yapmanızı gerekli tutuyor.',	
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'   => 'Aramak için çok fazla kelime belirlediniz. Lütfen %1$d taneden fazla kelime girmeyin.',
 	'NO_KEYWORDS'			=> 'Arama için çok düşük bir kelime belirlediniz. Jokerler hariç her kelime %d karakterden yüksek ve %d karakterden düşük olmalıdır.',
 	'NO_RECENT_SEARCHES'	=> 'En son herhangi bir arama yapılmadı.',

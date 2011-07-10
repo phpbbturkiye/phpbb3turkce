@@ -49,10 +49,12 @@ $lang = array_merge($lang, array(
 	'LOG_SESSION'			=> 'Kritik kayıtlar için posta oturumu kayıtlarını tut',
 
 	'SEND_IMMEDIATELY'		=> 'Hemen gönder',
-	'SEND_TO_GROUP'			=> 'Gönderilecek gruplar',
+	'SEND_TO_GROUP'			=> 'Gönderilecek grup',
 	'SEND_TO_USERS'			=> 'Gönderilecek kullanıcılar',
-	'SEND_TO_USERS_EXPLAIN'	=> 'Buraya isimler girildiği zaman, üstte seçili olan grup geçersiz kılınacaktır. Her kullanıcı adını yeni bir satıra girin.',
-	
+	'SEND_TO_USERS_EXPLAIN'	=> 'Buraya adlar girildiği zaman, üstte seçilmiş herhangi bir grup varsa o gruba gönderim işlemi yapılmayacaktır. Her kullanıcı adını yeni bir satıra girin.',
+
+	'MAIL_BANNED'			=> 'Yasaklanmış kullanıcılara posta',
+	'MAIL_BANNED_EXPLAIN'	=> 'Bir gruba toplu e-posta gönderirken aynı zamanda yasaklanmış kullanıcıların e-posta alıp almayacaklarını buradan seçebilirsiniz.',	
 	'MAIL_HIGH_PRIORITY'	=> 'Yüksek',
 	'MAIL_LOW_PRIORITY'		=> 'Düşük',
 	'MAIL_NORMAL_PRIORITY'	=> 'Normal',

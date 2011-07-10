@@ -149,7 +149,7 @@ $lang = array_merge($lang, array(
 	'NO_ICONS_EXPORT'	=> 'Bir İkon paketi yaratmak için ikonlar yok.',
 	'NO_ICONS_PAK'		=> 'Hiç bir ikon paketi bulunmuyor.',
 	'NO_SMILIES_ADD'  => 'Eklemek için hiç bir ifade mevcut değil.', 
-  'NO_SMILIES_EDIT'  => 'Düzenlemek için hiç bir ifade mevcut değil.',
+	'NO_SMILIES_EDIT'  => 'Düzenlemek için hiç bir ifade mevcut değil.',
 	'NO_SMILIES_EXPORT'	=> 'Bir İfade paketi yaramak için ifadeler yok.',
 	'NO_SMILIES_PAK'	=> 'İfade paketi bulunmuyor.',
 
@@ -159,18 +159,19 @@ $lang = array_merge($lang, array(
 
 	'SELECT_PACKAGE'			=> 'Bir paket dosyası seçin',
 	'SMILIES_ADD'				=> 'Yeni bir ifade ekle',
-  'SMILIES_NONE_ADDED'      => 'Hiç bir ifade eklenmedi.',
-  'SMILIES_ONE_ADDED'         => 'İfade başarıyla eklendi.',
-  'SMILIES_ADDED'            => 'İfadeler başarıyla eklendi.',
+	'SMILIES_NONE_ADDED'      => 'Hiç bir ifade eklenmedi.',
+	'SMILIES_ONE_ADDED'         => 'İfade başarıyla eklendi.',
+	'SMILIES_ADDED'            => 'İfadeler başarıyla eklendi.',
 	'SMILIES_CODE'				=> 'İfade Kodu',
 	'SMILIES_CONFIG'			=> 'İfade ayarları',
 	'SMILIES_DELETED'			=> 'İfade başarıyla kaldırıldı.',
 	'SMILIES_EDIT'				=> 'İfadeyi düzenle',
-  'SMILIE_NO_CODE'         => '“%s” ifadesi yoksayıldı, çünkü hiç bir kod girilmedi.',
-  'SMILIE_NO_EMOTION'         => '“%s” ifadesi yoksayıldı, çünkü hiç bir duygu girilmedi.',
-  'SMILIES_NONE_EDITED'      => 'Hiç bir ifade güncellenmedi.',
-  'SMILIES_ONE_EDITED'      => 'İfade başarıyla güncellendi.',
-  'SMILIES_EDITED'         => 'İfadeler başarıyla güncellendi.',
+	'SMILIE_NO_CODE'         => '“%s” ifadesi, hiç bir ifade kodu girilmediği için yoksayıldı.',
+	'SMILIE_NO_EMOTION'         => '“%s” ifadesi, hiç bir ifade resmi girilmediği için yoksayıldı.',
+	'SMILIE_NO_FILE'			=> '“%s” ifadesi, ifade dosyası kayıp olduğu için yoksayıldı.',
+	'SMILIES_NONE_EDITED'      => 'Hiç bir ifade güncellenmedi.',
+	'SMILIES_ONE_EDITED'      => 'İfade başarıyla güncellendi.',
+	'SMILIES_EDITED'         => 'İfadeler başarıyla güncellendi.',
 	'SMILIES_EMOTION'			=> 'Duygu',
 	'SMILIES_HEIGHT'			=> 'İfade yüksekliği',
 	'SMILIES_IMAGE'				=> 'İfade resmi',
@@ -188,7 +189,7 @@ $lang = array_merge($lang, array(
 
 // Word censors
 $lang = array_merge($lang, array(
-	'ACP_WORDS_EXPLAIN'		=> 'Buradan otomatik olarak sansürlenecek kelimeleri ekleyebilir, silebilir, değiştirebilirsiniz. Bu kelimeleri içeren kullanıcı adları ile kayıt olmaya izin verilmeye devam edilir. Joker olarak * kullanabilirsiniz, örn: *siklo* ansiklopedi kelimesini, siklo* siklon hecelerini, *siklo dersiklo hecelerini sansürleyecektir.',
+	'ACP_WORDS_EXPLAIN'		=> 'Buradan otomatik olarak sansürlenecek kelimeleri ekleyebilir, silebilir, değiştirebilirsiniz. Bu kelimeleri içeren kullanıcı adları ile kayıt olmaya izin verilmeye devam edilir. Joker olarak * karakterini kullanabilirsiniz, örn: *siklo* ansiklopedi kelimesini, siklo* siklon hecelerini, *siklo dersiklo hecelerini sansürleyecektir.',
 	'ADD_WORD'				=> 'Yeni kelime ekle',
 
 	'EDIT_WORD'		=> 'Kelime sansürü düzenle',
@@ -230,13 +231,13 @@ $lang = array_merge($lang, array(
 
 // Disallow Usernames
 $lang = array_merge($lang, array(
-	'ACP_DISALLOW_EXPLAIN'	=> 'Burada kullanılmaması gereken kullanıcı isimlerini ayarlayabilirsiniz. Joker karakter * kullanabilirsiniz. Kayıt olmuş bir kullanıcı adını yasaklayamazsınız, bunu yapmak için ilk önce o kullanıcıyı silmelisiniz.',
-	'ADD_DISALLOW_EXPLAIN'	=> 'Kullanıcı isimlerini * joker karakteri kullanarak eşleyebilirsiniz.',
-	'ADD_DISALLOW_TITLE'	=> 'Yasaklı Bir Kullanıcı Adı Ekle',
+	'ACP_DISALLOW_EXPLAIN'	=> 'Buradan kullanılmasına izin verilmeyecek kullanıcı adlarını kontrol edebilirsiniz. İzin verilmeyen kullanıcı adları joker olarak * karakteri içerebilir.',
+	'ADD_DISALLOW_EXPLAIN'	=> 'Bir kullanıcı adına izin vermeyeceğiniz zaman, kullanıcı adının içeriğindeki herhangi bir karakterle uyumlu olması için * karakterini joker olarak kullanabilirsiniz.',
+	'ADD_DISALLOW_TITLE'	=> 'İzin verilmeyen bir kullanıcı adı ekle',
 
-	'DELETE_DISALLOW_EXPLAIN'	=> 'Bu listeden yasaklı bir kullanıcı ismini seçip gönder butonuna basarak yasağı kaldırabilirsiniz.',
-	'DELETE_DISALLOW_TITLE'		=> 'Yasaklı Bir Kullanıcı adı Kaldır',
-	'DISALLOWED_ALREADY'		=> 'Girmiş olduğunuz isim daha önce girilmiş, liste içerisinde bu isim zaten mevcut.',
+	'DELETE_DISALLOW_EXPLAIN'	=> 'Bu listeden kullanıcı adı seçip gönder\'e tıklayarak izin verilmeyen bir kullanıcı adını kaldırabilirsiniz.',
+	'DELETE_DISALLOW_TITLE'		=> 'İzin verilmeyen bir kullanıcı adını kaldır',
+	'DISALLOWED_ALREADY'		=> 'Girdiğiniz kullanıcı adına zaten izin verilmiyor.',
 	'DISALLOWED_DELETED'		=> 'Yasaklı kullanıcı adı başarıyla kaldırıldı',
 	'DISALLOW_SUCCESSFUL'		=> 'Yasaklı kullanıcı adı başarıyla eklendi',
 

@@ -37,14 +37,14 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'tr',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'reCaptcha kullanmak için, <a href="http://recaptcha.net">reCaptcha.net</a> sitesinde bir hesap oluşturmalısınız.',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'reCaptcha kullanmak için, <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> sitesinde bir hesap oluşturmalısınız.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
 	'RECAPTCHA_INCORRECT'			=> 'Girdiğiniz görsel doğrulama kodu yanlış',
 
 	'RECAPTCHA_PUBLIC'				=> 'Genel reCaptcha anahtarı',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Genel reCaptcha anahtarınız. Anahtarlar <a href="http://recaptcha.net">reCaptcha.net</a> sitesinden elde edilebilir.',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Genel reCaptcha anahtarınız. Anahtarlar <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> sitesinden elde edilebilir.',
 	'RECAPTCHA_PRIVATE'				=> 'Özel reCaptcha anahtarı',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Özel reCaptcha anahtarınız. Anahtarlar <a href="http://recaptcha.net">reCaptcha.net</a> sitesinden elde edilebilir.',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Özel reCaptcha anahtarınız. Anahtarlar <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> sitesinden elde edilebilir.',
 
 	'RECAPTCHA_EXPLAIN'            => 'Otomatik gönderimleri önlemek amacıyla, görüntülenen kelimeleride altındaki metin alanına girmemiz gerekir.',
 ));
