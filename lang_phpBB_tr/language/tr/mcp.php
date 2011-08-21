@@ -304,7 +304,7 @@ $lang = array_merge($lang, array(
 	'RETURN_NEW_TOPIC'		=> '%sYeni başlığa git%s',
 	'RETURN_PM'					=> '%sÖzel mesaja dön%s',
 	'RETURN_POST'			=> '%sMesaja dön%s',
-	'RETURN_QUEUE'			=> '%sSıralamaya dön%s',
+	'RETURN_QUEUE'			=> '%sOnay için bekleyenlere dön%s',
 	'RETURN_REPORTS'			=> '%sBildirilere dön%s',
 	'RETURN_TOPIC_SIMPLE'		=> '%sBaşlığa dön%s',
 
