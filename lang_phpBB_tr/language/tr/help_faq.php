@@ -60,7 +60,7 @@ $help = array(
 	),
 	array(
 		0 => 'Daha önce kayıt olmuştum ama artık giriş yapamıyorum?!',
-		1 => 'İlk kayıt olduğunuz zaman size bir e-posta gönderilmişti, oradan kullanıcı adınızı ve şifrenizi kontrol edin ve tekrar deneyin. Bazı sebeplerden dolayı bir yönetici hesabınızı deaktif etmiş ya da silmiş olabilir. Ayrıca, bazı mesaj panoları veritabanını azaltmak için uzun bir süredir mesaj göndermeyen kullanıcıları periyodik aralıklarla silerler. Eğer bu olmuşsa, tekrar kayıt olmayı deneyin ve tartışmalara katılın.'
+		1 => 'Bazı sebeplerden dolayı bir yönetici hesabınızı deaktif etmiş ya da silmiş olabilir. Ayrıca, bazı mesaj panoları veritabanını azaltmak için uzun bir süredir mesaj göndermeyen kullanıcıları periyodik aralıklarla silerler. Eğer bu olmuşsa, tekrar kayıt olmayı deneyin ve tartışmalara katılın.'
 	),
 	array(
 		0 => 'COPPA nedir?',

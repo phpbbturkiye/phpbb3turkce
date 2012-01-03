@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_A_HELP'				=> 'Satır içi yüklenen eklenti: [attachment=]dosyaadı.uzantı[/attachment]',
 	'BBCODE_B_HELP'				=> 'Kalın yazı: [b]metin[/b]',
 	'BBCODE_C_HELP'				=> 'Kod görüntüsü: [code]kod[/code]',
-	'BBCODE_E_HELP'				=> 'Liste: Öge listesi ekle',
+	'BBCODE_D_HELP'				=> 'Flash: [flash=yükseklik,genişlik]http://url[/flash]',
 	'BBCODE_F_HELP'				=> 'Font boyutu: [size=85]küçük metin[/size]',
 	'BBCODE_IS_OFF'				=> '%sBBCode%s <em>KAPALI</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s <em>AÇIK</em>',
@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_S_HELP'				=> 'Font rengi: [color=red]metin[/color] İpucu: ayrıca, color=#FF0000 şeklinde de kullanabilirsiniz',
 	'BBCODE_U_HELP'				=> 'Altı çizgili yazı: [u]metin[/u]',
 	'BBCODE_W_HELP'				=> 'URL Ekle: [url]http://url[/url] veya [url=http://url]URL metni[/url]',
-	'BBCODE_D_HELP'				=> 'Flash: [flash=yükseklik,genişlik]http://url[/flash]',
+	'BBCODE_Y_HELP'				=> 'Liste: Liste ögesi ekle',
 	'BUMP_ERROR'				=> 'Son mesajınızdan bu kadar kısa bir süre içinde bu başlığı darbeleyemezsiniz.',
 
 	'CANNOT_DELETE_REPLIED'		=> 'Üzgünüz, fakat sadece cevap gelmeyen mesajları silebilirsiniz.',

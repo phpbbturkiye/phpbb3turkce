@@ -59,6 +59,7 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_PACK_DELETED'				=> '<strong>%s</strong> dil paketi başarıyla kaldırıldı. Bu dili kullanan tüm kullanıcıların dil seçenekleri, mesaj panosunun varsayılan dili olarak ayarlandı.',
 	'LANGUAGE_PACK_DETAILS'				=> 'Dil paketi detayları',
 	'LANGUAGE_PACK_INSTALLED'			=> '<strong>%s</strong> dil paketi başarıyla kuruldu.',
+	'LANGUAGE_PACK_CPF_UPDATE'			=> 'Özel profil alanlarının dil dizeleri varsayılan dilden kopyalandı. Eğer gerekliyse lütfen onları değiştirin.',	
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'			=> 'Yerel adı',
 	'LANGUAGE_PACK_NAME'				=> 'Ad',

@@ -151,7 +151,7 @@ $lang = array_merge($lang, array(
 	'DLL_MYSQL'					=> 'MySQL',
 	'DLL_MYSQLI'				=> 'MySQL ile MySQLi Uzantısı',
 	'DLL_ORACLE'				=> 'Oracle',
-	'DLL_POSTGRES'				=> 'PostgreSQL 7.x/8.x',
+	'DLL_POSTGRES'				=> 'PostgreSQL',
 	'DLL_SQLITE'				=> 'SQLite',
 	'DLL_XML'					=> 'XML desteği [ Jabber ]',
 	'DLL_ZLIB'					=> 'zlib sıkıştırma desteği [ gz, .tar.gz, .zip ]',
@@ -230,6 +230,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR'					=> 'Kurulum hatası',
 	'INST_ERR_DB_CONNECT'		=> 'Veritabanına bağlanılamıyor, hata mesajı için alta bakın.',
 	'INST_ERR_DB_FORUM_PATH'	=> 'Mesaj panosu dizin ağacınız içerisinde veritabanı dosyası belirlendi. Web erişim konumu olmayan bir yere bu dosyayı yerleştirmelisiniz.',
+	'INST_ERR_DB_INVALID_PREFIX'=> 'Girdiğiniz önek hatalı. Önek, bir harf ile başlamalıdır ve sadece harfler, sayılar ve altçizgiler içermelidir.',
 	'INST_ERR_DB_NO_ERROR'		=> 'Hiç bir hata mesajı belirlenmedi.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'Bu makinede kurulu olan MySQL sürümü seçtiğiniz “MySQL ile MySQLi Uzantısı” seçeneği ile uyuşmuyor. Lütfen bunun yerine “MySQL” seçeneğini seçerek tekrar deneyin.',
 	'INST_ERR_DB_NO_SQLITE'		=> 'Kurulu olan SQLite uzantısı\'nın sürümü çok eski, en düşük 2.8.2 sürümüne güncellenmelidir.',
@@ -349,6 +350,7 @@ $lang = array_merge($lang, array(
 
 	'TABLES_MISSING'			=> 'Bu tablolar bulunamıyor<br />» <strong>%s</strong>.',
 	'TABLE_PREFIX'				=> 'Veritabanındaki tablolar için önek',
+	'TABLE_PREFIX_EXPLAIN'		=> 'Önek, bir harf ile başlamalıdır ve sadece harfler, sayılar ve altçizgiler içermelidir.',	
 	'TABLE_PREFIX_SAME'			=> 'Dönüştüreceğiniz yazılım tarafından kullanılan bir tablo öneki olmalıdır.<br />» Belirtilen tablo öneki %s.',
 	'TESTS_PASSED'				=> 'Testler geçildi',
 	'TESTS_FAILED'				=> 'Testler hatalı',
@@ -505,9 +507,9 @@ $lang = array_merge($lang, array(
 	'STATUS_NOT_MODIFIED'		=> 'Değiştirilen dosya yok',
 	'STATUS_UP_TO_DATE'			=> 'Dosya zaten güncellendi',
 
-  'TOGGLE_DISPLAY'         => 'Dosya listesini göster/gizle',
-  'TRY_DOWNLOAD_METHOD'      => 'Düzenlenen dosyaları indirme metodunu denemek isteyebilirsiniz.<br />Bu metot her zaman çalışmaktadır ve ayrıca önerilen güncelleme yoludur.',
-  'TRY_DOWNLOAD_METHOD_BUTTON'=> 'Bu metodu şimdi dene',
+	'TOGGLE_DISPLAY'         => 'Dosya listesini göster/gizle',
+	'TRY_DOWNLOAD_METHOD'      => 'Düzenlenen dosyaları indirme metodunu denemek isteyebilirsiniz.<br />Bu metot her zaman çalışmaktadır ve ayrıca önerilen güncelleme yoludur.',
+	'TRY_DOWNLOAD_METHOD_BUTTON'=> 'Bu metodu şimdi dene',
 
 	'UPDATE_COMPLETED'				=> 'Güncelleme tamamlandı',
 	'UPDATE_DATABASE'				=> 'Veritabanı güncellemesi',

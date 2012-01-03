@@ -323,6 +323,16 @@ $lang = array_merge($lang, array(
 
 	'DATABASE_SERVER_INFO'	=> 'Veritabanı sunucusu',	
 	'DATABASE_SIZE'			=> 'Veritabanı boyutu',
+	
+	// Enviroment configuration checks, mbstring related
+	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'Aşırı yükleme fonksiyonu yanlış yapılandırılmış',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> 0 ya da 4 olarak ayarlanmalıdır. Şu anki değeri <samp>PHP bilgisi</samp> sayfasından kontrol edebilirsiniz.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Şeffaf karakter kodlaması yanlış yapılandırılmış',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> 0 olarak ayarlanmalıdır. Şu anki değeri <samp>PHP bilgisi</samp> sayfasından kontrol edebilirsiniz.',
+	'ERROR_MBSTRING_HTTP_INPUT'						=> 'HTTP giriş karakter dönüşümü yanlış yapılandırılmış',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> <samp>pass (izinli)</samp> olarak ayarlanmalıdır. Şu anki değeri <samp>PHP bilgisi</samp> sayfasından kontrol edebilirsiniz.',
+	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'HTTP çıkış karakter dönüşümü yanlış yapılandırılmış',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> <samp>pass (izinli)</samp> olarak ayarlanmalıdır. Şu anki değeri <samp>PHP bilgisi</samp> sayfasından kontrol edebilirsiniz.',	
 
 	'FILES_PER_DAY'		=> 'Günlük ortalama eklentiler',
 	'FORUM_STATS'		=> 'Mesaj panosu istatistikleri',

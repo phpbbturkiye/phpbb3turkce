@@ -8,7 +8,7 @@ Merhaba {USERNAME},
 
 Yeni mesajınızı alttaki bağlantıya tıklayarak görüntüleyebilirsiniz:
 
-{U_INBOX}
+{U_VIEW_MESSAGE}
 
 Unutmayın ki uyarılma seçeneğini profilinizden istediğiniz zaman kapatabilirsiniz.
 

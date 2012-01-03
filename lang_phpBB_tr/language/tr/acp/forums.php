@@ -72,7 +72,8 @@ $lang = array_merge($lang, array(
 	'ENABLE_TOPIC_ICONS'		=> 'Başlık ikonlarını aç',
 
 	'FORUM_ADMIN'						=> 'Forum Yönetimi',
-	'FORUM_ADMIN_EXPLAIN'				=> 'phpBB3’te artık kategoriler yoktur, her şey forum temellidir. Her forum, sınırsız sayıda alt-forumlardan oluşabilir ve her mesajın gönderilip gönderilemeyeceğini belirleyebilirsiniz (ör. eski bir kategori gibi rol yapıp yapmayacağına). Buradan forumları ekleyebilir, düzenleyebilir, silebilir, kilitleyebilir, kilidini kaldırabilir ve bunun gibi bazı ek kontrolleri ayarlayabilirsiniz. Ayrıca, eğer başlıklarınızın ve mesajlarınızın senkronizasyon ayarları bozulduysa, bir forumu yeniden senkronize edebilirsiniz. <strong>Yeni oluşturulan forumların görüntülenmesi için uygun izinleri kopyalamalı ya da ayarlamalısınız.</strong>',
+	'FORUM_ADMIN_EXPLAIN'				=> 'phpBB3’te her şey forum bazlıdır. Bir kategori sadece forumun özel bir çeşididir. Her forum sınırsız sayıda alt-forumlara sahip olabilir ve bunların her birine mesaj gönderilip gönderilemeyeceğini (ör. eski phpBB sürümlerindekine benzer bir kategori gibi olup olmayacağını) belirleyebilirsiniz. Buradan belli başlı forumları ekleyebilir, düzenleyebilir, silebilir, kilitleyebilir, kilidini açabilir ve bunun gibi bazı ek kontrolleri ayarlayabilirsiniz. Ayrıca, eğer mesajlarınızın ve başlıklarınızın senkronizasyon ayarları bozulduysa, bir forumu yeniden senkronize edebilirsiniz. <strong>Yeni oluşturulan forumların görüntülenmesi için uygun izinleri kopyalamalı ya da ayarlamalısınız.</strong>',
+	
 	'FORUM_AUTO_PRUNE'					=> 'Otomatik budamayı aç',
 	'FORUM_AUTO_PRUNE_EXPLAIN'			=> 'Başlıklar forumunu otomatik temizlenme, frekans/devir parametrelerini aşağıda ayarlayınız.',
 	'FORUM_CREATED'						=> 'Forum başarıyla oluşturuldu.',

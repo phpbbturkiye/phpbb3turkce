@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	'SYSTEM_TIMEZONE'            => 'Misafir zaman dilimi',
 	'SYSTEM_TIMEZONE_EXPLAIN'         => 'Giriş yapmayan kullanıcılara (misafirler, botlar) gösterilmek için kullanılacak zaman dilimi. Giriş yapan kullanıcılar kendi zaman dilimlerini kayıt esnasında ayarlayabilirler ve kendi kullanıcı kontrol panellerinden değiştirebilirler.',
 	'WARNINGS_EXPIRE'				=> 'Uyarı süresi',
-	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Bir kullanıcının kaydından uyarının otomatik olarak sona ermesi için geçecek gün sayısı.',
+	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Bir kullanıcının kaydından uyarının otomatik olarak sona ermesi için geçecek gün sayısı. Uyarıları sürekli yapmak için bu değeri 0 olarak ayarların.',
 ));
 
 // Board Features
@@ -147,8 +147,8 @@ $lang = array_merge($lang, array(
 	'ACP_POST_SETTINGS_EXPLAIN'			=> 'Bu bölümde varsayılan mesaj gönderme ayarlarını belirleyebilirsiniz.',
 	'ALLOW_POST_LINKS'					=> 'Mesajlarda/özel mesajlarda bağlantılara izin ver',
 	'ALLOW_POST_LINKS_EXPLAIN'			=> 'Eğer <code>[URL]</code> BBCode etiketine izin verilmediyse ve otomatik/sihirli URL\'ler kapatıldıysa.',
-  'ALLOW_POST_FLASH'               => 'Mesajlarda <code>[FLASH]</code> BBCode etiketi kullanımına izin ver',
-  'ALLOW_POST_FLASH_EXPLAIN'         => 'Eğer mesajlarda <code>[FLASH]</code> BBCode etiketine izin verilmezse, bunun dışında izin sistemi kontrollerindeki kullanıcılar <code>[FLASH]</code> BBCode etiketi kullanabilir.',
+	'ALLOW_POST_FLASH'               => 'Mesajlarda <code>[FLASH]</code> BBCode etiketi kullanımına izin ver',
+	'ALLOW_POST_FLASH_EXPLAIN'         => 'Eğer mesajlarda <code>[FLASH]</code> BBCode etiketine izin verilmezse, bunun dışında izin sistemi kontrollerindeki kullanıcılar <code>[FLASH]</code> BBCode etiketi kullanabilir.',
 
 	'BUMP_INTERVAL'					=> 'Darbeleme aralığı',
 	'BUMP_INTERVAL_EXPLAIN'			=> 'Bir başlıktaki son mesaj ile bu başlığı darbeleme arasında geçecek olan dakika, saat ya da gün sayısı. Darbelemeyi tamamen kapatmak için 0 değeri verin.',
@@ -174,7 +174,7 @@ $lang = array_merge($lang, array(
 	'MAX_POST_URLS'					=> 'Her mesajdaki en fazla bağlantı sayısı',
 	'MAX_POST_URLS_EXPLAIN'			=> 'Bir mesajda izin verilen en fazla URL sayısı. Sınırsız bağlantı için 0 olarak ayarlayın.',
 	'MIN_CHAR_LIMIT'				=> 'Her mesajdaki en düşük karakter sayısı',
-	'MIN_CHAR_LIMIT_EXPLAIN'		=> 'Kullanıcının bir mesaj/özel mesajda girmesi gereken en düşük karakter sayısı.',
+	'MIN_CHAR_LIMIT_EXPLAIN'		=> 'Kullanıcının bir mesaj/özel mesajda girmesi gereken en düşük karakter sayısı. Bu ayar için girilebilecek en küçük değer 1’dir.',
 	'POSTING'						=> 'Mesajlaşma',
 	'POSTS_PER_PAGE'				=> 'Her sayfadaki mesaj sayısı',
 	'QUOTE_DEPTH_LIMIT'            	=> 'Alıntılar için en fazla iç içe geçmiş derinlik sayısı',
