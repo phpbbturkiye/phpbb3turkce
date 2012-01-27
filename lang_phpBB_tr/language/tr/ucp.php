@@ -413,12 +413,12 @@ $lang = array_merge($lang, array(
 
 	'UCP'						=> 'Kullanıcı Kontrol Paneli',
 	'UCP_ACTIVATE'				=> 'Hesabı aktifleştir',
-	'UCP_ADMIN_ACTIVATE'		=> 'Not: Hesabınız aktif edilmeden önce doğru bir e-posta adresi girmelisiniz. Yöneticiler hesabınızı inceleyecekler ve eğer onaylarlarsa belirttiğiniz adresten bir e-posta alacaksınız.',
+	'UCP_ADMIN_ACTIVATE'		=> 'Not: Hesabınız aktif edebilmek için doğru bir e-posta adresi girmelisiniz. Yöneticiler hesabınızı inceleyecekler ve eğer onaylarlarsa belirttiğiniz adrese bir e-posta alacaksınız.',
 	'UCP_AIM'					=> 'AOL Instant Messenger',
 	'UCP_ATTACHMENTS'			=> 'Eklentiler',
 	'UCP_COPPA_BEFORE'			=> '%s tarihinden önce',
 	'UCP_COPPA_ON_AFTER'		=> '%s tarihinde veya daha sonra',
-	'UCP_EMAIL_ACTIVATE'		=> 'Not: Hesabınız aktif edilmeden önce doğru bir e-posta adresi girmelisiniz. Belirttiğiniz adresten bir e-posta alacaksınız ve içeriğinde bir aktivasyon bağlantısı bulunacaktır.',
+	'UCP_EMAIL_ACTIVATE'		=> 'Not: Hesabınızı aktif edebilmek için doğru bir e-posta adresi girmelisiniz. Belirttiğiniz adrese bir e-posta alacaksınız ve içeriğinde bir aktivasyon bağlantısı bulunacaktır.',
 	'UCP_ICQ'					=> 'ICQ numarası',
 	'UCP_JABBER'				=> 'Jabber adresi',
 
