@@ -110,7 +110,6 @@ $lang = array_merge($lang, array(
 
 	'POST_IP'				=> 'Gönderilen IP/domain adresi',
 
-	'RANK'					=> 'Rütbe',
 	'REAL_NAME'				=> 'Alıcı adı',
 	'RECIPIENT'				=> 'Alıcı',
 	'REMOVE_FOE'			=> 'Engellenenlerden kaldır',

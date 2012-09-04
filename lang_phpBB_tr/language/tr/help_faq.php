@@ -333,7 +333,7 @@ $help = array(
 	),
 	array(
 		0 => 'Aradığım X özellik neden yok?',
-		1 => 'Bu yazılım phpBB Group tarafından yazılmış ve dağıtıma çıkarılmıştır. Eğer herhangi bir özelliğin eksik olduğunu düşünüyorsanız, lütfen phpbb.com sitesini ziyaret edip phpBB Group\'un ilgili düşüncelerini öğrenin. Lütfen phpbb.com sitesindeki forumlara yazıp yeni bir özellik isteğinde bulunmayın. phpbb Group SourceForge aracılığıyla yeni özellikler ekler. Lütfen ilgili forumları gezip ilk önce phpBB Group\'un herhangi bir özellikle ilgili tutumunu öğrenin ve daha sonra burada tarif edilen yöntemle başvuruda bulunun.'
+		1 => 'Bu yazılım phpBB Group tarafından yazılmış ve lisanslanmıştır. Eğer herhangi bir özelliğin eklenmesi gerektiğini düşünüyorsanız, ya da bir hata bildirimi yapmak istiyorsanız, lütfen phpBB <a href="http://area51.phpbb.com/">Area51</a> web sitesini ziyaret edin, böylece ilgili kaynaklara ulaşabilirsiniz.'
 	),
 	array(
 		0 => 'Bu mesaj panosuyla ilgili hukuki sorunlar için veya suistimal durumlarda kime başvurabilirim?',

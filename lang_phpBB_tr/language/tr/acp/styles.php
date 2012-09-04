@@ -265,7 +265,8 @@ $lang = array_merge($lang, array(
 	'IMG_USER_ICON8'		=> 'Kullanıcı tanımlı görüntü 8',
 	'IMG_USER_ICON9'		=> 'Kullanıcı tanımlı görüntü 9',
 	'IMG_USER_ICON10'		=> 'Kullanıcı tanımlı görüntü 10',
-
+	
+	'INACTIVE_STYLES'			=> 'Aktif olmayan stiller',
 	'INCLUDE_DIMENSIONS'		=> 'Boyutları dahil et',
 	'INCLUDE_IMAGESET'			=> 'Görüntü setini dahil et',
 	'INCLUDE_TEMPLATE'			=> 'Şablonu dahil et',
