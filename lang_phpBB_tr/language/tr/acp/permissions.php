@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'		=> 'Buradan forum izinlerini bir forumdan birine ya da diğer forumlara kopyalayabilirsiniz.',
 	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Buradan global moderatör izinlerinin kullanıcılar ya da gruplara tanımlamasını gerçekleştirebilirsiniz. Bu moderatörler sıradan moderatörlerden farklı olarak tüm forumlar üzerinde erişim hakkına sahiptirler.',
 	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Forum izinleri gruplara tanımlama işlemini buradan yapabilirsiniz.',
-	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> 'Buradan gruplara - kullanıcı izinleri, global moderatör izinleri ve yönetici izinleri şeklinde global izinler tanımlamayabilirsiniz. Kullanıcı izinleri avatarların kullanımı, özel mesaj gönderme işlemi, vb. konular içerir; global moderatör izinleri mesajların onaylanması, başlık yönetimi, yasaklama yönetimi, v.b. konular ve son olarak yönetim izinleri ise izin değişimleri, özel BBCode tanımlama, forum yönetimi v.b. konular içerir. Bireysel kullanıcıların izinleri sadece özel durumlarda değiştirilmelidir, tercih edilmesi gereken yöntem kullanıcıları grup içine yerleştirmek ve sonra grup izinlerini tanımlamaktır.',
+	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> 'Buradan gruplara - kullanıcı izinleri, global moderatör izinleri ve yönetici izinleri şeklinde global izinler tanımlamayabilirsiniz. Kullanıcı izinleri avatarların kullanımı, özel mesaj gönderme işlemi, vb. konular içerir; global moderatör izinleri mesajların onaylanması, başlık yönetimi, yasaklama yönetimi, v.b. konular ve son olarak yönetim izinleri ise izin değişimleri, özel BBCode tanımlama, forum yönetimi v.b. konular içerir. Bireysel kullanıcı izinleri sadece özel durumlarda değiştirilmelidir, tercih edilmesi gereken yöntem kullanıcıları grup içine yerleştirmek ve sonra grup izinlerini tanımlamaktır.',
 	'ACP_ADMIN_ROLES_EXPLAIN'					=> 'Burası yönetimsel izinler için rollerin düzenlenebileceği bir yerdir. Roller etkili izinlere sahiptir, daha önceden işaretlenerek tanımlanmış rolü değiştirmek isterseniz burada bu izinleri değiştirebileceksiniz.',
 	'ACP_FORUM_ROLES_EXPLAIN'					=> 'Burası forum izinlerini için rollerin düzenlenebileceği bir yerdir. Roller etkili izinlere sahiptir, daha önceden işaretlenerek tanımlanmış rolü değiştirmek isterseniz burada bu izinleri değiştirebileceksiniz.',
 	'ACP_MOD_ROLES_EXPLAIN'						=> 'Burası yönetim izinlerini için rollerin düzenlenebileceği bir yerdir. Roller etkili izinlere sahiptir, daha önceden işaretlenerek tanımlanmış rolü değiştirmek isterseniz burada bu izinleri değiştirebileceksiniz.',
@@ -171,7 +171,7 @@ $lang = array_merge($lang, array(
  	'ROLE_FORUM_POLLS'			=> 'Standart Erişim + Anketler',
  	'ROLE_FORUM_READONLY'		=> 'Sadece Okuma Erişimi',
  	'ROLE_FORUM_STANDARD'		=> 'Standart Erişim',
- 	'ROLE_FORUM_NEW_MEMBER'		=> 'Yeni kayıtlı Kullanıcı',
+	'ROLE_FORUM_NEW_MEMBER'		=> 'Yeni Kayıtlı Kullanıcı Erişimi',
  	'ROLE_MOD_FULL'				=> 'Tam Moderatör',
  	'ROLE_MOD_QUEUE'			=> 'Onay Moderatörü',
  	'ROLE_MOD_SIMPLE'			=> 'Basit Moderatör',
@@ -181,7 +181,7 @@ $lang = array_merge($lang, array(
  	'ROLE_USER_NOAVATAR'		=> 'Avatar Yok',
  	'ROLE_USER_NOPM'			=> 'Özel Mesaj Yok',
  	'ROLE_USER_STANDARD'		=> 'Standart Özellikler',
- 	'ROLE_USER_NEW_MEMBER'		=> 'Yeni kayıtlı Kullanıcı',
+ 	'ROLE_USER_NEW_MEMBER'		=> 'Yeni Kayıtlı Kullanıcı Özellikleri',
 
 	'ROLE_DESCRIPTION_ADMIN_FORUM'		=> 'Forum yönetimine erişebilir ve forum izin ayarlarını düzenler',
 	'ROLE_DESCRIPTION_ADMIN_FULL'		=> 'Bu mesaj panosunun tüm yönetim fonksiyonlarına erişebilir.<br />Tavsiye edilmez.',
@@ -224,7 +224,7 @@ $lang = array_merge($lang, array(
 	'SELECT_TYPE'					=> 'Tür seçin',
 	'SET_PERMISSIONS'				=> 'İzinleri ayarla',
 	'SET_ROLE_PERMISSIONS'			=> 'Rol izinleri ayarla',
-	'SET_USERS_PERMISSIONS'			=> 'Kullanıcıların izinlerini ayarla',
+	'SET_USERS_PERMISSIONS'			=> 'Kullanıcı izinlerini ayarla',
 	'SET_USERS_FORUM_PERMISSIONS'	=> 'Kullanıcı forum izinlerini ayarla',
 
 	'TRACE_DEFAULT'					=> 'Varsayılan olarak tüm izinler <samp>HAYIR</samp> (ayarlanmamış) kabul edilir. Yani izinler diğer ayarlar tarafından değiştirilebilir.',
@@ -272,7 +272,7 @@ $lang = array_merge($lang, array(
 	'TRACE_WHO'						=> 'Kim',
 	'TRACE_TOTAL'					=> 'Toplam',
 
-	'USERS_NOT_ASSIGNED'			=> 'Bu rol için hiç bir kullanıcı tanımlanmadı',
+	'USERS_NOT_ASSIGNED'			=> 'Bu role hiç bir kullanıcı tanımlanmadı',
 	'USER_IS_MEMBER_OF_DEFAULT'		=> 'alttaki ön-tanımlı grupların bir üyesidir.',
 	'USER_IS_MEMBER_OF_CUSTOM'		=> 'alttaki kullanıcı tanımlı grupların bir üyesidir.',
 

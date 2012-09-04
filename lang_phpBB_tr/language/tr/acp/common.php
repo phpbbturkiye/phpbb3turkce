@@ -98,8 +98,8 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS'					=> 'Gruplar',
 	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Grup forum izinleri',
 	'ACP_GROUPS_MANAGE'				=> 'Grupları yönet',
-	'ACP_GROUPS_MANAGEMENT'			=> 'Grupların yönetimi',
-	'ACP_GROUPS_PERMISSIONS'		=> 'Grupların izinleri',
+	'ACP_GROUPS_MANAGEMENT'			=> 'Grup yönetimi',
+	'ACP_GROUPS_PERMISSIONS'		=> 'Grup izinleri',
 	
 	'ACP_ICONS'					=> 'Başlık ikonları',
 	'ACP_ICONS_SMILIES'			=> 'Başlık ikonları/ifadeler',
@@ -402,7 +402,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_UNKNOWN'		=> 'Bilinmiyor',
 	'INACTIVE_USERS'				=> 'Pasif kullanıcılar',
 	'INACTIVE_USERS_EXPLAIN'		=> 'Bu liste, kayıt olmuş fakat hesapları aktif olmayan kullanıcıların bir listesidir. Eğer isterseniz bu kullanıcıları aktif edebilir, silebilir ya da hatırlatma (bir e-posta yoluyla) yapabilirsiniz.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Bu liste, aktif olmayan hesaplara sahip en son kayıt olan 10 kullanıcının bir listesidir. Tam bir listeyi uygun menü ögesinden görebilirsiniz ya da eğer isterseniz altlarındaki bağlantıyı izleyerek bu kullanıcıları aktif edebilir, silebilir ya da hatırlatma (bir e-posta yoluyla) yapabilirsiniz.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Bu liste, aktif olmayan hesaplara sahip en son kayıt olan 10 kullanıcının bir listesidir. Hesaplar aktif değildir, çünkü kullanıcı kayıt ayarlarından hesap aktivasyonu ayarı açılmıştır ve bu kullanıcıların hesapları hala aktif edilmediği için aktif olarak gözükmemektedir. Tam bir listeyi aktif olmayan kullanıcıların altlarındaki ilgili bağlantıyı izleyerek görebilirsiniz ve bu kullanıcıları aktif edebilir, silebilir ya da kullanıcılara hatırlatma (bir e-posta ile) yapabilirsiniz.',
 
 	'NO_INACTIVE_USERS'	=> 'Pasif kullanıcı yok',
 

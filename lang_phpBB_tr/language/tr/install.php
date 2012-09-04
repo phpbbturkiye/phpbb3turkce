@@ -52,6 +52,7 @@ $lang = array_merge($lang, array(
 	'BLANK_PREFIX_FOUND'			=> 'Tablolarınızda yapılan tarama sırasında, geçerli bir kurulum için hiç bir tablo öneki kullanılmadığı görüldü.',
 	'BOARD_NOT_INSTALLED'			=> 'Hiç bir kurulum bulunmadı',
  	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'phpBB Birleştirme Dönüştürücü Sistemi işlevini yerine getirmek için phpBB3\'ün varsayılan bir kurulumuna ihtiyaç duyuyor, lütfen <a href="%s">ilk önce phpBB3 kurulumuna devam edin</a>.',
+	'BACKUP_NOTICE'					=> 'Lütfen güncelleme işlemi sırasında ortaya çıkabilecek problemlere karşı, güncelleme yapmadan önce mesaj panonuzu yedekleyin.',	
 
 	'CATEGORY'					=> 'Kategori',
 	'CACHE_STORE'				=> 'Önbellek tipi',

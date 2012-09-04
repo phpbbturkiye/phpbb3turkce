@@ -131,6 +131,8 @@ $lang = array_merge($lang, array(
 
 	'SAVE'							=> 'Kaydet',
 	'SECOND_OPTION'					=> 'İkinci seçenek',
+	'SHOW_NOVALUE_FIELD'			=> 'Eğer hiç bir değer seçilmemişse alanı göster',
+	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'Eğer profil alanının gösterilmesi zorunluyken isteğe bağlı alanlar için hiç bir değer seçilmemişse ya da gerekli alanlar için hiç bir değer seçilmemişse, profil alanının gösterilip gösterilemeyeceğini belirler.',	
 	'STEP_1_EXPLAIN_CREATE'			=> 'Buradan yeni profil alanınızın ilk temel parametrelerini girebilirsiniz. Bu bilgiler ikinci adımda kalan seçenekleri ayarlarken, profil alanınıza daha fazla ince ayar ve önizleme yaparken gereklidir.',
 	'STEP_1_EXPLAIN_EDIT'			=> 'Buradan profil alanınızın ilk temel parametrelerini değiştirebilirsiniz. İlgili seçenekler ikinci adımda yeniden hesaplanacaktır.',
 	'STEP_1_TITLE_CREATE'			=> 'Profil alanı ekle',

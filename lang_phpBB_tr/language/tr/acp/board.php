@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 	'MAX_AVATAR_SIZE'				=> 'En yüksek avatar boyutları',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Piksel cinsinden Genişlik x Yükseklik.',
 	'MAX_FILESIZE'					=> 'En yüksek avatar dosyası büyüklüğü',
-	'MAX_FILESIZE_EXPLAIN'			=> 'Yüklenen avatar dosyaları için.',
+	'MAX_FILESIZE_EXPLAIN'			=> 'Yüklenen avatar dosyaları için. Eğer bu değer 0 olursa, gönderilebilir dosya boyutu sadece PHP ayarlarınız tarafından sınırlanır.',
 	'MIN_AVATAR_SIZE'				=> 'En düşük avatar boyutları',
 	'MIN_AVATAR_SIZE_EXPLAIN'		=> 'Piksel cinsinden Genişlik x Yükseklik.',
 ));
