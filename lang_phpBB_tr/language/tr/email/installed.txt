@@ -12,7 +12,7 @@ Kullanıcı adı: {USERNAME}
 Mesaj Panosu URL adresi: {U_BOARD}
 ----------------------------
 
-phpBB yazılımı hakkında ihtiyacınız olabilecek bilgilere kurulumunuz içerisindeki docs klasöründen ve phpBB.com'un destek sayfasından ulaşabilirsiniz. - http://www.phpbb.com/support/
+phpBB yazılımı hakkında ihtiyacınız olabilecek bilgilere kurulumunuz içerisindeki docs klasöründen ve phpBB.com'un destek sayfasından ulaşabilirsiniz. - https://www.phpbb.com/support/
 
 Mesaj panonuzu güvende ve emniyette tutmanız için, yazılım güncelleme duyurularını takip etmenizi kesinlikle öneririz. Size yardımcı olması için, sayfanın altındaki e-posta listesini kullanabilirsiniz.
 

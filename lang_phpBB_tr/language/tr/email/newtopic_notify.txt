@@ -2,7 +2,7 @@ Subject: Yeni başlık bildirisi - "{FORUM_NAME}"
 
 Merhaba {USERNAME},
 
-Bu bildiriyi alıyorsunuz çünkü "{SITENAME}" mesaj panosunda "{FORUM_NAME}" isimli forumu takip ediyorsunuz. Bu forumda son ziyaretinizden sonra "{TOPIC_TITLE}" isimli yeni bir başlık açıldı. Alttaki bağlantıyı kullanarak bu forumu görüntüleyebilirsiniz, forumu ziyaret edene kadar daha fazla bildiri gönderilmeyecektir.
+Bu bildiriyi alıyorsunuz çünkü "{SITENAME}" mesaj panosunda "{FORUM_NAME}" isimli forumu takip ediyorsunuz. Bu forumda son ziyaretinizden sonra<!-- IF AUTHOR_NAME !== '' --> {AUTHOR_NAME}<!-- ENDIF --> tarafından "{TOPIC_TITLE}" konusuyla yeni bir başlık açıldı. Alttaki bağlantıyı kullanarak bu forumu görüntüleyebilirsiniz, forumu ziyaret edene kadar daha fazla bildiri gönderilmeyecektir.
 
 {U_FORUM}
 

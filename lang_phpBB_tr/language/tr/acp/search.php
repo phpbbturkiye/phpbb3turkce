@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Arama uygulaması şu anda indeksleri siliyor. Bu işlem bir kaç dakika sürebilir.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'MySQL tam metin uygulaması sadece MySQL4 ve üzeri sürümlerde kullanılabilir.',
-	'FULLTEXT_MYSQL_NOT_MYISAM'				=> 'MySQL tam metin uygulaması sadece MyISAM tablolarında kullanılabilir.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'MySQL tam metin indekslemesi sadece MyISAM ya da InnoDB tabloları ile kullanılabilir. InnoDB tablolarında tam metin indekslemesi için MySQL 5.6.4 ya da sonraki sürümler gereklidir.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'İndekslenen mesajların toplam sayısı',
  	'FULLTEXT_MYSQL_MBSTRING'				=> 'mbstring kullanılarak latin olmayan UTF-8 karakterleri desteği:',
  	'FULLTEXT_MYSQL_PCRE'					=> 'PCRE kullanılarak latin olmayan UTF-8 karakterleri desteği:',

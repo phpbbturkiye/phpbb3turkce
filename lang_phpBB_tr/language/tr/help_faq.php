@@ -329,11 +329,11 @@ $help = array(
 	),
 	array(
 		0 => 'Bu mesaj panosunu kim yazdı?',
-		1 => 'Bu yazılım (değiştirilmemiş haliyle) <a href="http://www.phpbb.com/">phpBB Group</a> tarafından üretilmiş ve genel dağıtıma çıkarılmıştır. Tüm eser hakları phpBB Group\'a aittir. Bu eser, GNU General Public License antlaşması altında sunulmuştur. Bu antlaşmaya uyma şartıyla ücretsiz dağıtılabilir. Daha detaylı bilgiler için bağlantıya göz atın.'
+		1 => 'Bu yazılım (değiştirilmemiş haliyle) <a href="https://www.phpbb.com/">phpBB Group</a> tarafından üretilmiş ve genel dağıtıma çıkarılmıştır. Tüm eser hakları phpBB Group\'a aittir. Bu eser, GNU General Public License antlaşması altında sunulmuştur. Bu antlaşmaya uyma şartıyla ücretsiz dağıtılabilir. Daha detaylı bilgiler için bağlantıya göz atın.'
 	),
 	array(
 		0 => 'Aradığım X özellik neden yok?',
-		1 => 'Bu yazılım phpBB Group tarafından yazılmış ve lisanslanmıştır. Eğer herhangi bir özelliğin eklenmesi gerektiğini düşünüyorsanız, ya da bir hata bildirimi yapmak istiyorsanız, lütfen phpBB <a href="http://area51.phpbb.com/">Area51</a> web sitesini ziyaret edin, böylece ilgili kaynaklara ulaşabilirsiniz.'
+		1 => 'Bu yazılım phpBB Group tarafından yazılmış ve lisanslanmıştır. Eğer herhangi bir özelliğin eklenmesi gerektiğini düşünüyorsanız lütfen <a href="https://www.phpbb.com/ideas/">phpBB Fikirleri Merkezi\'ni</a> ziyaret edin, oradan mevcut fikirlere oy verebilir ya da yeni özellikler önerebilirsiniz.'
 	),
 	array(
 		0 => 'Bu mesaj panosuyla ilgili hukuki sorunlar için veya suistimal durumlarda kime başvurabilirim?',

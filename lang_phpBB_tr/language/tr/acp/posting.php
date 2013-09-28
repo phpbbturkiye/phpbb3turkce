@@ -81,7 +81,8 @@ $lang = array_merge($lang, array(
 		'NUMBER'		=> 'Sayı dizilerinin herhangi bir serisi',
 		'EMAIL'			=> 'Geçerli e-posta adresi',
 		'URL'			=> 'Herhangi bir protokolde geçerli URL kullanımı (http, ftp, gibi… javascript exploitleri için kullanılamaz). Hiç biri verilmezse, diziye “http://” ön adı verilir.',
-		'LOCAL_URL'		=> 'Yerel URL, URL Başlık sayfasıyla ilgili olmalıdır ve sunucu ismi ya da protokolü içermemelidir.',
+		'LOCAL_URL'		=> 'Yerel bir URL adresi. URL adresi konu/başlık sayfasına bağlı olmalıdır ve sunucu ismi ya da protokolü içermemelidir, bağlantılar “%s” ön adı almalıdır.',
+		'RELATIVE_URL'	=> 'Göreceli bir URL adresi. Bir URL adresinin eşleşen bölümleri için bunu kullanabilirsiniz, fakat dikkatli olun: tam URL adresi geçerli bir göreceli URL adresi olmalıdır. Mesaj panonuzun göreceli URL adreslerini kullanmak istediğiniz zaman, LOCAL_URL belirtecini kullanabilirsiniz.',
 		'COLOR'			=> 'Bir HTML rengi, <samp>#FF1234</samp> şeklinde sayısal form içinde ya da bir <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS renk klavyesindeki</a> gibi olabilir, <samp>fuchsia</samp> veya <samp>InactiveBorder</samp> gibi de olabilir'
 	)
 ));

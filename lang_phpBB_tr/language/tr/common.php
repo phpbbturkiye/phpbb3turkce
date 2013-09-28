@@ -160,6 +160,7 @@ $lang = array_merge($lang, array(
 	'EDIT_POST'			=> 'Mesajı düzenle',
 	'EMAIL'				=> 'E-posta', // Short form for EMAIL_ADDRESS
 	'EMAIL_ADDRESS'			=> 'E-posta adresi',
+	'EMAIL_INVALID_EMAIL'				=> 'Girdiğiniz e-posta adresi geçersiz.',
 	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'E-posta gönderilirken iç sunucu problemi oluştu <strong>Satır %1$s</strong>. Yanıt: %2$s.',
 	'EMPTY_SUBJECT'			=> 'Yeni bir başlık göndereceğiniz zaman bir konu belirlemelisiniz.',
 	'EMPTY_MESSAGE_SUBJECT'  => 'Yeni bir mesaj oluşturacağınız zaman bir konu belirlemelisiniz.',
@@ -390,6 +391,7 @@ $lang = array_merge($lang, array(
 	'NO_POSTS_TIME_FRAME'		=> 'Seçilen zaman çerçevesi için bu başlıkta hiç bir mesaj yok.',
 	'NO_FEED_ENABLED'			=> 'Bu mesaj panosunda Özet Akışları mevcut değil.',
 	'NO_FEED'					=> 'İstenilen Özet Akışı mevcut değil.',
+	'NO_STYLE_DATA'				=> 'Stil verisi alınamıyor',
 	'NO_SUBJECT'				=> 'Hiç bir konu belirtilmedi.', // Used for posts having no subject defined but displayed within management pages.
 	'NO_SUCH_SEARCH_MODULE'		=> 'Belirtilen arama bulunamıyor.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Yetki metotları desteklenmedi.',
@@ -567,10 +569,12 @@ $lang = array_merge($lang, array(
 	'SUBFORUMS'					=> 'Alt forumlar',
 	'SUBJECT'					=> 'Konu',
 	'SUBMIT'					=> 'Gönder',
-
+	'TB'				=> 'TB',
+	
 	'TERMS_USE'			=> 'Kullanım koşulları',
 	'TEST_CONNECTION'	=> 'Bağlantı testi',
 	'THE_TEAM'			=> 'Takım',
+	'TIB'				=> 'TiB',	
 	'TIME'				=> 'Zaman',
 	
 	'TOO_LARGE'                  => 'Girdiğiniz değer çok büyük.',
@@ -713,6 +717,7 @@ $lang = array_merge($lang, array(
 	'WHO_IS_ONLINE'		=> 'Kimler çevrimiçi',
 	'WRONG_PASSWORD'	=> 'Hatalı bir şifre girdiniz.',
 
+	'WRONG_DATA_COLOUR'			=> 'Girdiğiniz renk değeri geçersiz.',
 	'WRONG_DATA_ICQ'			=> 'Girdiğiniz numara, geçersiz bir ICQ numarası.',
 	'WRONG_DATA_JABBER'			=> 'Girilen ad, geçersiz bir Jabber hesap adı.',
 	'WRONG_DATA_LANG'			=> 'Belirlediğiniz dil geçerli değil.',

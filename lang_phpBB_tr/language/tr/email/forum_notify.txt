@@ -2,7 +2,7 @@ Subject: Forum mesaj bildirisi - "{FORUM_NAME}"
 
 Merhaba {USERNAME},
 
-Bu bildiriyi alıyorsunuz çünkü "{SITENAME}" mesaj panosunda "{FORUM_NAME}" isimli forumu takip ediyorsunuz. Bu forumdaki "{TOPIC_TITLE}" başlığına son ziyaretinizden sonra yeni cevaplar geldi. Alttaki bağlantıyı kullanarak son okunmamış cevabı görüntüleyebilirsiniz, başlığı ziyaret edene kadar daha fazla bildiri gönderilmeyecektir.
+Bu bildiriyi alıyorsunuz çünkü "{SITENAME}" mesaj panosunda "{FORUM_NAME}" isimli forumu takip ediyorsunuz. Bu forumdaki "{TOPIC_TITLE}" başlığına son ziyaretinizden sonra<!-- IF AUTHOR_NAME !== '' --> {AUTHOR_NAME}<!-- ENDIF --> tarafından yeni bir cevap geldi. Alttaki bağlantıyı kullanarak son okunmamış cevabı görüntüleyebilirsiniz, başlığı ziyaret edene kadar daha fazla bildiri gönderilmeyecektir.
 
 {U_NEWEST_POST}
 

@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	
 		<br />
 
-		<p>phpBB3 mesaj panonuzda izinlerin yönetimi ve ayarları hakkında daha fazla bilgi için, lütfen <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Kolay Başlangıç Rehberimizin 1.5 numaralı bölümüne</a> bakın.</p>
+		<p>phpBB3 mesaj panonuzda izinlerin yönetimi ve ayarları hakkında daha fazla bilgi için, lütfen <a href="https://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Kolay Başlangıç Rehberimizin 1.5 numaralı bölümüne</a> bakın.</p>
 	',
 
 	'ACL_NEVER'				=> 'Asla',

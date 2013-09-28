@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> '"%1$s" (diğer anlamda "biz", "tarafımız", "bizim", "%1$s", "%2$s") tarafından çoğaltılan, yasal olarak sınırlı olan alttaki koşulları kabul etmiş sayılıyorsunuz. Eğer yasal olarak sınırlı olan alttaki koşulların tümünü kabul etmiyorsanız o zaman lütfen "%1$s" mesaj panosuna giriş yapmayın ve/veya kullanmayın. Biz bu koşulları herhangi bir zamanda değiştirebiliriz ve sizi bilgilendirebiliriz, buna rağmen kendiniz düzenli olarak bu koşulları tekrar gözden geçirerek  "%1$s" mesaj panosunu kullanmaya devam edebilirsiniz, yasal olarak sınırlı olan bu koşulların güncellenmesi ve/veya düzenlenmesi durumunda meydana gelebilecek değişiklikleri de kabul etmiş sayılırsınız.<br />
 	<br />
-	Forumlarımız phpBB (diğer anlamda "onlar", "onlara", "onların", "phpBB yazılımı", "www.phpbb.com", "phpBB Grubu", "phpBB Takımları") tarafından güçlendirilmiştir -ki bu da "<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>" (diğer anlamda "GPL") altında bir forum yazılımı olarak yayınlanmıştır ve bu yazılımı <a href="http://www.phpbb.com/">www.phpbb.com</a> adresinden indirebilirsiniz. phpBB yazılımı sadece internet tabanlı tartışmaları kolaylaştırmak içindir, phpBB Grubu müsaade edilebilir içerik ve/veya davranış olarak izin verdiğimiz ve/veya izin vermediğimiz şeylerden sorumlu değildir. phpBB hakkında daha fazla bilgi için, lütfen bu adrese bakın: <a href="http://www.phpbb.com/">http://www.phpbb.com/</a>.<br />
+	Forumlarımız phpBB (diğer anlamda "onlar", "onlara", "onların", "phpBB yazılımı", "www.phpbb.com", "phpBB Grubu", "phpBB Takımları") tarafından güçlendirilmiştir -ki bu da "<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>" (diğer anlamda "GPL") altında bir forum yazılımı olarak yayınlanmıştır ve bu yazılımı <a href="https://www.phpbb.com/">www.phpbb.com</a> adresinden indirebilirsiniz. phpBB yazılımı sadece internet tabanlı tartışmaları kolaylaştırmak içindir, phpBB Grubu müsaade edilebilir içerik ve/veya davranış olarak izin verdiğimiz ve/veya izin vermediğimiz şeylerden sorumlu değildir. phpBB hakkında daha fazla bilgi için, lütfen bu adrese bakın: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
 	<br />
 	Küfürlü, müstehcen, kaba, iftira niteliğinde, nefret dolu, tehdit edici, sekse yönelik veya ülkenizin kanunlarını çiğneyici içerikler göndermemeyi kabul ediyorsunuz, "%1$s" mesaj panosu hangi ülkede barındırılıyorsa o ülkenin kanunları veya Uluslararası kanunlar geçerlidir. Bunları dikkate almamanız durumunda hemen ve süresizce mesaj panosundan yasaklanırsınız ve eğer tarafımızca gerekli görülürse İnternet Servis Sağlayıcınız da haberdar edilir. Bütün mesajların IP adresi bu koşulların uygulanmasına yardımcı olmak için kaydedilmektedir. "%1$s" mesaj panosunda uygun gördüğümüz durumlarda ve zamanlarda herhangi bir başlığı silme, değiştirme, taşıma veya kapatma hakkımızın olduğunu kabul ediyorsunuz. Bir kullanıcı olarak her girdiğiniz bilginin veritabanında saklanacağını kabul ediyorsunuz. Her ne kadar bu bilgiler sizin bilginiz dışında üçüncü şahıslara verilmeyecek olsa da, herhangi bir hack saldırısı sonucunda bu bilgiler dağılırsa bundan "%1$s" veya phpBB kesinlikle sorumlu değildir.
 	',
@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_INACTIVE'				=> 'Hesabınız oluşturuldu. Fakat, bu mesaj panosu hesap aktivasyonu istemektedir, belirlediğiniz e-posta adresine bir aktivasyon şifresi gönderildi. Lütfen daha fazla bilgi için e-posta adresinizi kontrol edin.',
 	'ACCOUNT_INACTIVE_ADMIN'		=> 'Hesabınız oluşturuldu. Fakat, bu mesaj panosu yönetici grubu tarafından yapılması gereken hesap aktivasyonu istemektedir. Onlara şu an bir e-posta gönderildi ve hesabınız aktif edildiği zaman bilgilendirileceksiniz.',
 	'ACTIVATION_EMAIL_SENT'			=> 'Aktivasyon e-postası, e-posta adresinize gönderildi.',
-  'ACTIVATION_EMAIL_SENT_ADMIN'   => 'Aktivasyon e-postası, yöneticilerin e-posta adreslerine gönderildi.',
+	'ACTIVATION_EMAIL_SENT_ADMIN'   => 'Aktivasyon e-postası, yöneticilerin e-posta adreslerine gönderildi.',
 	'ADD'							=> 'Ekle',
 	'ADD_BCC'						=> 'Ekle [BCC]',
 	'ADD_FOES'						=> 'Yeni engellenenler ekle',
@@ -256,8 +256,9 @@ $lang = array_merge($lang, array(
 	'MESSAGE_BY_AUTHOR'			=> 'tarafından',
 	'MESSAGE_COLOURS'			=> 'Mesaj renkleri',
 	'MESSAGE_DELETED'			=> 'Mesaj başarıyla silindi.',
-	'MESSAGE_HISTORY'			=> 'Mesaj geçmişi',
-	'MESSAGE_REMOVED_FROM_OUTBOX'		=> 'Bu mesaj teslim edilmeden önce mesajın yazarı tarafından silindi.',
+	'MESSAGE_EDITED'				=> 'Mesaj başarıyla düzenlendi.',
+	'MESSAGE_HISTORY'				=> 'Mesaj geçmişi',
+	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Bu mesaj, yazarı tarafından silindi.',
 	'MESSAGE_SENT_ON'			=> 'tarih',
 	'MESSAGE_STORED'			=> 'Bu mesaj başarıyla gönderildi.',
 	'MESSAGE_TO'				=> 'Kime',
