@@ -514,9 +514,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Başlık onaylandı</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Kullanıcı başlığı darbeledi</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>Mesaj silindi</strong><br />» %s',
+	'LOG_DELETE_POST'			=> '<strong>“%1$s” konulu mesaj silindi, mesajın yazarı</strong><br />» %2$s',
 	'LOG_DELETE_SHADOW_TOPIC'   => '<strong>Gölgeli başlık silindi</strong><br />» %s',
-	'LOG_DELETE_TOPIC'         => '<strong>Başlık silindi</strong><br />» %s',
+	'LOG_DELETE_TOPIC'         => '<strong>“%1$s” konulu başlık silindi, başlığın yazarı</strong><br />» %2$s',
 	'LOG_FORK'               => '<strong>Başlık kopyalandı</strong><br />» Başlık %s forumundan kopyalandı',
 	'LOG_LOCK'               => '<strong>Başlık kilitlendi</strong><br />» %s',
 	'LOG_LOCK_POST'            => '<strong>Mesaj kilitlendi</strong><br />» %s',
@@ -711,6 +711,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_NEW_PASSWORD'	=> '<strong>Kullanıcı şifresi değiştirildi</strong><br />» %s',
 	'LOG_USER_REACTIVATE'	=> '<strong>Kullanıcı hesabı yeniden aktivasyon için zorunlu tutuldu</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'	=> '<strong>Yeni kayıtlı kullanıcı ibaresi kullanıcıdan alındı</strong><br />» %s',
+	
 	'LOG_USER_UPDATE_EMAIL'	=> '<strong>“%1$s” adlı kullanıcının e-posta adresi değiştirildi</strong><br />» “%2$s” olan e-posta adresi “%3$s” olarak değiştirildi',
 	'LOG_USER_UPDATE_NAME'	=> '<strong>Kullanıcı adı değiştirildi</strong><br />» “%1$s” olan kullanıcı adı “%2$s” olarak değiştirildi',
 	'LOG_USER_USER_UPDATE'	=> '<strong>Kullanıcı bilgileri güncellendi</strong><br />» %s',
@@ -742,10 +743,5 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_DELETE'		=> '<strong>Kelime sansürü silindi</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Kelime sansürü düzenlendi</strong><br />» %s',
 ));
-
-// Two language keys with the same text were used in different locations
-// LOG_DELETE_TOPIC is the correct one, this line is here so that existing
-// log entries are not broken. Ensure it is included in your language file.
-$lang['LOG_TOPIC_DELETED'] = $lang['LOG_DELETE_TOPIC'];
 
 ?>

@@ -3,6 +3,8 @@ Aşağıdaki e-posta size "{SITENAME}" yöneticisi tarafından gönderildi. Eğe
 
 {CONTACT_EMAIL}
 
+Bu, tüm e-postayı içerir (özellikle başlıklar). 
+
 Size gönderilen e-posta:
 ~~~~~~~~~~~~~~~~~~~~~~~~
 

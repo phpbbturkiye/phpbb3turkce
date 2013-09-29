@@ -260,7 +260,7 @@ $lang = array_merge($lang, array(
 	
  	'LONG_SCRIPT_EXECUTION'		=> 'Not: Bu biraz sürebilir... Lütfen sayfayı durdurmayın.',
 
-		// mbstring
+	// mbstring
 	'MBSTRING_CHECK'			=> '<samp>mbstring</samp> uzantısı kontrolü',
 	'MBSTRING_CHECK_EXPLAIN'  => '<strong>Gerekli</strong> - <samp>mbstring</samp>, çoklu bayt dizisi fonksiyonu sağlayan bir PHP uzantısıdır. mbstring\'in bazı özellikleri phpBB ile uyumlu değildir ve kapalı olmalıdır',
 	'MBSTRING_FUNC_OVERLOAD' => 'Aşırı yükleme fonksiyonu',
@@ -274,7 +274,8 @@ $lang = array_merge($lang, array(
 
 	'MAKE_FOLDER_WRITABLE'		=> 'Lütfen bu dosyanın mevcut olduğuna ve web sunucusu tarafından yazılabilir olduğuna emin olup tekrar deneyin:<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Lütfen bu dosyaların mevcut olduğuna ve web sunucusu tarafından yazılabilir olduğuna emin olup tekrar deneyin:<br />»<strong>%s</strong>.',
-	'MYSQL_SCHEMA_UPDATE_REQUIRED'   => 'phpBB için MySQL veritabanınızın şeması güncelliğini kaybetmiş. phpBB, MySQL 3.x/4.x için bir şema belirledi, fakat sunucu MySQL %2s üzerinde çalışıyor.<br /><strong>Güncelleme işleminden önce, şemanızı güncellemeniz gerekmektedir.</strong><br /><br />Lütfen <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">MySQL şemasının güncellenmesi hakkında ki Bilgi Tabanı makalesi</a> sayfasına bakın. Eğer problemlerle karşılaşırsanız, lütfen <a href="https://www.phpbb.com/community/viewforum.php?f=46">destek forumlarımızı</a> kullanın.',
+
+	'MYSQL_SCHEMA_UPDATE_REQUIRED'   => 'phpBB için MySQL veritabanınızın şeması güncelliğini kaybetmiş. phpBB, MySQL 3.x/4.x için bir şema belirledi, fakat sunucu MySQL %2$s üzerinde çalışıyor.<br /><strong>Güncelleme işleminden önce, şemanızı güncellemeniz gerekmektedir.</strong><br /><br />Lütfen <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">MySQL şemasının güncellenmesi hakkında ki Bilgi Tabanı makalesi</a> sayfasına bakın. Eğer problemlerle karşılaşırsanız, lütfen <a href="https://www.phpbb.com/community/viewforum.php?f=46">destek forumlarımızı</a> kullanın.',
 
 	'NAMING_CONFLICT'			=> 'Adlandırma uyuşmazlığı: %s ve %s farklı adlar<br /><br />%s',
 	'NEXT_STEP'					=> 'Sonraki adıma ilerle',
