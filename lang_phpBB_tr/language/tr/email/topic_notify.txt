@@ -2,7 +2,7 @@ Subject: Başlık Cevap Bildirisi - "{TOPIC_TITLE}"
 
 Merhaba {USERNAME},
 
-Bu bildiriyi alıyorsunuz çünkü "{SITENAME}" mesaj panosundaki "{TOPIC_TITLE}" isimli başlığı takip ediyorsunuz. Bu başlığa son ziyaretinizden sonra<!-- IF AUTHOR_NAME !== '' --> {AUTHOR_NAME}<!-- ENDIF --> tarafından yeni bir cevap geldi. Alttaki bağlantıyı kullanarak verilen cevapları görüntüleyebilirsiniz, başlığı ziyaret edene kadar daha fazla bildiri gönderilmeyecektir.
+Bu bildiriyi alıyorsunuz çünkü "{SITENAME}" mesaj panosundaki "{TOPIC_TITLE}" isimli başlığı takip ediyorsunuz. Bu başlığa son ziyaretinizden sonra<!-- IF AUTHOR_NAME !== '' --> {AUTHOR_NAME}<!-- ENDIF --> tarafından yeni bir cevap geldi. Siz başlığı ziyaret edene kadar daha fazla bildiri gönderilmeyecektir.
 
 Eğer son ziyaretinizden beri gelen yeni mesajı görüntülemek istiyorsanız, alttaki bağlantıya tıklayın:
 {U_NEWEST_POST}

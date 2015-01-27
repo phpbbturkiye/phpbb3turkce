@@ -4,6 +4,9 @@
 ####
 Sürüm Geçmişi:
 -------------------------------------------------------
+27-01-2015 V2.9.0
+- Dil dosyaları phpBB 3.0.13 sürümü için güncellendi.
+
 28-09-2013 V2.8.0
 - Dil dosyaları phpBB 3.0.12 sürümü için güncellendi.
 

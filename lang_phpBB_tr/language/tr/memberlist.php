@@ -138,6 +138,7 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'Çevrimiçi',
 	'USER_PRESENCE'			=> 'Mesaj panosundaki görünüşü',
+	'USERS_PER_PAGE'		=> 'Sayfa başına kullanıcı',
 
 	'VIEWING_PROFILE'		=> 'Profil görüntüleniyor - %s',
 	'VISITED'				=> 'Son ziyaret',

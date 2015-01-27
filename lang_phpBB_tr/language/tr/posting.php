@@ -178,6 +178,7 @@ $lang = array_merge($lang, array(
 
 	'QUOTE_DEPTH_EXCEEDED'		=> 'Birbirleri içerisinde sadece %1$d alıntı yapabilirsiniz.',
 
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'Belirtilen dosya yüklenemedi, çünkü istek zaman aşımına uğradı.',
 	'SAVE'						=> 'Kaydet',
 	'SAVE_DATE'					=> 'Kaydedilen tarih',
 	'SAVE_DRAFT'				=> 'Taslağı kaydet',
@@ -219,7 +220,7 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sGönderdiğiniz mesajınızı görüntüleyin%s',
 	'VIEW_PRIVATE_MESSAGE'      => '%sGönderdiğiniz özel mesajınızı görüntüleyin%s',
 
-	'WRONG_FILESIZE'			=> 'Dosya çok büyük, en fazla izin verilen boyutlar %1d %2s.',
+	'WRONG_FILESIZE'			=> 'Dosya çok büyük, en fazla izin verilen boyutlar %1$d %2$s.',
 	'WRONG_SIZE'				=> 'Resim en düşük %1$d piksel genişliğinde, %2$d piksel yüksekliğinde ve en yüksek %3$d piksel genişliğinde ve %4$d piksel yüksekliğinde olmalıdır. Eklenen resim %5$d piksel genişliğinde ve %6$d piksel yüksekliğinde.',
 ));
 

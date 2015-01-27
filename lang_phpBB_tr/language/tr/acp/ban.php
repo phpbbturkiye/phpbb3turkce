@@ -74,11 +74,11 @@ $lang = array_merge($lang, array(
 	'PERMANENT'		=> 'Sürekli',
 	
 	'UNTIL'						=> 'Zaman aralığı',
-	'USER_BAN'					=> 'Bir ya da daha fazla kullanıcıyı yasaklama',
+	'USER_BAN'					=> 'Kullanıcı adı yoluyla bir ya da daha fazla kullanıcıyı yasakla',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Bu kısım aktif olduğunda, belirttiğiniz kullanıcılar var olan tüm yasaklamaların dışında tutulur.',
 	'USER_BAN_EXPLAIN'			=> 'Her satıra bir ad girerek çoklu kullanıcı yasaklayabilirsiniz. <span style="text-decoration: underline;">Bir üye bul</span> seçeneğini kullanarak bir ya da birden fazla kullanıcıya bakabilir ve bunları otomatik olarak ekleyebilirsiniz.',
 	'USER_NO_BANNED'			=> 'Yasaklı kullanıcı yok',
-	'USER_UNBAN'				=> 'Kullanıcı adlarındaki yasağı veya engeli kaldır',
+	'USER_UNBAN'				=> 'Kullanıcı adı yoluyla kullanıcıların yasağını ya da dışarda tutulmasını kaldır',
 	'USER_UNBAN_EXPLAIN'		=> 'Fare ve klavye kombinasyonu kullanarak tarayıcınız ve bilgisayarınız yardımıyla birden çok kullanıcı üzerindeki yasaklamayı kaldırabilirsiniz. Dışarda tutulan kullanıcılar vurgulanmıştır.',
 
 

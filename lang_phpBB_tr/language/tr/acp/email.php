@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Buradan <strong>toplu e-postaları al seçeneğini aktifleştiren</strong> tüm kullanıcılarınıza ya da belirli bir grubun tüm kullanıcılarına bir e-posta mesajı gönderebilirsiniz. Bu yapıldığında, e-postalar yönetim e-posta adresi olarak belirlenen adresten gönderilecek, bir kopyası ise tüm ilgili alıcılara iletilecektir. Varsayılan ayar olarak, bir e-posta içine sadece 50 alıcı dahil edilecektir, daha fazla alıcı için daha fazla e-posta gönderilecektir. Geniş bir gruba e-posta gönderirken lütfen sabırlı olun, gönderim butonuna tıkladığınızda işlemi durdurmayın ve yarıda bırakmayın. Toplu e-posta gönderimlerinde bu işlemin uzun zaman alması normaldir, işlem tamamlandığında size bildirilecektir.',
+	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Buradan <strong>toplu e-postaları al seçeneğini aktifleştiren</strong> tüm kullanıcılarınıza ya da belirli bir grubun tüm kullanıcılarına bir e-posta mesajı gönderebilirsiniz. Bu yapıldığında, e-postalar yönetim e-posta adresi olarak belirlenen adresten gönderilecek, bir kopyası ise tüm ilgili alıcılara iletilecektir. Varsayılan ayar olarak, bir e-posta içine sadece 20 alıcı dahil edilecektir, daha fazla alıcı için daha fazla e-posta gönderilecektir. Geniş bir gruba e-posta gönderirken lütfen sabırlı olun, gönderim butonuna tıkladığınızda işlemi durdurmayın ve yarıda bırakmayın. Toplu e-posta gönderimlerinde bu işlemin uzun zaman alması normaldir, işlem tamamlandığında size bildirilecektir.',
 	'ALL_USERS'						=> 'Tüm kullanıcılar',
 
 	'COMPOSE'				=> 'Oluştur',
