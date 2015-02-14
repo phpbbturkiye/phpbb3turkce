@@ -560,7 +560,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'Veri güncelleniyor',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Veritabanı en son sabit sürüme güncelleniyor',
 	'UPDATED_VERSION'				=> 'Güncellenen sürüm',
-	'UPGRADE_INSTRUCTIONS'         => '<strong>%1$s</strong> için yayınlanan yeni bir özellik mevcut. Lütfen bu özelliğin ne sunduğunu, ve nasıl güncelleyeceğinizi öğrenmek için <a href="%2$s" title="%2$s"><strong>yayın duyurusunu</strong></a> okuyun.',
+	'UPGRADE_INSTRUCTIONS'         => 'Yeni özellikler içeren <strong>%1$s</strong> sürümü mevcut durumda. Bu sürümün ne gibi yenilikler sunduğu hakkında bilgi almak ve şu anki sürümünüzü nasıl yükseltebileceğinizi öğrenmek için lütfen <a href="%2$s" title="%2$s"><strong>sürüm duyurusunu</strong></a> okuyun.',
 	'UPLOAD_METHOD'					=> 'Yükleme metodu',
 
 	'UPDATE_DB_SUCCESS'				=> 'Veritabanı güncellemesi başarıyla yapıldı.',

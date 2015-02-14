@@ -4,6 +4,9 @@
 ####
 Sürüm Geçmişi:
 -------------------------------------------------------
+14-02-2015 V2.9.1
+- language/tr/install.php dosyasında ufak bir çeviri hatası düzeltildi.
+
 27-01-2015 V2.9.0
 - Dil dosyaları phpBB 3.0.13 sürümü için güncellendi.
 
